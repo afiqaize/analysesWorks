@@ -1,4 +1,6 @@
-### Now in v2: 1 HLT path relative to 3 ID points
+### Now in v3: 1 HLT path relative to 3 ID points matched with Matteo's v6
+### Oct 07: Updated to Spring15 ID
+### Oct 13: Sync the MC and data thresholds
 
 import FWCore.ParameterSet.Config as cms
 import sys
@@ -6,6 +8,20 @@ import sys
 from PhysicsTools.TagAndProbe.treeMakerOptionsData_cfi import options
 
 process = cms.Process("tnp")
+
+process.sampleInfo = cms.EDAnalyzer("tnp::SampleInfoTree",
+                                    vertexCollection = cms.InputTag("offlineSlimmedPrimaryVertices"),
+                                    genInfo = cms.InputTag("generator")
+                                    )
+
+process.pileupReweightingProducer = cms.EDProducer("PileupWeightProducer",
+                                                   hardcodedWeights = cms.untracked.bool(True)
+                                                   )
+
+process.eleVarHelper = cms.EDProducer("ElectronVariableHelper",
+                                      probes = cms.InputTag(options['ELECTRON_COLL']),
+                                      vertexCollection = cms.InputTag("offlineSlimmedPrimaryVertices")
+                                      )
 
 process.load('HLTrigger.HLTfilters.hltHighLevel_cfi')
 process.hltHighLevel.throw = cms.bool(True)
@@ -24,11 +40,11 @@ process.load('Configuration.StandardSequences.EndOfProcess_cff')
 process.load('Configuration.EventContent.EventContent_cff')
 
 process.load("TrackingTools/TransientTrack/TransientTrackBuilder_cfi")
-process.load("Configuration.Geometry.GeometryIdeal_cff")
+process.load("Configuration.Geometry.GeometryRecoDB_cff")
 process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_condDBv2_cff")
 process.GlobalTag.globaltag = options['GLOBALTAG']
 
-process.load("Configuration.StandardSequences.MagneticField_cff")
+process.load("Configuration.StandardSequences.MagneticField_AutoFromDBCurrent_cff")
 process.load('FWCore.MessageService.MessageLogger_cfi')
 process.load("SimGeneral.HepPDTESSource.pythiapdt_cfi")
 process.options   = cms.untracked.PSet( wantSummary = cms.untracked.bool(False) )
@@ -47,29 +63,18 @@ process.MessageLogger.cerr.FwkReport.reportEvery = 10000
 
 process.source = cms.Source("PoolSource",
                             fileNames = cms.untracked.vstring(
-                                #"/store/data/Run2015B/SingleElectron/MINIAOD/PromptReco-v1/000/251/244/00000/12EE24E2-8F27-E511-80D1-02163E013793.root",
-                                #"/store/data/Run2015B/SingleElectron/MINIAOD/PromptReco-v1/000/251/252/00000/36D5A4A8-A227-E511-9AAA-02163E0135F3.root",
-                                #"/store/data/Run2015B/SingleElectron/MINIAOD/PromptReco-v1/000/251/251/00000/3A0E6309-8827-E511-B96D-02163E013432.root",
-                                #"/store/data/Run2015B/SingleElectron/MINIAOD/PromptReco-v1/000/251/252/00000/6258DF96-A227-E511-BE8A-02163E01259F.root",
-                                #"/store/data/Run2015B/SingleElectron/MINIAOD/PromptReco-v1/000/251/244/00000/084C9A66-9227-E511-91E0-02163E0133F0.root",
-                                ### /SingleElectron/Run2015B-PromptReco-v1/MINIAOD
-                                ### tableName: string tracked  = '/cdaq/physics/Run2015/5e33/v2.4/HLT/V*'
-                                ### globaltag: string tracked  = 'GR_H_V58'
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/244/00000/6A0A8868-4B27-E511-B3F8-02163E011BD1.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/244/00000/7E66D014-D628-E511-9D1E-02163E012603.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/244/00000/84B7599F-4E27-E511-9DEC-02163E014509.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/244/00000/E8FEB382-3228-E511-8B4D-02163E0133E3.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/244/00000/F2D83438-6927-E511-A22B-02163E01182A.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/251/00000/4AA28544-9027-E511-AEF5-02163E01472B.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/251/00000/E6F7FA3F-7E27-E511-B271-02163E014181.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/252/00000/2672D59D-B827-E511-BB31-02163E01358B.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/252/00000/3866DC22-8627-E511-8700-02163E01463E.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/252/00000/4A3B62E0-8D27-E511-9EC6-02163E0140E1.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/252/00000/8A8CCAA5-8827-E511-A64E-02163E014558.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/252/00000/8CE81C36-8427-E511-9817-02163E0127D3.root",
-                                #"/store/data/Run2015B/DoubleEG/MINIAOD/PromptReco-v1/000/251/252/00000/F0686F9B-BA27-E511-82C7-02163E0142FD.root",
-                                ### /DoubleEG/Run2015B-PromptReco-v1/MINIAOD
-                            ),
+                                #'/store/data/Run2015D/SingleElectron/MINIAOD/PromptReco-v4/000/260/627/00000/F2C554C8-9B84-E511-9DE5-02163E014506.root',
+                                ### /SingleElectron/Run2015D-PromptReco-v4/MINIAOD json 25ns v3 578.31 /pb
+                                ### /SingleElectron/Run2015D-05Oct2015-v1/MINIAOD
+                                ### Base run 260627
+                                ### HLT Menu = /cdaq/physics/Run2015/25ns14e33/v4.4.5/HLT/V1
+                                ### HLT GT   = 74X_dataRun2_HLT_v1
+                                ### RECO GT  = 74X_dataRun2_Prompt_v4
+                                ### /SingleElectron/Run2015C-28Aug2015-v1/MINIAOD
+                                ### HLT Menu = /cdaq/physics/Run2015/25ns14e33/v3.5/HLT/V3
+                                ### HLT GT   = 74X_dataRun2_HLT_v1
+                                ### RECO GT  = 74X_dataRun2_Prompt_Run251721_38T_RemovedZeeRespCorrsHF_v0
+                                                             ),
                             )
 
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32( -1 ) )
@@ -106,8 +111,8 @@ if (options['useAOD']):
 switchOnVIDElectronIdProducer(process, dataFormat)
 
 # define which IDs we want to produce
-my_id_modules = ['RecoEgamma.ElectronIdentification.Identification.cutBasedElectronID_PHYS14_PU20bx25_V2_cff',
-                 'RecoEgamma.ElectronIdentification.Identification.heepElectronID_HEEPV51_cff']
+my_id_modules = ['RecoEgamma.ElectronIdentification.Identification.cutBasedElectronID_Spring15_25ns_V1_cff',
+                 'RecoEgamma.ElectronIdentification.Identification.heepElectronID_HEEPV60_cff']
 
 for idmod in my_id_modules:
     setupAllVIDIdsInModule(process, idmod, setupVIDElectronSelection)
@@ -115,30 +120,30 @@ for idmod in my_id_modules:
 process.goodElectronsPROBEVeto = cms.EDProducer("PatElectronSelectorByValueMap",
                                                 input     = cms.InputTag("goodElectrons"),
                                                 cut       = cms.string(options['ELECTRON_CUTS']),
-                                                selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-PHYS14-PU20bx25-V2-standalone-veto"),
+                                                selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-Spring15-25ns-V1-standalone-veto"),
                                                 id_cut    = cms.bool(True)
                                                 )
 
 process.goodElectronsPROBELoose = process.goodElectronsPROBEVeto.clone()
-process.goodElectronsPROBELoose.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-PHYS14-PU20bx25-V2-standalone-loose")
+process.goodElectronsPROBELoose.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-Spring15-25ns-V1-standalone-loose")
 process.goodElectronsPROBEMedium = process.goodElectronsPROBEVeto.clone()
-process.goodElectronsPROBEMedium.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-PHYS14-PU20bx25-V2-standalone-medium")
+process.goodElectronsPROBEMedium.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-Spring15-25ns-V1-standalone-medium")
 process.goodElectronsPROBETight = process.goodElectronsPROBEVeto.clone()
-process.goodElectronsPROBETight.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-PHYS14-PU20bx25-V2-standalone-tight")
+process.goodElectronsPROBETight.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-Spring15-25ns-V1-standalone-tight")
 
 process.goodElectronsTAGVeto = cms.EDProducer("PatElectronSelectorByValueMap",
                                               input     = cms.InputTag("goodElectrons"),
                                               cut       = cms.string(options['ELECTRON_TAG_CUTS']),
-                                              selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-PHYS14-PU20bx25-V2-standalone-veto"),
+                                              selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-Spring15-25ns-V1-standalone-veto"),
                                               id_cut    = cms.bool(True)
                                               )
 
 process.goodElectronsTAGLoose = process.goodElectronsTAGVeto.clone()
-process.goodElectronsTAGLoose.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-PHYS14-PU20bx25-V2-standalone-loose")
+process.goodElectronsTAGLoose.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-Spring15-25ns-V1-standalone-loose")
 process.goodElectronsTAGMedium = process.goodElectronsTAGVeto.clone()
-process.goodElectronsTAGMedium.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-PHYS14-PU20bx25-V2-standalone-medium")
+process.goodElectronsTAGMedium.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-Spring15-25ns-V1-standalone-medium")
 process.goodElectronsTAGTight = process.goodElectronsTAGVeto.clone()
-process.goodElectronsTAGTight.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-PHYS14-PU20bx25-V2-standalone-tight")
+process.goodElectronsTAGTight.selection = cms.InputTag("egmGsfElectronIDs:cutBasedElectronID-Spring15-25ns-V1-standalone-tight")
 
 ###################################################################
 ##    _____     _                         __  __       _       _     _             
@@ -149,11 +154,16 @@ process.goodElectronsTAGTight.selection = cms.InputTag("egmGsfElectronIDs:cutBas
 ##                |___/ |___/                                                |___/ 
 ###################################################################
 
+process.ele23erTrigObj = cms.EDFilter('PATTriggerObjectStandAloneSelector',
+                                      src = cms.InputTag('selectedPatTrigger'),
+                                      cut = cms.string('abs(eta) <= 2.1')
+                                      )
+
 process.goodElectronsTagHLT = cms.EDProducer("PatElectronTriggerCandProducer",
                                              filterNames = options['TnPHLTTagFilters'],
                                              inputs      = cms.InputTag("goodElectronsTAGTight"),
                                              bits        = cms.InputTag('TriggerResults::HLT'),
-                                             objects     = cms.InputTag('selectedPatTrigger'),
+                                             objects     = cms.InputTag('ele23erTrigObj'),
                                              dR          = cms.double(0.3),
                                              isAND       = cms.bool(True)
                                              )
@@ -162,7 +172,7 @@ process.goodElectronsLooseMeasureHLT = cms.EDProducer("PatElectronTriggerCandPro
                                                  filterNames = options['HLTFILTERTOMEASURE'],
                                                  inputs      = cms.InputTag("goodElectronsPROBELoose"),
                                                  bits        = cms.InputTag('TriggerResults::HLT'),
-                                                 objects     = cms.InputTag('selectedPatTrigger'),
+                                                 objects     = cms.InputTag('ele23erTrigObj'),
                                                  dR          = cms.double(0.3),
                                                  isAND       = cms.bool(True)
                                                  )
@@ -185,6 +195,7 @@ process.ele_sequence = cms.Sequence(
     process.goodElectronsTAGLoose +
     process.goodElectronsTAGMedium +
     process.goodElectronsTAGTight +
+    process.ele23erTrigObj +
     process.goodElectronsTagHLT +
     process.goodElectronsLooseMeasureHLT +
     process.goodElectronsMediumMeasureHLT +
@@ -204,7 +215,7 @@ process.tagTightProbeLoose = cms.EDProducer("CandViewShallowCloneCombiner",
                                             decay = cms.string("goodElectronsTagHLT@+ goodElectronsPROBELoose@-"), 
                                             checkCharge = cms.bool(True),
                                             cut = cms.string("60. < mass < 120."),
-                                           )
+                                            )
 
 process.tagTightProbeMedium = process.tagTightProbeLoose.clone()
 process.tagTightProbeMedium.decay = cms.string("goodElectronsTagHLT@+ goodElectronsPROBEMedium@-")
@@ -244,7 +255,7 @@ process.McMatchProbeTight.src = cms.InputTag("goodElectronsPROBETight")
 process.McMatchTag = cms.EDProducer("MCTruthDeltaRMatcherNew",
                                     matchPDGId = cms.vint32(11),
                                     src = cms.InputTag("goodElectronsTAGTight"),
-                                    distMin = cms.double(0.2),
+                                    distMin = cms.double(0.3),
                                     matched = cms.InputTag("prunedGenParticles"),
                                     checkCharge = cms.bool(True)
                                     )
@@ -279,7 +290,7 @@ process.nJetCounterLoose = cms.EDProducer("CandCleanedMultiplicityCounter",
                                           objectSelection = cms.string("pt() > 30."),
                                           minTagObjDR = cms.double(0.3),
                                           minProbeObjDR = cms.double(0.3),
-                                         )
+                                          )
 
 process.nJetCounterMedium = process.nJetCounterLoose.clone()
 process.nJetCounterMedium.pairs = cms.InputTag("tagTightProbeMedium")
@@ -310,8 +321,7 @@ ProbeVariables = cms.PSet(
     probe_et     = cms.string("et"),
     probe_e      = cms.string("energy"),
     probe_q      = cms.string("charge"),
-    #probe_Ele_trackiso = cms.string("dr03TkSumPt"),
-    #probe_Ele_reltrackiso = cms.string("dr03TkSumPt/pt"),
+
     ## super cluster quantities
     probe_sc_energy = cms.string("superCluster.energy"),
     probe_sc_et     = cms.string("superCluster.energy*sin(superClusterPosition.theta)"),    
@@ -325,8 +335,16 @@ ProbeVariables = cms.PSet(
     probe_Ele_sigmaIEtaIEta = cms.string("sigmaIetaIeta"),
     probe_Ele_hoe           = cms.string("hadronicOverEm"),
     probe_Ele_ooemoop       = cms.string("(1.0/ecalEnergy - eSuperClusterOverP/ecalEnergy)"),
-    #probe_Ele_mHits         = cms.string("gsfTrack.trackerExpectedHitsInner.numberOfHits")
-)
+    probe_Ele_mHits         = cms.InputTag("eleVarHelper:missinghits"),
+    probe_Ele_dz            = cms.InputTag("eleVarHelper:dz"),
+    probe_Ele_dxy           = cms.InputTag("eleVarHelper:dxy"),
+    probe_Ele_l1et          = cms.InputTag("eleVarHelper:l1et"),
+
+    #isolation
+    probe_Ele_chIso         = cms.string("pfIsolationVariables().sumChargedHadronPt"),
+    probe_Ele_phoIso        = cms.string("pfIsolationVariables().sumPhotonEt"),
+    probe_Ele_neuIso        = cms.string("pfIsolationVariables().sumNeutralHadronEt"),
+    )
 
 TagVariables = cms.PSet(
     eta    = cms.string("eta"),
@@ -343,7 +361,7 @@ TagVariables = cms.PSet(
     sc_eta    = cms.string("superCluster.eta"),
     sc_phi    = cms.string("superCluster.phi"),
     sc_abseta = cms.string("abs(superCluster.eta)"),
-)
+    )
 
 CommonStuffForGsfElectronProbeLoose = cms.PSet(
     variables = cms.PSet(ProbeVariables),
@@ -354,15 +372,16 @@ CommonStuffForGsfElectronProbeLoose = cms.PSet(
     beamSpot = cms.InputTag("offlineBeamSpot"),
     pairVariables =  cms.PSet(ZVariablesLoose),
     pairFlags     =  cms.PSet(
-        mass60to120 = cms.string("60 < mass < 120")
+        mass60to120 = cms.string("60. < mass < 120."),
+        mass70to110 = cms.string("70. < mass < 110."),
+        mass80to100 = cms.string("80. < mass < 100.")
         ),
     tagVariables   =  cms.PSet(TagVariables),
     tagFlags       =  cms.PSet(),
     tagProbePairs = cms.InputTag("tagTightProbeLoose"),
-    arbitration   = cms.string("None"),
+    arbitration   = cms.string("Random2"),
     flags         = cms.PSet( passingHLT = cms.InputTag("goodElectronsLooseMeasureHLT") ),    
     allProbes     = cms.InputTag("goodElectronsPROBELoose"),
-    #PUWeightSrc   = cms.InputTag("pileupReweightingProducer", "pileupWeights") 
     )
 
 CommonStuffForGsfElectronProbeMedium = CommonStuffForGsfElectronProbeLoose.clone()
@@ -381,7 +400,7 @@ if options['MC_FLAG']:
     mcTruthCommonStuff = cms.PSet(
         isMC = cms.bool(True),
         tagMatches = cms.InputTag("McMatchTag"),
-        motherPdgId = cms.vint32(22,23),
+        motherPdgId = cms.vint32(22, 23),
         #motherPdgId = cms.vint32(443), # JPsi
         #motherPdgId = cms.vint32(553), # Yupsilon
         makeMCUnbiasTree = cms.bool(False),
@@ -412,20 +431,26 @@ else:
 
 process.GsfElectronHLTLoose = cms.EDAnalyzer("TagProbeFitTreeProducer",
                                              CommonStuffForGsfElectronProbeLoose, mcTruthCommonStuff,
-                                            )
+                                             )
 
 process.GsfElectronHLTMedium = cms.EDAnalyzer("TagProbeFitTreeProducer",
                                               CommonStuffForGsfElectronProbeMedium, mcTruthCommonStuff,
-                                             )
+                                              )
 
 process.GsfElectronHLTTight = cms.EDAnalyzer("TagProbeFitTreeProducer",
                                              CommonStuffForGsfElectronProbeTight, mcTruthCommonStuff,
-                                            )
+                                             )
 
 if (options['MC_FLAG']):
     process.GsfElectronHLTLoose.probeMatches  = cms.InputTag("McMatchProbeLoose")
+    process.GsfElectronHLTLoose.eventWeight  = cms.InputTag("generator")
+    #process.GsfElectronHLTLoose.PUWeightSrc   = cms.InputTag("pileupReweightingProducer","pileupWeights")
     process.GsfElectronHLTMedium.probeMatches  = cms.InputTag("McMatchProbeMedium")
+    process.GsfElectronHLTMedium.eventWeight  = cms.InputTag("generator")
+    #process.GsfElectronHLTMedium.PUWeightSrc   = cms.InputTag("pileupReweightingProducer","pileupWeights")
     process.GsfElectronHLTTight.probeMatches  = cms.InputTag("McMatchProbeTight")
+    process.GsfElectronHLTTight.eventWeight  = cms.InputTag("generator")
+    #process.GsfElectronHLTTight.PUWeightSrc   = cms.InputTag("pileupReweightingProducer","pileupWeights")
 
 process.tree_sequence = cms.Sequence(
     process.GsfElectronHLTLoose +
@@ -450,16 +475,30 @@ process.outpath = cms.EndPath(process.out)
 if (not options['DEBUG']):
     process.outpath.remove(process.out)
 
-process.p = cms.Path(
-    process.hltHighLevel +
-    process.ele_sequence + 
-    process.allTagsAndProbes +
-    process.mc_sequence +
-    process.nJetCounterLoose +
-    process.nJetCounterMedium +
-    process.nJetCounterTight +
-    process.tree_sequence
-    )
+if (options['MC_FLAG']):
+    process.p = cms.Path(
+        process.sampleInfo +
+        process.hltHighLevel +
+        process.ele_sequence + 
+        process.allTagsAndProbes +
+        process.mc_sequence +
+        process.nJetCounterLoose +
+        process.nJetCounterMedium +
+        process.nJetCounterTight +
+        #process.pileupReweightingProducer +
+        process.tree_sequence
+        )
+else:
+    process.p = cms.Path(
+        process.hltHighLevel +
+        process.ele_sequence + 
+        process.allTagsAndProbes +
+        process.mc_sequence +
+        process.nJetCounterLoose +
+        process.nJetCounterMedium +
+        process.nJetCounterTight +
+        process.tree_sequence
+        )
 
 process.TFileService = cms.Service(
     "TFileService", fileName = cms.string(options['OUTPUT_FILE_NAME'])
