@@ -1,9 +1,10 @@
 ### Now in v3: 1 HLT path relative to 3 ID points matched with Matteo's v7
 ### Oct 07: Updated to Spring15 ID
 ### Oct 13: Sync the MC and data thresholds
-### Dec 23: Combined MC and data: use with 'cmsRun makeTree.py --isMC True/False'
+### Dec 23: Merged MC and data: use with 'cmsRun makeTree.py --isMC True/False'
 
 import FWCore.ParameterSet.Config as cms
+from FWCore.ParameterSet.VarParsing import VarParsing
 import sys
 
 process = cms.Process("tnp")
