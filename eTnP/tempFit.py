@@ -1,31 +1,11 @@
 ### The template fitter for single electron TnP
-### Oct16 First used with run15D_act02, need the template files
+### Oct 16 First used with run15D_act02, need the template files
+### Jan 02: Fitter now outputs all variables in a single root file
 
+import sys
 import FWCore.ParameterSet.Config as cms
 from FWCore.ParameterSet.VarParsing import VarParsing
 import PhysicsTools.TagAndProbe.fitAll_pp15bx25 as common
-
-################################################
-##                      _              _       
-##   ___ ___  _ __  ___| |_ __ _ _ __ | |_ ___ 
-##  / __/ _ \| '_ \/ __| __/ _` | '_ \| __/ __|
-## | (_| (_) | | | \__ \ || (_| | | | | |_\__ \
-##  \___\___/|_| |_|___/\__\__,_|_| |_|\__|___/
-##                                              
-################################################
-
-InputFileName = "tnp_mc_pp15bx25.root"
-Prefix = "pdf_mc_pp15bx25_"
-
-options = VarParsing('analysis')
-options.register(
-    "isMC",
-    True,
-    VarParsing.multiplicity.singleton,
-    VarParsing.varType.bool,
-    "Compute efficiency for MC"
-    )
-options.parseArguments()
 
 process = cms.Process("TagProbe")
 process.source = cms.Source("EmptySource")
@@ -35,8 +15,41 @@ process.load("FWCore.MessageService.MessageLogger_cfi")
 process.MessageLogger.destinations = ['cout', 'cerr']
 
 ################################################
+### Initialization
+################################################
+
+options = VarParsing('analysis')
+options.register(
+    "isMC",
+    True,
+    VarParsing.multiplicity.singleton,
+    VarParsing.varType.bool,
+    "Compute efficiency for MC"
+    )
+options.register(
+    "inputName",
+    "",
+    VarParsing.multiplicity.singleton,
+    VarParsing.varType.string,
+    "Input filename"
+    )
+
+options.register(
+    "outputPrefix",
+    "out",
+    VarParsing.multiplicity.singleton,
+    VarParsing.varType.string,
+    "Output filename prefix"
+    )
+options.parseArguments()
+
+if (options.inputName = ""):
+    sys.exit("Need an input file!")
+else:
+    InputFileName = "file:" + options.inputName
+
+################################################
 #specifies the binning of parameters
-OutputFilePrefixEt = Prefix + "et" 
 EfficiencyBinsEt = cms.PSet(## conditions to be satisfied by all probes, weirdly causing large errors
                             #pair_mass70to110 = cms.vstring("true"),
                             ## variables to be checked as a function of
@@ -44,7 +57,6 @@ EfficiencyBinsEt = cms.PSet(## conditions to be satisfied by all probes, weirdly
                             #probe_eta = cms.vdouble( -2.5, 2.5 ),
                            )
 
-OutputFilePrefixEta = Prefix + "eta" 
 EfficiencyBinsEta = cms.PSet(## conditions to be satisfied by all probes, weirdly causing large errors
                              #pair_mass70to110 = cms.vstring("true"),
                              ## variables to be checked as a function of
@@ -52,7 +64,6 @@ EfficiencyBinsEta = cms.PSet(## conditions to be satisfied by all probes, weirdl
                              probe_eta = cms.vdouble( -2.5, -2.1, -1.6, -1.4, -0.7, 0., 0.7, 1.4, 1.6, 2.1, 2.5 ),
                             )
 
-OutputFilePrefixPhi = Prefix + "phi" 
 EfficiencyBinsPhi = cms.PSet(## conditions to be satisfied by all probes, weirdly causing large errors
                              #pair_mass70to110 = cms.vstring("true"),
                              ## variables to be checked as a function of
@@ -60,7 +71,6 @@ EfficiencyBinsPhi = cms.PSet(## conditions to be satisfied by all probes, weirdl
                              probe_phi = cms.vdouble( -3.142, -2.514, -1.885, -1.257, -0.628, 0., 0.628, 1.257, 1.885, 2.514, 3.142 ),
                             )
 
-OutputFilePrefixnJet = Prefix + "nJet" 
 EfficiencyBinsnJet = cms.PSet(## conditions to be satisfied by all probes, weirdly causing large errors
                               #pair_mass70to110 = cms.vstring("true"),
                               ## variables to be checked as a function of
@@ -68,7 +78,6 @@ EfficiencyBinsnJet = cms.PSet(## conditions to be satisfied by all probes, weird
                               pair_nJet = cms.vdouble( -0.5, 0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5 ),
                              )
 
-OutputFilePrefixnPV = Prefix + "nPV" 
 EfficiencyBinsnPV = cms.PSet(## conditions to be satisfied by all probes, weirdly causing large errors
                              #pair_mass70to110 = cms.vstring("true"),
                              ## variables to be checked as a function of
@@ -76,7 +85,6 @@ EfficiencyBinsnPV = cms.PSet(## conditions to be satisfied by all probes, weirdl
                              event_nPV = cms.vdouble( 0., 2., 4., 6., 8., 10., 13., 17., 21., 25., 40. ),
                             )
 
-OutputFilePrefix2d = Prefix + "2d" 
 EfficiencyBins2d = cms.PSet(## conditions to be satisfied by all probes, weirdly causing large errors
                             #pair_mass60to120 = cms.vstring("true"),
                             ## variables to be checked as a function of
@@ -254,17 +262,16 @@ EfficiencyBinningSpecification2d.BinToPDFmap = cms.vstring(
 
 ############################################################################################
 ############################################################################################
-############################################################################################
 ####### GsfElectron -> Trigger / selection efficiency assuming some ID 
 ############################################################################################
 ############################################################################################
 
-process.FitHLTLooseEt = cms.EDAnalyzer("TagProbeFitTreeAnalyzer",
+process.FitLoose = cms.EDAnalyzer("TagProbeFitTreeAnalyzer",
 
-              InputFileNames = cms.vstring("file:" + InputFileName),
-              InputDirectoryName = cms.string("GsfElectronHLTLoose"),
+              InputFileNames = cms.vstring(InputFileName),
+              InputDirectoryName = cms.string("ElectronTnPLoose"),
               InputTreeName = cms.string("fitter_tree"), 
-              OutputFileName = cms.string(OutputFilePrefixEt + "_loo.root"),
+              OutputFileName = cms.string(options.outputPrefix + "_loo.root"),
 
               NumCPU = cms.uint32(8),
               SaveWorkspace = cms.bool(False),
@@ -280,13 +287,17 @@ process.FitHLTLooseEt = cms.EDAnalyzer("TagProbeFitTreeAnalyzer",
                                    probe_et = cms.vstring("Probe E_{T}", "25.", "250.", "GeV/c"),
                                    probe_eta = cms.vstring("Probe #eta", "-2.5", "2.5", ""),
                                    probe_phi = cms.vstring("Probe #phi", "-3.142", "3.142", ""),
-                                   pair_nJet = cms.vstring("nJet > 30 GeV", "0", "6", ""),
-                                   event_nPV = cms.vstring("nPV", "0", "40", ""),
+                                   pair_nJet = cms.vstring("nJet > 30 GeV", "0", "100", ""),
+                                   event_nPV = cms.vstring("nPV", "0", "100", ""),
                                    puWgt = cms.vstring("PU Weight", "0.", "10000.", ""),          
                                   ),
 
               # defines all the discrete variables of the probes available in the input tree and intended for use in the efficiency calculations
               Categories = cms.PSet(passingHLT = cms.vstring("sinEle HLT", "dummy[pass=1,fail=0]"),
+                                    passingVeto = cms.vstring("Veto ID", "dummy[pass=1,fail=0]"),
+                                    passingLoose = cms.vstring("Loose ID", "dummy[pass=1,fail=0]"),
+                                    passingMedium = cms.vstring("Medium ID", "dummy[pass=1,fail=0]"),
+                                    passingTight = cms.vstring("Tight ID", "dummy[pass=1,fail=0]"),
                                     pair_mass60to120 = cms.vstring("60 < mass < 120", "dummy[true=1,false=0]"),
                                     pair_mass70to110 = cms.vstring("70 < mass < 110", "dummy[true=1,false=0]"),
                                     pair_mass80to100 = cms.vstring("80 < mass < 100", "dummy[true=1,false=0]"),
@@ -297,159 +308,64 @@ process.FitHLTLooseEt = cms.EDAnalyzer("TagProbeFitTreeAnalyzer",
               # defines a set of efficiency calculations, what PDF to use for fitting and how to bin the data;
               # there will be a separate output directory for each calculation that includes a simultaneous fit, side band subtraction and counting. 
               # the name of the parameter set becomes the name of the directory
-              Efficiencies = cms.PSet(HLT = cms.PSet(EfficiencyBinningSpecificationEt,
+              Efficiencies = cms.PSet(passHLT_et = cms.PSet(EfficiencyBinningSpecificationEt,
+                                      EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass"),
+                                     ),
+                                      passHLT_eta = cms.PSet(EfficiencyBinningSpecificationEta,
+                                      EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass"),
+                                     ),
+                                      passHLT_nJet = cms.PSet(EfficiencyBinningSpecificationnJet,
+                                      EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass"),
+                                     ),
+                                      passHLT_nPV = cms.PSet(EfficiencyBinningSpecificationnPV,
+                                      EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass"),
+                                     ),
+                                      passHLT_phi = cms.PSet(EfficiencyBinningSpecificationPhi,
+                                      EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass"),
+                                     ),
+                                      passHLT_2d = cms.PSet(EfficiencyBinningSpecification2d,
                                       EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass"),
                                      ),
                                     )
                                    )
 
 if (not options.isMC):
-    delattr(process.FitHLTLooseEt, "WeightVariable")
+    delattr(process.FitLoose, "WeightVariable")
 
-    for pdf in process.FitHLTLooseEt.PDFs.__dict__:
-        param =  process.FitHLTLooseEt.PDFs.getParameter(pdf)
+    for pdf in process.FitLoose.PDFs.__dict__:
+        param =  process.FitLoose.PDFs.getParameter(pdf)
         if (type(param) is not cms.vstring):
             continue
-        for i, l in enumerate(getattr(process.FitHLTLooseEt.PDFs, pdf)):
+        for i, l in enumerate(getattr(process.FitLoose.PDFs, pdf)):
             if l.find("signalFractionInPassing") != -1:
-                getattr(process.FitHLTLooseEt.PDFs, pdf)[i] = l.replace("[1.0]","[0.5,0.,1.]")
+                getattr(process.FitLoose.PDFs, pdf)[i] = l.replace("[1.0]","[0.5,0.,1.]")
 else:
-    setattr(process.FitHLTLooseEt, "doCutAndCount", cms.bool(True))
+    setattr(process.FitLoose, "doCutAndCount", cms.bool(True))
 
-    for pdf in process.FitHLTLooseEt.PDFs.__dict__:
-        param =  process.FitHLTLooseEt.PDFs.getParameter(pdf)
+    for pdf in process.FitLoose.PDFs.__dict__:
+        param =  process.FitLoose.PDFs.getParameter(pdf)
         if (type(param) is not cms.vstring):
             continue
-        for i, l in enumerate(getattr(process.FitHLTLooseEt.PDFs, pdf)):
+        for i, l in enumerate(getattr(process.FitLoose.PDFs, pdf)):
             if l.find("backgroundPass") != -1:
-                getattr(process.FitHLTLooseEt.PDFs, pdf)[i] = "RooPolynomial::backgroundPass(mass, a[0.0])"
+                getattr(process.FitLoose.PDFs, pdf)[i] = "RooPolynomial::backgroundPass(mass, a[0.0])"
             if l.find("backgroundFail") != -1:
-                getattr(process.FitHLTLooseEt.PDFs, pdf)[i] = "RooPolynomial::backgroundFail(mass, a[0.0])"
-
-process.FitHLTLooseEta = process.FitHLTLooseEt.clone()
-process.FitHLTLooseEta.OutputFileName = OutputFileName = cms.string(OutputFilePrefixEta + "_loo.root")
-process.FitHLTLooseEta.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationEta,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTLoosePhi = process.FitHLTLooseEt.clone()
-process.FitHLTLoosePhi.OutputFileName = OutputFileName = cms.string(OutputFilePrefixPhi + "_loo.root")
-process.FitHLTLoosePhi.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationPhi,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTLoosenJet = process.FitHLTLooseEt.clone()
-process.FitHLTLoosenJet.OutputFileName = OutputFileName = cms.string(OutputFilePrefixnJet + "_loo.root")
-process.FitHLTLoosenJet.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationnJet,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTLoosenPV = process.FitHLTLooseEt.clone()
-process.FitHLTLoosenPV.OutputFileName = OutputFileName = cms.string(OutputFilePrefixnPV + "_loo.root")
-process.FitHLTLoosenPV.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationnPV,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTLoose2d = process.FitHLTLooseEt.clone()
-process.FitHLTLoose2d.OutputFileName = OutputFileName = cms.string(OutputFilePrefix2d + "_loo.root")
-process.FitHLTLoose2d.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecification2d,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
+                getattr(process.FitLoose.PDFs, pdf)[i] = "RooPolynomial::backgroundFail(mass, a[0.0])"
 
 ### ------------------------------------------------- ###
 
-process.FitHLTMediumEt = process.FitHLTLooseEt.clone()
-process.FitHLTMediumEt.InputDirectoryName = cms.string("GsfElectronHLTMedium")
-process.FitHLTMediumEt.OutputFileName = cms.string(OutputFilePrefixEt + "_med.root")
-
-process.FitHLTMediumEta = process.FitHLTMediumEt.clone()
-process.FitHLTMediumEta.OutputFileName = OutputFileName = cms.string(OutputFilePrefixEta + "_med.root")
-process.FitHLTMediumEta.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationEta,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTMediumPhi = process.FitHLTMediumEt.clone()
-process.FitHLTMediumPhi.OutputFileName = OutputFileName = cms.string(OutputFilePrefixPhi + "_med.root")
-process.FitHLTMediumPhi.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationPhi,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTMediumnJet = process.FitHLTMediumEt.clone()
-process.FitHLTMediumnJet.OutputFileName = OutputFileName = cms.string(OutputFilePrefixnJet + "_med.root")
-process.FitHLTMediumnJet.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationnJet,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTMediumnPV = process.FitHLTMediumEt.clone()
-process.FitHLTMediumnPV.OutputFileName = OutputFileName = cms.string(OutputFilePrefixnPV + "_med.root")
-process.FitHLTMediumnPV.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationnPV,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTMedium2d = process.FitHLTMediumEt.clone()
-process.FitHLTMedium2d.OutputFileName = OutputFileName = cms.string(OutputFilePrefix2d + "_med.root")
-process.FitHLTMedium2d.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecification2d,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
+process.FitMedium = process.FitLoose.clone()
+process.FitMedium.InputDirectoryName = cms.string("ElectronTnPMedium")
+process.FitMedium.OutputFileName = cms.string(options.outputPrefix + "_med.root")
 
 ### ------------------------------------------------- ###
 
-process.FitHLTTightEt = process.FitHLTLooseEt.clone()
-process.FitHLTTightEt.InputDirectoryName = cms.string("GsfElectronHLTTight")
-process.FitHLTTightEt.OutputFileName = cms.string(OutputFilePrefixEt + "_tig.root")
-
-process.FitHLTTightEta = process.FitHLTTightEt.clone()
-process.FitHLTTightEta.OutputFileName = OutputFileName = cms.string(OutputFilePrefixEta + "_tig.root")
-process.FitHLTTightEta.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationEta,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTTightPhi = process.FitHLTTightEt.clone()
-process.FitHLTTightPhi.OutputFileName = OutputFileName = cms.string(OutputFilePrefixPhi + "_tig.root")
-process.FitHLTTightPhi.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationPhi,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTTightnJet = process.FitHLTTightEt.clone()
-process.FitHLTTightnJet.OutputFileName = OutputFileName = cms.string(OutputFilePrefixnJet + "_tig.root")
-process.FitHLTTightnJet.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationnJet,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTTightnPV = process.FitHLTTightEt.clone()
-process.FitHLTTightnPV.OutputFileName = OutputFileName = cms.string(OutputFilePrefixnPV + "_tig.root")
-process.FitHLTTightnPV.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecificationnPV,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
-
-process.FitHLTTight2d = process.FitHLTTightEt.clone()
-process.FitHLTTight2d.OutputFileName = OutputFileName = cms.string(OutputFilePrefix2d + "_tig.root")
-process.FitHLTTight2d.Efficiencies.HLT = cms.PSet(EfficiencyBinningSpecification2d,
-                                                   EfficiencyCategoryAndState = cms.vstring("passingHLT", "pass")
-                                                  )
+process.FitTight = process.FitLoose.clone()
+process.FitTight.InputDirectoryName = cms.string("ElectronTnPTight")
+process.FitTight.OutputFileName = cms.string(options.outputPrefix + "_tig.root")
 
 ### ------------------------------------------------- ###
 
-process.fitloo = cms.Path( process.FitHLTLooseEt +
-                           process.FitHLTLooseEta +
-                           process.FitHLTLoosePhi +
-                           process.FitHLTLoosenJet +
-                           process.FitHLTLoosenPV +
-                           process.FitHLTLoose2d
-                         )
-
-process.fitmed = cms.Path( process.FitHLTMediumEt +
-                           process.FitHLTMediumEta +
-                           process.FitHLTMediumPhi +
-                           process.FitHLTMediumnJet +
-                           process.FitHLTMediumnPV +
-                           process.FitHLTMedium2d
-                         )
-
-process.fittig = cms.Path( process.FitHLTTightEt +
-                           process.FitHLTTightEta +
-                           process.FitHLTTightPhi +
-                           process.FitHLTTightnJet +
-                           process.FitHLTTightnPV +
-                           process.FitHLTTight2d
-                         )
+process.fitloo = cms.Path( process.FitLoose )
+process.fitmed = cms.Path( process.FitMedium )
+process.fittig = cms.Path( process.FitTight )
