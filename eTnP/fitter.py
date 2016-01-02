@@ -30,7 +30,7 @@ options.register(
     )
 options.register(
     "inputName",
-    "",
+    "TnPTree.root",
     VarParsing.multiplicity.singleton,
     VarParsing.varType.string,
     "Input filename"
