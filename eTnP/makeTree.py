@@ -470,7 +470,7 @@ process.ElectronTnPTight = cms.EDAnalyzer("TagProbeFitTreeProducer",
 
 if (varOptions.isMC):
     process.ElectronTnPNone.probeMatches  = cms.InputTag("McMatchProbeNone")
-    process.ElectronTnPLNone.eventWeight  = cms.InputTag("generator")
+    process.ElectronTnPNone.eventWeight  = cms.InputTag("generator")
     #process.ElectronTnPNone.PUWeightSrc   = cms.InputTag("pileupReweightingProducer","pileupWeights")
     process.ElectronTnPLoose.probeMatches  = cms.InputTag("McMatchProbeLoose")
     process.ElectronTnPLoose.eventWeight  = cms.InputTag("generator")
