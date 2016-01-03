@@ -241,7 +241,7 @@ process.ele_sequence = cms.Sequence(
 ###################################################################
 ### Pairing of TnP into Z
 ###################################################################
-                                            )
+
 process.tagTightProbeNone = cms.EDProducer("CandViewShallowCloneCombiner",
                                            decay = cms.string("goodElectronsTagHLT@+ goodElectrons@-"), 
                                            checkCharge = cms.bool(True),
@@ -277,7 +277,7 @@ process.McMatchProbeNone = cms.EDProducer("MCTruthDeltaRMatcherNew",
                                           )
 
 process.McMatchProbeLoose = process.McMatchProbeNone.clone()
-process.McMatchProbeMedium.src = cms.InputTag("goodElectronsPROBELoose")
+process.McMatchProbeLoose.src = cms.InputTag("goodElectronsPROBELoose")
 
 process.McMatchProbeMedium = process.McMatchProbeNone.clone()
 process.McMatchProbeMedium.src = cms.InputTag("goodElectronsPROBEMedium")
