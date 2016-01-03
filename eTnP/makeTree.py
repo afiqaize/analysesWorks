@@ -285,8 +285,8 @@ process.McMatchProbeMedium.src = cms.InputTag("goodElectronsPROBEMedium")
 process.McMatchProbeTight = process.McMatchProbeNone.clone()
 process.McMatchProbeTight.src = cms.InputTag("goodElectronsPROBETight")
 
-process.McMatchProbeTag = process.McMatchProbeNone.clone()
-process.McMatchProbeTag.src = cms.InputTag("goodElectronsTAGTight")
+process.McMatchTag = process.McMatchProbeNone.clone()
+process.McMatchTag.src = cms.InputTag("goodElectronsTAGTight")
 
 process.mc_sequence = cms.Sequence()
 
