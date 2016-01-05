@@ -52,7 +52,7 @@ options.register(
     )
 options.parseArguments()
 
-if (options.inputName = ""):
+if (options.inputName == ""):
     sys.exit("Need an input file!")
 else:
     InputFileName = "file:" + options.inputName
