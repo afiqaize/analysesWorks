@@ -15,11 +15,11 @@ void addNVtxWeight(TString cut = "") {
         return;
     }
 
-    TFile *fOut = new TFile("tnp_mc_pp15bx25.root", "RECREATE");
+    TFile *fOut = new TFile("wgt_mc.root", "RECREATE");
 
-    TString treeName[3] = {"GsfElectronHLTLoose", "GsfElectronHLTMedium", "GsfElectronHLTTight"};
+    TString treeName[4] = {"ElectronTnPNone", "ElectronTnPLoose", "ElectronTnPMedium", "ElectronTnPTight"};
 
-    for (Int_t a = 0; a < 3; a++) {
+    for (Int_t a = 0; a < 4; a++) {
 
       std::cout << "Gathering trees ..." << std::endl;
       TTree  &tMC = * (TTree *) ((TFile*)gROOT->GetListOfFiles()->At(0))->Get(treeName[a] + "/fitter_tree");
@@ -48,7 +48,7 @@ void addNVtxWeight(TString cut = "") {
       hData->Draw();
       hMC->Draw("same");
 
-      c1->Print(treeName[a] + "_nVtx.png");
+      //c1->Print(treeName[a] + "_nVtx.png");
 
       std::vector<double> weights(hData->GetNbinsX() + 1, 1.0);
       for (int i = 1, n = weights.size(); i < n; ++i) {
