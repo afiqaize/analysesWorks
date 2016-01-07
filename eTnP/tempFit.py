@@ -41,9 +41,23 @@ options.register(
     VarParsing.varType.string,
     "Output filename prefix"
     )
+options.register(
+    "doHLT",
+    False,
+    VarParsing.multiplicity.singleton,
+    VarParsing.varType.bool,
+    "Compute HLT efficiency"
+    )
+options.register(
+    "doID",
+    False,
+    VarParsing.multiplicity.singleton,
+    VarParsing.varType.bool,
+    "Compute ID efficiency"
+    )
 options.parseArguments()
 
-if (options.inputName = ""):
+if (options.inputName == ""):
     sys.exit("Need an input file!")
 else:
     InputFileName = "file:" + options.inputName
@@ -366,6 +380,82 @@ process.FitTight.OutputFileName = cms.string(options.outputPrefix + "_tig.root")
 
 ### ------------------------------------------------- ###
 
-process.fitloo = cms.Path( process.FitLoose )
-process.fitmed = cms.Path( process.FitMedium )
-process.fittig = cms.Path( process.FitTight )
+process.FitNone = process.FitLoose.clone()
+process.FitNone.InputDirectoryName = cms.string("ElectronTnPNone")
+process.FitNone.OutputFileName = cms.string(options.outputPrefix + "_non.root")
+process.FitNone.Efficiencies = cms.PSet(passTight_et = cms.PSet(EfficiencyBinningSpecificationEt,
+                                        EfficiencyCategoryAndState = cms.vstring("passingTight", "pass"),
+                                       ),
+                                        passTight_eta = cms.PSet(EfficiencyBinningSpecificationEta,
+                                        EfficiencyCategoryAndState = cms.vstring("passingTight", "pass"),
+                                       ),
+                                        passTight_nJet = cms.PSet(EfficiencyBinningSpecificationnJet,
+                                        EfficiencyCategoryAndState = cms.vstring("passingTight", "pass"),
+                                       ),
+                                        passTight_nPV = cms.PSet(EfficiencyBinningSpecificationnPV,
+                                        EfficiencyCategoryAndState = cms.vstring("passingTight", "pass"),
+                                       ),
+                                        passTight_phi = cms.PSet(EfficiencyBinningSpecificationPhi,
+                                        EfficiencyCategoryAndState = cms.vstring("passingTight", "pass"),
+                                       ),
+                                        passMedium_et = cms.PSet(EfficiencyBinningSpecificationEt,
+                                        EfficiencyCategoryAndState = cms.vstring("passingMedium", "pass"),
+                                       ),
+                                        passMedium_eta = cms.PSet(EfficiencyBinningSpecificationEta,
+                                        EfficiencyCategoryAndState = cms.vstring("passingMedium", "pass"),
+                                       ),
+                                        passMedium_nJet = cms.PSet(EfficiencyBinningSpecificationnJet,
+                                        EfficiencyCategoryAndState = cms.vstring("passingMedium", "pass"),
+                                       ),
+                                        passMedium_nPV = cms.PSet(EfficiencyBinningSpecificationnPV,
+                                        EfficiencyCategoryAndState = cms.vstring("passingMedium", "pass"),
+                                       ),
+                                        passMedium_phi = cms.PSet(EfficiencyBinningSpecificationPhi,
+                                        EfficiencyCategoryAndState = cms.vstring("passingMedium", "pass"),
+                                       ),
+                                        passLoose_et = cms.PSet(EfficiencyBinningSpecificationEt,
+                                        EfficiencyCategoryAndState = cms.vstring("passingLoose", "pass"),
+                                       ),
+                                        passLoose_eta = cms.PSet(EfficiencyBinningSpecificationEta,
+                                        EfficiencyCategoryAndState = cms.vstring("passingLoose", "pass"),
+                                       ),
+                                        passLoose_nJet = cms.PSet(EfficiencyBinningSpecificationnJet,
+                                        EfficiencyCategoryAndState = cms.vstring("passingLoose", "pass"),
+                                       ),
+                                        passLoose_nPV = cms.PSet(EfficiencyBinningSpecificationnPV,
+                                        EfficiencyCategoryAndState = cms.vstring("passingLoose", "pass"),
+                                       ),
+                                        passLoose_phi = cms.PSet(EfficiencyBinningSpecificationPhi,
+                                        EfficiencyCategoryAndState = cms.vstring("passingLoose", "pass"),
+                                       ),
+                                        passVeto_et = cms.PSet(EfficiencyBinningSpecificationEt,
+                                        EfficiencyCategoryAndState = cms.vstring("passingVeto", "pass"),
+                                       ),
+                                        passVeto_eta = cms.PSet(EfficiencyBinningSpecificationEta,
+                                        EfficiencyCategoryAndState = cms.vstring("passingVeto", "pass"),
+                                       ),
+                                        passVeto_nJet = cms.PSet(EfficiencyBinningSpecificationnJet,
+                                        EfficiencyCategoryAndState = cms.vstring("passingVeto", "pass"),
+                                       ),
+                                        passVeto_nPV = cms.PSet(EfficiencyBinningSpecificationnPV,
+                                        EfficiencyCategoryAndState = cms.vstring("passingVeto", "pass"),
+                                       ),
+                                        passVeto_phi = cms.PSet(EfficiencyBinningSpecificationPhi,
+                                        EfficiencyCategoryAndState = cms.vstring("passingVeto", "pass"),
+                                       ),
+                                      )
+
+### ------------------------------------------------- ###
+
+process.fitloo = cms.Path()
+process.fitmed = cms.Path()
+process.fittig = cms.Path()
+process.fitnone = cms.Path()
+
+if (options.doHLT):
+    process.fitloo = cms.Path( process.FitLoose )
+    process.fitmed = cms.Path( process.FitMedium )
+    process.fittig = cms.Path( process.FitTight )
+
+if (options.doID):
+    process.fitnone = cms.Path( process.FitNone )
