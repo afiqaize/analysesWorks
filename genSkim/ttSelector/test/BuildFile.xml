@@ -1,0 +1,22 @@
+<library   name="ttSelectorTest" file="*.cc">
+  <use   name="DataFormats/Common"/>
+  <use   name="FWCore/Framework"/>
+  <use   name="FWCore/MessageLogger"/>
+  <use   name="FWCore/ParameterSet"/>
+  <use   name="FWCore/Utilities"/>
+  <use   name="FWCore/PluginManager"/>
+  <use   name="SimDataFormats/GeneratorProducts"/>
+  <use   name="GeneratorInterface/Core"/>
+  <use   name="SimGeneral/HepPDTRecord"/>
+  <use   name="DataFormats/GeometryVector"/>
+  <use   name="DataFormats/GeometrySurface"/>
+  <use   name="DataFormats/HepMCCandidate"/>
+  <use   name="CommonTools/UtilAlgos"/>
+  <use   name="FWCore/ServiceRegistry"/>
+  <use   name="heppdt"/>
+  <use   name="clhep"/>
+  <use   name="root"/>
+  <use   name="roottmva"/>
+  <flags   EDM_PLUGIN="1"/>
+<flags CXXFLAGS="-O0 -g3 -fno-inline"></flags>
+</library>
