@@ -86,8 +86,8 @@ int main(int argc, char **argv) {
   TCLAP::ValueArg<double> cmdrl("", "relax", "multiplier of epsilon window to report match in singlepoint", false, 10., "", cmdbase);
   TCLAP::SwitchArg cmdsp("", "singlepoint", "Calculate only for single point", cmdbase, false);
   TCLAP::SwitchArg cmdsc("", "skipcheck", "Skip unitarity, pertubativity and stability checks", cmdbase, false);
-  TCLAP::SwitchArg cmdrand("", "random", "false: always use 2 and 5 as the grid search multipliers. default." 
-                           "false: use random prime multipliers each iteration from 1 - 20.", cmdbase, false);
+  TCLAP::SwitchArg cmdrand("", "random", "false: always use 2 and 5 as the grid search multipliers. default. " 
+                           "true: use random prime multipliers each iteration from 1 - 20.", cmdbase, false);
   cmdbase.parse( argc, argv );
 
   double mA = cmdmA.getValue();
