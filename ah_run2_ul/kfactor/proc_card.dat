@@ -1,0 +1,7 @@
+import model Massive_Higgs_UFO
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+generate g g > __PARITY2____DECAY2__
+output __PARITY1___res-m__MASS__-relw__WIDTH2__/__DECAY1__
