@@ -1,0 +1,909 @@
+****************************************************
+*                                                  *
+*    2HDMC - Two-Higgs-Doublet Model Calculator    *
+*             http://2hdmc.hepforge.org            *
+*                  Version 1.7.0                   *
+*             Compiled on Sep 16 2020              *
+*                                                  *
+****************************************************
+iteration 0: H750, mass 584.816476, tanb 1.000000, width 0.029500
+iteration 1: H750, mass 589.600614, tanb 1.000000, width 0.029956
+iteration 2: H750, mass 594.389064, tanb 1.000000, width 0.030409
+iteration 3: H750, mass 599.181694, tanb 1.000000, width 0.030859
+iteration 4: H750, mass 603.978377, tanb 1.000000, width 0.031306
+iteration 5: H750, mass 608.778990, tanb 1.000000, width 0.031750
+iteration 6: H750, mass 613.583418, tanb 1.000000, width 0.032192
+iteration 7: H750, mass 618.391548, tanb 1.000000, width 0.032630
+iteration 8: H750, mass 623.203273, tanb 1.000000, width 0.033066
+iteration 9: H750, mass 628.018489, tanb 1.000000, width 0.033499
+iteration 10: H750, mass 632.837096, tanb 1.000000, width 0.033930
+iteration 11: H750, mass 637.659000, tanb 1.000000, width 0.034358
+iteration 12: H750, mass 642.484108, tanb 1.000000, width 0.034783
+iteration 13: H750, mass 647.312333, tanb 1.000000, width 0.035206
+iteration 14: H750, mass 652.143588, tanb 1.000000, width 0.035627
+iteration 15: H750, mass 656.977792, tanb 1.000000, width 0.036045
+iteration 16: H750, mass 661.814866, tanb 1.000000, width 0.036461
+iteration 17: H750, mass 666.654733, tanb 1.000000, width 0.036875
+iteration 18: H750, mass 671.497322, tanb 1.000000, width 0.037287
+iteration 19: H750, mass 676.342560, tanb 1.000000, width 0.037696
+iteration 20: H750, mass 681.190380, tanb 1.000000, width 0.038103
+iteration 21: H750, mass 686.040715, tanb 1.000000, width 0.038508
+iteration 22: H750, mass 690.893503, tanb 1.000000, width 0.038912
+iteration 23: H750, mass 695.748681, tanb 1.000000, width 0.039313
+iteration 24: H750, mass 700.606191, tanb 1.000000, width 0.039712
+iteration 25: H750, mass 705.465975, tanb 1.000000, width 0.040109
+iteration 26: H750, mass 710.327977, tanb 1.000000, width 0.040505
+iteration 27: H750, mass 715.192144, tanb 1.000000, width 0.040898
+iteration 28: H750, mass 720.058424, tanb 1.000000, width 0.041290
+iteration 29: H750, mass 724.926768, tanb 1.000000, width 0.041680
+iteration 30: H750, mass 729.797125, tanb 1.000000, width 0.042068
+iteration 31: H750, mass 734.669450, tanb 1.000000, width 0.042454
+iteration 32: H750, mass 739.543697, tanb 1.000000, width 0.042839
+iteration 33: H750, mass 744.419821, tanb 1.000000, width 0.043222
+iteration 34: H750, mass 749.297780, tanb 1.000000, width 0.043604
+iteration 35: H750, mass 754.177533, tanb 1.000000, width 0.043984
+iteration 36: H750, mass 749.419753, tanb 1.000000, width 0.043613
+iteration 37: H750, mass 754.058568, tanb 1.000000, width 0.043974
+iteration 38: H750, mass 749.535703, tanb 1.000000, width 0.043622
+iteration 39: H750, mass 753.945478, tanb 1.000000, width 0.043966
+iteration 40: H750, mass 749.645930, tanb 1.000000, width 0.043631
+iteration 41: H750, mass 753.837973, tanb 1.000000, width 0.043957
+iteration 42: H750, mass 749.750715, tanb 1.000000, width 0.043639
+iteration 43: H750, mass 753.735776, tanb 1.000000, width 0.043949
+iteration 44: H750, mass 749.850327, tanb 1.000000, width 0.043647
+iteration 45: H750, mass 753.638626, tanb 1.000000, width 0.043942
+iteration 46: H750, mass 749.945022, tanb 1.000000, width 0.043654
+iteration 47: H750, mass 753.546274, tanb 1.000000, width 0.043935
+iteration 48: H750, mass 750.035041, tanb 1.000000, width 0.043661
+iteration 49: H750, mass 755.983946, tanb 0.900000, width 0.054195
+iteration 50: H750, mass 752.485612, tanb 0.900000, width 0.053858
+iteration 51: H750, mass 748.988346, tanb 0.900000, width 0.053521
+iteration 52: H750, mass 752.398167, tanb 0.900000, width 0.053850
+iteration 53: H750, mass 749.073579, tanb 0.900000, width 0.053529
+iteration 54: H750, mass 752.315041, tanb 0.900000, width 0.053842
+iteration 55: H750, mass 749.154604, tanb 0.900000, width 0.053537
+iteration 56: H750, mass 752.236019, tanb 0.900000, width 0.053834
+iteration 57: H750, mass 749.231629, tanb 0.900000, width 0.053544
+iteration 58: H750, mass 752.160900, tanb 0.900000, width 0.053827
+iteration 59: H750, mass 749.304852, tanb 0.900000, width 0.053551
+iteration 60: H750, mass 752.089490, tanb 0.900000, width 0.053820
+iteration 61: H750, mass 749.374459, tanb 0.900000, width 0.053558
+iteration 62: H750, mass 752.021606, tanb 0.900000, width 0.053814
+iteration 63: H750, mass 749.440630, tanb 0.900000, width 0.053565
+iteration 64: H750, mass 751.957074, tanb 0.900000, width 0.053807
+iteration 65: H750, mass 749.503535, tanb 0.900000, width 0.053571
+iteration 66: H750, mass 751.895730, tanb 0.900000, width 0.053801
+iteration 67: H750, mass 749.563333, tanb 0.900000, width 0.053576
+iteration 68: H750, mass 751.837414, tanb 0.900000, width 0.053796
+iteration 69: H750, mass 749.620180, tanb 0.900000, width 0.053582
+iteration 70: H750, mass 751.781978, tanb 0.900000, width 0.053790
+iteration 71: H750, mass 749.674220, tanb 0.900000, width 0.053587
+iteration 72: H750, mass 751.729279, tanb 0.900000, width 0.053785
+iteration 73: H750, mass 749.725592, tanb 0.900000, width 0.053592
+iteration 74: H750, mass 751.679183, tanb 0.900000, width 0.053781
+iteration 75: H750, mass 749.774427, tanb 0.900000, width 0.053597
+iteration 76: H750, mass 751.631560, tanb 0.900000, width 0.053776
+iteration 77: H750, mass 749.820852, tanb 0.900000, width 0.053601
+iteration 78: H750, mass 751.586289, tanb 0.900000, width 0.053772
+iteration 79: H750, mass 749.864985, tanb 0.900000, width 0.053605
+iteration 80: H750, mass 751.543253, tanb 0.900000, width 0.053767
+iteration 81: H750, mass 749.906938, tanb 0.900000, width 0.053610
+iteration 82: H750, mass 751.502342, tanb 0.900000, width 0.053763
+iteration 83: H750, mass 749.946821, tanb 0.900000, width 0.053613
+iteration 84: H750, mass 751.463451, tanb 0.900000, width 0.053760
+iteration 85: H750, mass 749.984734, tanb 0.900000, width 0.053617
+iteration 86: H750, mass 754.192951, tanb 0.810000, width 0.066369
+iteration 87: H750, mass 752.720442, tanb 0.810000, width 0.066194
+iteration 88: H750, mass 751.248154, tanb 0.810000, width 0.066018
+iteration 89: H750, mass 749.776091, tanb 0.810000, width 0.065842
+iteration 90: H750, mass 751.211350, tanb 0.810000, width 0.066014
+iteration 91: H750, mass 749.811970, tanb 0.810000, width 0.065847
+iteration 92: H750, mass 751.176363, tanb 0.810000, width 0.066010
+iteration 93: H750, mass 749.846077, tanb 0.810000, width 0.065851
+iteration 94: H750, mass 751.143104, tanb 0.810000, width 0.066006
+iteration 95: H750, mass 749.878501, tanb 0.810000, width 0.065855
+iteration 96: H750, mass 751.111486, tanb 0.810000, width 0.066002
+iteration 97: H750, mass 749.909324, tanb 0.810000, width 0.065858
+iteration 98: H750, mass 751.081431, tanb 0.810000, width 0.065998
+iteration 99: H750, mass 749.938625, tanb 0.810000, width 0.065862
+iteration 100: H750, mass 751.052859, tanb 0.810000, width 0.065995
+iteration 101: H750, mass 749.966479, tanb 0.810000, width 0.065865
+iteration 102: H750, mass 754.124759, tanb 0.729000, width 0.081557
+iteration 103: H750, mass 753.043642, tanb 0.729000, width 0.081397
+iteration 104: H750, mass 751.962667, tanb 0.729000, width 0.081238
+iteration 105: H750, mass 750.881835, tanb 0.729000, width 0.081078
+iteration 106: H750, mass 749.801146, tanb 0.729000, width 0.080919
+iteration 107: H750, mass 750.854816, tanb 0.729000, width 0.081074
+iteration 108: H750, mass 749.827486, tanb 0.729000, width 0.080922
+iteration 109: H750, mass 750.829131, tanb 0.729000, width 0.081070
+iteration 110: H750, mass 749.852526, tanb 0.729000, width 0.080926
+iteration 111: H750, mass 750.804715, tanb 0.729000, width 0.081067
+iteration 112: H750, mass 749.876329, tanb 0.729000, width 0.080930
+iteration 113: H750, mass 750.781504, tanb 0.729000, width 0.081063
+iteration 114: H750, mass 749.898957, tanb 0.729000, width 0.080933
+iteration 115: H750, mass 750.759439, tanb 0.729000, width 0.081060
+iteration 116: H750, mass 749.920468, tanb 0.729000, width 0.080936
+iteration 117: H750, mass 750.738464, tanb 0.729000, width 0.081057
+iteration 118: H750, mass 749.940917, tanb 0.729000, width 0.080939
+iteration 119: H750, mass 750.718524, tanb 0.729000, width 0.081054
+iteration 120: H750, mass 749.960357, tanb 0.729000, width 0.080942
+iteration 121: H750, mass 754.216055, tanb 0.656100, width 0.100289
+iteration 122: H750, mass 753.462202, tanb 0.656100, width 0.100152
+iteration 123: H750, mass 752.708430, tanb 0.656100, width 0.100015
+iteration 124: H750, mass 751.954741, tanb 0.656100, width 0.099877
+iteration 125: H750, mass 751.201134, tanb 0.656100, width 0.099739
+iteration 126: H750, mass 750.447611, tanb 0.656100, width 0.099602
+iteration 127: H750, mass 749.694171, tanb 0.656100, width 0.099464
+iteration 128: H750, mass 750.428774, tanb 0.656100, width 0.099598
+iteration 129: H750, mass 749.712535, tanb 0.656100, width 0.099467
+iteration 130: H750, mass 750.410867, tanb 0.656100, width 0.099595
+iteration 131: H750, mass 749.729992, tanb 0.656100, width 0.099470
+iteration 132: H750, mass 750.393844, tanb 0.656100, width 0.099592
+iteration 133: H750, mass 749.746588, tanb 0.656100, width 0.099474
+iteration 134: H750, mass 750.377662, tanb 0.656100, width 0.099589
+iteration 135: H750, mass 749.762364, tanb 0.656100, width 0.099476
+iteration 136: H750, mass 750.362279, tanb 0.656100, width 0.099586
+iteration 137: H750, mass 749.777361, tanb 0.656100, width 0.099479
+iteration 138: H750, mass 750.347655, tanb 0.656100, width 0.099583
+iteration 139: H750, mass 749.791618, tanb 0.656100, width 0.099482
+iteration 140: H750, mass 750.333754, tanb 0.656100, width 0.099581
+iteration 141: H750, mass 749.805171, tanb 0.656100, width 0.099484
+iteration 142: H750, mass 750.320539, tanb 0.656100, width 0.099578
+iteration 143: H750, mass 749.818054, tanb 0.656100, width 0.099487
+iteration 144: H750, mass 750.307976, tanb 0.656100, width 0.099576
+iteration 145: H750, mass 749.830302, tanb 0.656100, width 0.099489
+iteration 146: H750, mass 750.296034, tanb 0.656100, width 0.099574
+iteration 147: H750, mass 749.841945, tanb 0.656100, width 0.099491
+iteration 148: H750, mass 750.284681, tanb 0.656100, width 0.099572
+iteration 149: H750, mass 749.853013, tanb 0.656100, width 0.099493
+iteration 150: H750, mass 750.273889, tanb 0.656100, width 0.099570
+iteration 151: H750, mass 749.863535, tanb 0.656100, width 0.099495
+iteration 152: H750, mass 750.263630, tanb 0.656100, width 0.099568
+iteration 153: H750, mass 749.873537, tanb 0.656100, width 0.099497
+iteration 154: H750, mass 750.253877, tanb 0.656100, width 0.099566
+iteration 155: H750, mass 749.883045, tanb 0.656100, width 0.099498
+iteration 156: H750, mass 750.244606, tanb 0.656100, width 0.099565
+iteration 157: H750, mass 749.892084, tanb 0.656100, width 0.099500
+iteration 158: H750, mass 750.235793, tanb 0.656100, width 0.099563
+iteration 159: H750, mass 749.900676, tanb 0.656100, width 0.099502
+iteration 160: H750, mass 750.227415, tanb 0.656100, width 0.099561
+iteration 161: H750, mass 749.908844, tanb 0.656100, width 0.099503
+iteration 162: H750, mass 750.219450, tanb 0.656100, width 0.099560
+iteration 163: H750, mass 749.916609, tanb 0.656100, width 0.099505
+iteration 164: H750, mass 750.211879, tanb 0.656100, width 0.099559
+iteration 165: H750, mass 749.923991, tanb 0.656100, width 0.099506
+iteration 166: H750, mass 750.204682, tanb 0.656100, width 0.099557
+iteration 167: H750, mass 749.931008, tanb 0.656100, width 0.099507
+iteration 168: H750, mass 750.197840, tanb 0.656100, width 0.099556
+iteration 169: H750, mass 749.937679, tanb 0.656100, width 0.099508
+iteration 170: H750, mass 750.191336, tanb 0.656100, width 0.099555
+iteration 171: H750, mass 749.944020, tanb 0.656100, width 0.099510
+iteration 172: H750, mass 750.185153, tanb 0.656100, width 0.099554
+iteration 173: H750, mass 749.950048, tanb 0.656100, width 0.099511
+iteration 174: H750, mass 754.229284, tanb 0.590490, width 0.123363
+iteration 175: H750, mass 753.995786, tanb 0.590490, width 0.123310
+iteration 176: H750, mass 753.762298, tanb 0.590490, width 0.123258
+iteration 177: H750, mass 753.528819, tanb 0.590490, width 0.123205
+iteration 178: H750, mass 753.295350, tanb 0.590490, width 0.123153
+iteration 179: H750, mass 753.061890, tanb 0.590490, width 0.123100
+iteration 180: H750, mass 752.828439, tanb 0.590490, width 0.123047
+iteration 181: H750, mass 752.594999, tanb 0.590490, width 0.122995
+iteration 182: H750, mass 752.361567, tanb 0.590490, width 0.122942
+iteration 183: H750, mass 752.128146, tanb 0.590490, width 0.122889
+iteration 184: H750, mass 751.894734, tanb 0.590490, width 0.122837
+iteration 185: H750, mass 751.661331, tanb 0.590490, width 0.122784
+iteration 186: H750, mass 751.427939, tanb 0.590490, width 0.122731
+iteration 187: H750, mass 751.194555, tanb 0.590490, width 0.122679
+iteration 188: H750, mass 750.961182, tanb 0.590490, width 0.122626
+iteration 189: H750, mass 750.727818, tanb 0.590490, width 0.122573
+iteration 190: H750, mass 750.494464, tanb 0.590490, width 0.122520
+iteration 191: H750, mass 750.261119, tanb 0.590490, width 0.122468
+iteration 192: H750, mass 750.027784, tanb 0.590490, width 0.122415
+iteration 193: H750, mass 746.166444, tanb 0.648063, width 0.101237
+iteration 194: H750, mass 746.395354, tanb 0.648063, width 0.101280
+iteration 195: H750, mass 746.624272, tanb 0.648063, width 0.101323
+iteration 196: H750, mass 746.853198, tanb 0.648063, width 0.101366
+iteration 197: H750, mass 747.082133, tanb 0.648063, width 0.101409
+iteration 198: H750, mass 747.311075, tanb 0.648063, width 0.101452
+iteration 199: H750, mass 747.540025, tanb 0.648063, width 0.101495
+iteration 200: H750, mass 747.768984, tanb 0.648063, width 0.101538
+iteration 201: H750, mass 747.997950, tanb 0.648063, width 0.101581
+iteration 202: H750, mass 748.226924, tanb 0.648063, width 0.101624
+iteration 203: H750, mass 748.455906, tanb 0.648063, width 0.101667
+iteration 204: H750, mass 748.684897, tanb 0.648063, width 0.101710
+iteration 205: H750, mass 748.913895, tanb 0.648063, width 0.101753
+iteration 206: H750, mass 749.142901, tanb 0.648063, width 0.101796
+iteration 207: H750, mass 749.371915, tanb 0.648063, width 0.101839
+iteration 208: H750, mass 749.600937, tanb 0.648063, width 0.101882
+iteration 209: H750, mass 749.829966, tanb 0.648063, width 0.101925
+iteration 210: H750, mass 750.059004, tanb 0.648063, width 0.101968
+iteration 211: H750, mass 749.835692, tanb 0.648063, width 0.101926
+iteration 212: H750, mass 750.053421, tanb 0.648063, width 0.101967
+iteration 213: H750, mass 749.841135, tanb 0.648063, width 0.101927
+iteration 214: H750, mass 750.048114, tanb 0.648063, width 0.101966
+iteration 215: H750, mass 746.656017, tanb 0.711249, width 0.084432
+iteration 216: H750, mass 746.864087, tanb 0.711249, width 0.084465
+iteration 217: H750, mass 747.072164, tanb 0.711249, width 0.084497
+iteration 218: H750, mass 747.280246, tanb 0.711249, width 0.084530
+iteration 219: H750, mass 747.488334, tanb 0.711249, width 0.084562
+iteration 220: H750, mass 747.696427, tanb 0.711249, width 0.084594
+iteration 221: H750, mass 747.904526, tanb 0.711249, width 0.084627
+iteration 222: H750, mass 748.112630, tanb 0.711249, width 0.084659
+iteration 223: H750, mass 748.320740, tanb 0.711249, width 0.084692
+iteration 224: H750, mass 748.528856, tanb 0.711249, width 0.084724
+iteration 225: H750, mass 748.736977, tanb 0.711249, width 0.084756
+iteration 226: H750, mass 748.945104, tanb 0.711249, width 0.084789
+iteration 227: H750, mass 749.153237, tanb 0.711249, width 0.084821
+iteration 228: H750, mass 749.361375, tanb 0.711249, width 0.084853
+iteration 229: H750, mass 749.569519, tanb 0.711249, width 0.084886
+iteration 230: H750, mass 749.777668, tanb 0.711249, width 0.084918
+iteration 231: H750, mass 749.985823, tanb 0.711249, width 0.084950
+iteration 232: H750, mass 753.609326, tanb 0.643636, width 0.104023
+iteration 233: H750, mass 753.407505, tanb 0.643636, width 0.103985
+iteration 234: H750, mass 753.205691, tanb 0.643636, width 0.103947
+iteration 235: H750, mass 753.003883, tanb 0.643636, width 0.103908
+iteration 236: H750, mass 752.802081, tanb 0.643636, width 0.103870
+iteration 237: H750, mass 752.600285, tanb 0.643636, width 0.103832
+iteration 238: H750, mass 752.398496, tanb 0.643636, width 0.103794
+iteration 239: H750, mass 752.196712, tanb 0.643636, width 0.103755
+iteration 240: H750, mass 751.994934, tanb 0.643636, width 0.103717
+iteration 241: H750, mass 751.793163, tanb 0.643636, width 0.103679
+iteration 242: H750, mass 751.591398, tanb 0.643636, width 0.103640
+iteration 243: H750, mass 751.389639, tanb 0.643636, width 0.103602
+iteration 244: H750, mass 751.187886, tanb 0.643636, width 0.103564
+iteration 245: H750, mass 750.986139, tanb 0.643636, width 0.103526
+iteration 246: H750, mass 750.784398, tanb 0.643636, width 0.103487
+iteration 247: H750, mass 750.582664, tanb 0.643636, width 0.103449
+iteration 248: H750, mass 750.380935, tanb 0.643636, width 0.103411
+iteration 249: H750, mass 750.179213, tanb 0.643636, width 0.103372
+iteration 250: H750, mass 749.977497, tanb 0.643636, width 0.103334
+iteration 251: H750, mass 746.704660, tanb 0.703292, width 0.086322
+iteration 252: H750, mass 746.902331, tanb 0.703292, width 0.086353
+iteration 253: H750, mass 747.100007, tanb 0.703292, width 0.086385
+iteration 254: H750, mass 747.297688, tanb 0.703292, width 0.086416
+iteration 255: H750, mass 747.495374, tanb 0.703292, width 0.086448
+iteration 256: H750, mass 747.693065, tanb 0.703292, width 0.086479
+iteration 257: H750, mass 747.890762, tanb 0.703292, width 0.086511
+iteration 258: H750, mass 748.088463, tanb 0.703292, width 0.086542
+iteration 259: H750, mass 748.286170, tanb 0.703292, width 0.086574
+iteration 260: H750, mass 748.483882, tanb 0.703292, width 0.086605
+iteration 261: H750, mass 748.681599, tanb 0.703292, width 0.086637
+iteration 262: H750, mass 748.879322, tanb 0.703292, width 0.086668
+iteration 263: H750, mass 749.077049, tanb 0.703292, width 0.086700
+iteration 264: H750, mass 749.274782, tanb 0.703292, width 0.086731
+iteration 265: H750, mass 749.472520, tanb 0.703292, width 0.086762
+iteration 266: H750, mass 749.670263, tanb 0.703292, width 0.086794
+iteration 267: H750, mass 749.868011, tanb 0.703292, width 0.086825
+iteration 268: H750, mass 750.065764, tanb 0.703292, width 0.086857
+iteration 269: H750, mass 749.872954, tanb 0.703292, width 0.086826
+iteration 270: H750, mass 750.060943, tanb 0.703292, width 0.086856
+iteration 271: H750, mass 749.877654, tanb 0.703292, width 0.086827
+iteration 272: H750, mass 750.056361, tanb 0.703292, width 0.086855
+iteration 273: H750, mass 749.882122, tanb 0.703292, width 0.086828
+iteration 274: H750, mass 750.052005, tanb 0.703292, width 0.086855
+iteration 275: H750, mass 749.886369, tanb 0.703292, width 0.086828
+iteration 276: H750, mass 750.047864, tanb 0.703292, width 0.086854
+iteration 277: H750, mass 753.485325, tanb 0.639736, width 0.105248
+iteration 278: H750, mass 753.328712, tanb 0.639736, width 0.105218
+iteration 279: H750, mass 753.172103, tanb 0.639736, width 0.105188
+iteration 280: H750, mass 753.015497, tanb 0.639736, width 0.105158
+iteration 281: H750, mass 752.858895, tanb 0.639736, width 0.105128
+iteration 282: H750, mass 752.702296, tanb 0.639736, width 0.105098
+iteration 283: H750, mass 752.545702, tanb 0.639736, width 0.105068
+iteration 284: H750, mass 752.389111, tanb 0.639736, width 0.105038
+iteration 285: H750, mass 752.232523, tanb 0.639736, width 0.105008
+iteration 286: H750, mass 752.075940, tanb 0.639736, width 0.104978
+iteration 287: H750, mass 751.919360, tanb 0.639736, width 0.104948
+iteration 288: H750, mass 751.762784, tanb 0.639736, width 0.104918
+iteration 289: H750, mass 751.606212, tanb 0.639736, width 0.104887
+iteration 290: H750, mass 751.449643, tanb 0.639736, width 0.104857
+iteration 291: H750, mass 751.293078, tanb 0.639736, width 0.104827
+iteration 292: H750, mass 751.136517, tanb 0.639736, width 0.104797
+iteration 293: H750, mass 750.979960, tanb 0.639736, width 0.104767
+iteration 294: H750, mass 750.823406, tanb 0.639736, width 0.104737
+iteration 295: H750, mass 750.666856, tanb 0.639736, width 0.104707
+iteration 296: H750, mass 750.510310, tanb 0.639736, width 0.104677
+iteration 297: H750, mass 750.353768, tanb 0.639736, width 0.104647
+iteration 298: H750, mass 750.197229, tanb 0.639736, width 0.104617
+iteration 299: H750, mass 750.040694, tanb 0.639736, width 0.104586
+iteration 300: H750, mass 746.927240, tanb 0.696103, width 0.088113
+iteration 301: H750, mass 747.080609, tanb 0.696103, width 0.088138
+iteration 302: H750, mass 747.233982, tanb 0.696103, width 0.088163
+iteration 303: H750, mass 747.387358, tanb 0.696103, width 0.088188
+iteration 304: H750, mass 747.540737, tanb 0.696103, width 0.088213
+iteration 305: H750, mass 747.694119, tanb 0.696103, width 0.088238
+iteration 306: H750, mass 747.847505, tanb 0.696103, width 0.088263
+iteration 307: H750, mass 748.000893, tanb 0.696103, width 0.088288
+iteration 308: H750, mass 748.154285, tanb 0.696103, width 0.088313
+iteration 309: H750, mass 748.307680, tanb 0.696103, width 0.088338
+iteration 310: H750, mass 748.461078, tanb 0.696103, width 0.088363
+iteration 311: H750, mass 748.614479, tanb 0.696103, width 0.088388
+iteration 312: H750, mass 748.767884, tanb 0.696103, width 0.088413
+iteration 313: H750, mass 748.921291, tanb 0.696103, width 0.088438
+iteration 314: H750, mass 749.074702, tanb 0.696103, width 0.088463
+iteration 315: H750, mass 749.228116, tanb 0.696103, width 0.088488
+iteration 316: H750, mass 749.381533, tanb 0.696103, width 0.088512
+iteration 317: H750, mass 749.534953, tanb 0.696103, width 0.088537
+iteration 318: H750, mass 749.688376, tanb 0.696103, width 0.088562
+iteration 319: H750, mass 749.841803, tanb 0.696103, width 0.088587
+iteration 320: H750, mass 749.995232, tanb 0.696103, width 0.088612
+iteration 321: H750, mass 753.288572, tanb 0.636303, width 0.106328
+iteration 322: H750, mass 753.139749, tanb 0.636303, width 0.106299
+iteration 323: H750, mass 752.990931, tanb 0.636303, width 0.106271
+iteration 324: H750, mass 752.842115, tanb 0.636303, width 0.106242
+iteration 325: H750, mass 752.693303, tanb 0.636303, width 0.106213
+iteration 326: H750, mass 752.544495, tanb 0.636303, width 0.106184
+iteration 327: H750, mass 752.395689, tanb 0.636303, width 0.106155
+iteration 328: H750, mass 752.246888, tanb 0.636303, width 0.106126
+iteration 329: H750, mass 752.098089, tanb 0.636303, width 0.106097
+iteration 330: H750, mass 751.949294, tanb 0.636303, width 0.106068
+iteration 331: H750, mass 751.800502, tanb 0.636303, width 0.106039
+iteration 332: H750, mass 751.651714, tanb 0.636303, width 0.106011
+iteration 333: H750, mass 751.502929, tanb 0.636303, width 0.105982
+iteration 334: H750, mass 751.354148, tanb 0.636303, width 0.105953
+iteration 335: H750, mass 751.205370, tanb 0.636303, width 0.105924
+iteration 336: H750, mass 751.056595, tanb 0.636303, width 0.105895
+iteration 337: H750, mass 750.907824, tanb 0.636303, width 0.105866
+iteration 338: H750, mass 750.759056, tanb 0.636303, width 0.105837
+iteration 339: H750, mass 750.610292, tanb 0.636303, width 0.105808
+iteration 340: H750, mass 750.461531, tanb 0.636303, width 0.105779
+iteration 341: H750, mass 750.312774, tanb 0.636303, width 0.105750
+iteration 342: H750, mass 750.164020, tanb 0.636303, width 0.105721
+iteration 343: H750, mass 750.015269, tanb 0.636303, width 0.105692
+iteration 344: H750, mass 747.022005, tanb 0.689599, width 0.089765
+iteration 345: H750, mass 747.167723, tanb 0.689599, width 0.089790
+iteration 346: H750, mass 747.313443, tanb 0.689599, width 0.089814
+iteration 347: H750, mass 747.459166, tanb 0.689599, width 0.089838
+iteration 348: H750, mass 747.604893, tanb 0.689599, width 0.089862
+iteration 349: H750, mass 747.750622, tanb 0.689599, width 0.089886
+iteration 350: H750, mass 747.896354, tanb 0.689599, width 0.089910
+iteration 351: H750, mass 748.042088, tanb 0.689599, width 0.089934
+iteration 352: H750, mass 748.187826, tanb 0.689599, width 0.089959
+iteration 353: H750, mass 748.333567, tanb 0.689599, width 0.089983
+iteration 354: H750, mass 748.479311, tanb 0.689599, width 0.090007
+iteration 355: H750, mass 748.625057, tanb 0.689599, width 0.090031
+iteration 356: H750, mass 748.770806, tanb 0.689599, width 0.090055
+iteration 357: H750, mass 748.916559, tanb 0.689599, width 0.090079
+iteration 358: H750, mass 749.062314, tanb 0.689599, width 0.090103
+iteration 359: H750, mass 749.208072, tanb 0.689599, width 0.090128
+iteration 360: H750, mass 749.353833, tanb 0.689599, width 0.090152
+iteration 361: H750, mass 749.499597, tanb 0.689599, width 0.090176
+iteration 362: H750, mass 749.645363, tanb 0.689599, width 0.090200
+iteration 363: H750, mass 749.791133, tanb 0.689599, width 0.090224
+iteration 364: H750, mass 749.936905, tanb 0.689599, width 0.090248
+iteration 365: H750, mass 750.082681, tanb 0.689599, width 0.090272
+iteration 366: H750, mass 749.940550, tanb 0.689599, width 0.090249
+iteration 367: H750, mass 750.079127, tanb 0.689599, width 0.090272
+iteration 368: H750, mass 749.944014, tanb 0.689599, width 0.090249
+iteration 369: H750, mass 750.075749, tanb 0.689599, width 0.090271
+iteration 370: H750, mass 749.947307, tanb 0.689599, width 0.090250
+iteration 371: H750, mass 750.072538, tanb 0.689599, width 0.090271
+iteration 372: H750, mass 749.950438, tanb 0.689599, width 0.090250
+iteration 373: H750, mass 753.079700, tanb 0.633283, width 0.107286
+iteration 374: H750, mass 752.958207, tanb 0.633283, width 0.107262
+iteration 375: H750, mass 752.836716, tanb 0.633283, width 0.107238
+iteration 376: H750, mass 752.715228, tanb 0.633283, width 0.107214
+iteration 377: H750, mass 752.593742, tanb 0.633283, width 0.107190
+iteration 378: H750, mass 752.472258, tanb 0.633283, width 0.107167
+iteration 379: H750, mass 752.350777, tanb 0.633283, width 0.107143
+iteration 380: H750, mass 752.229297, tanb 0.633283, width 0.107119
+iteration 381: H750, mass 752.107820, tanb 0.633283, width 0.107095
+iteration 382: H750, mass 751.986346, tanb 0.633283, width 0.107071
+iteration 383: H750, mass 751.864873, tanb 0.633283, width 0.107048
+iteration 384: H750, mass 751.743403, tanb 0.633283, width 0.107024
+iteration 385: H750, mass 751.621936, tanb 0.633283, width 0.107000
+iteration 386: H750, mass 751.500470, tanb 0.633283, width 0.106976
+iteration 387: H750, mass 751.379007, tanb 0.633283, width 0.106952
+iteration 388: H750, mass 751.257546, tanb 0.633283, width 0.106928
+iteration 389: H750, mass 751.136087, tanb 0.633283, width 0.106905
+iteration 390: H750, mass 751.014631, tanb 0.633283, width 0.106881
+iteration 391: H750, mass 750.893177, tanb 0.633283, width 0.106857
+iteration 392: H750, mass 750.771725, tanb 0.633283, width 0.106833
+iteration 393: H750, mass 750.650276, tanb 0.633283, width 0.106809
+iteration 394: H750, mass 750.528829, tanb 0.633283, width 0.106785
+iteration 395: H750, mass 750.407384, tanb 0.633283, width 0.106762
+iteration 396: H750, mass 750.285941, tanb 0.633283, width 0.106738
+iteration 397: H750, mass 750.164501, tanb 0.633283, width 0.106714
+iteration 398: H750, mass 750.043063, tanb 0.633283, width 0.106690
+iteration 399: H750, mass 747.188273, tanb 0.683707, width 0.091316
+iteration 400: H750, mass 747.307215, tanb 0.683707, width 0.091336
+iteration 401: H750, mass 747.426158, tanb 0.683707, width 0.091356
+iteration 402: H750, mass 747.545103, tanb 0.683707, width 0.091376
+iteration 403: H750, mass 747.664051, tanb 0.683707, width 0.091396
+iteration 404: H750, mass 747.783000, tanb 0.683707, width 0.091416
+iteration 405: H750, mass 747.901951, tanb 0.683707, width 0.091437
+iteration 406: H750, mass 748.020904, tanb 0.683707, width 0.091457
+iteration 407: H750, mass 748.139859, tanb 0.683707, width 0.091477
+iteration 408: H750, mass 748.258816, tanb 0.683707, width 0.091497
+iteration 409: H750, mass 748.377775, tanb 0.683707, width 0.091517
+iteration 410: H750, mass 748.496736, tanb 0.683707, width 0.091537
+iteration 411: H750, mass 748.615699, tanb 0.683707, width 0.091557
+iteration 412: H750, mass 748.734664, tanb 0.683707, width 0.091577
+iteration 413: H750, mass 748.853631, tanb 0.683707, width 0.091597
+iteration 414: H750, mass 748.972600, tanb 0.683707, width 0.091617
+iteration 415: H750, mass 749.091571, tanb 0.683707, width 0.091637
+iteration 416: H750, mass 749.210543, tanb 0.683707, width 0.091657
+iteration 417: H750, mass 749.329518, tanb 0.683707, width 0.091677
+iteration 418: H750, mass 749.448494, tanb 0.683707, width 0.091697
+iteration 419: H750, mass 749.567473, tanb 0.683707, width 0.091717
+iteration 420: H750, mass 749.686453, tanb 0.683707, width 0.091737
+iteration 421: H750, mass 749.805436, tanb 0.683707, width 0.091757
+iteration 422: H750, mass 749.924420, tanb 0.683707, width 0.091777
+iteration 423: H750, mass 750.043407, tanb 0.683707, width 0.091797
+iteration 424: H750, mass 753.039520, tanb 0.630629, width 0.108166
+iteration 425: H750, mass 752.924060, tanb 0.630629, width 0.108144
+iteration 426: H750, mass 752.808601, tanb 0.630629, width 0.108121
+iteration 427: H750, mass 752.693145, tanb 0.630629, width 0.108098
+iteration 428: H750, mass 752.577691, tanb 0.630629, width 0.108075
+iteration 429: H750, mass 752.462239, tanb 0.630629, width 0.108052
+iteration 430: H750, mass 752.346791, tanb 0.630629, width 0.108030
+iteration 431: H750, mass 752.231343, tanb 0.630629, width 0.108007
+iteration 432: H750, mass 752.115897, tanb 0.630629, width 0.107984
+iteration 433: H750, mass 752.000454, tanb 0.630629, width 0.107961
+iteration 434: H750, mass 751.885012, tanb 0.630629, width 0.107938
+iteration 435: H750, mass 751.769573, tanb 0.630629, width 0.107915
+iteration 436: H750, mass 751.654135, tanb 0.630629, width 0.107893
+iteration 437: H750, mass 751.538700, tanb 0.630629, width 0.107870
+iteration 438: H750, mass 751.423267, tanb 0.630629, width 0.107847
+iteration 439: H750, mass 751.307836, tanb 0.630629, width 0.107824
+iteration 440: H750, mass 751.192407, tanb 0.630629, width 0.107801
+iteration 441: H750, mass 751.076980, tanb 0.630629, width 0.107778
+iteration 442: H750, mass 750.961555, tanb 0.630629, width 0.107756
+iteration 443: H750, mass 750.846132, tanb 0.630629, width 0.107733
+iteration 444: H750, mass 750.730711, tanb 0.630629, width 0.107710
+iteration 445: H750, mass 750.615293, tanb 0.630629, width 0.107687
+iteration 446: H750, mass 750.499876, tanb 0.630629, width 0.107664
+iteration 447: H750, mass 750.384462, tanb 0.630629, width 0.107641
+iteration 448: H750, mass 750.269050, tanb 0.630629, width 0.107619
+iteration 449: H750, mass 750.153640, tanb 0.630629, width 0.107596
+iteration 450: H750, mass 750.038232, tanb 0.630629, width 0.107573
+iteration 451: H750, mass 747.298433, tanb 0.678363, width 0.092751
+iteration 452: H750, mass 747.411449, tanb 0.678363, width 0.092770
+iteration 453: H750, mass 747.524467, tanb 0.678363, width 0.092790
+iteration 454: H750, mass 747.637487, tanb 0.678363, width 0.092809
+iteration 455: H750, mass 747.750508, tanb 0.678363, width 0.092829
+iteration 456: H750, mass 747.863532, tanb 0.678363, width 0.092848
+iteration 457: H750, mass 747.976557, tanb 0.678363, width 0.092867
+iteration 458: H750, mass 748.089584, tanb 0.678363, width 0.092887
+iteration 459: H750, mass 748.202612, tanb 0.678363, width 0.092906
+iteration 460: H750, mass 748.315643, tanb 0.678363, width 0.092925
+iteration 461: H750, mass 748.428675, tanb 0.678363, width 0.092945
+iteration 462: H750, mass 748.541709, tanb 0.678363, width 0.092964
+iteration 463: H750, mass 748.654745, tanb 0.678363, width 0.092983
+iteration 464: H750, mass 748.767782, tanb 0.678363, width 0.093003
+iteration 465: H750, mass 748.880821, tanb 0.678363, width 0.093022
+iteration 466: H750, mass 748.993863, tanb 0.678363, width 0.093041
+iteration 467: H750, mass 749.106906, tanb 0.678363, width 0.093061
+iteration 468: H750, mass 749.219950, tanb 0.678363, width 0.093080
+iteration 469: H750, mass 749.332997, tanb 0.678363, width 0.093099
+iteration 470: H750, mass 749.446045, tanb 0.678363, width 0.093119
+iteration 471: H750, mass 749.559095, tanb 0.678363, width 0.093138
+iteration 472: H750, mass 749.672147, tanb 0.678363, width 0.093157
+iteration 473: H750, mass 749.785201, tanb 0.678363, width 0.093177
+iteration 474: H750, mass 749.898256, tanb 0.678363, width 0.093196
+iteration 475: H750, mass 750.011313, tanb 0.678363, width 0.093215
+iteration 476: H750, mass 752.875824, tanb 0.628300, width 0.108923
+iteration 477: H750, mass 752.766095, tanb 0.628300, width 0.108901
+iteration 478: H750, mass 752.656368, tanb 0.628300, width 0.108879
+iteration 479: H750, mass 752.546644, tanb 0.628300, width 0.108858
+iteration 480: H750, mass 752.436921, tanb 0.628300, width 0.108836
+iteration 481: H750, mass 752.327200, tanb 0.628300, width 0.108814
+iteration 482: H750, mass 752.217481, tanb 0.628300, width 0.108792
+iteration 483: H750, mass 752.107764, tanb 0.628300, width 0.108770
+iteration 484: H750, mass 751.998049, tanb 0.628300, width 0.108748
+iteration 485: H750, mass 751.888335, tanb 0.628300, width 0.108726
+iteration 486: H750, mass 751.778624, tanb 0.628300, width 0.108705
+iteration 487: H750, mass 751.668914, tanb 0.628300, width 0.108683
+iteration 488: H750, mass 751.559206, tanb 0.628300, width 0.108661
+iteration 489: H750, mass 751.449501, tanb 0.628300, width 0.108639
+iteration 490: H750, mass 751.339797, tanb 0.628300, width 0.108617
+iteration 491: H750, mass 751.230095, tanb 0.628300, width 0.108595
+iteration 492: H750, mass 751.120395, tanb 0.628300, width 0.108573
+iteration 493: H750, mass 751.010696, tanb 0.628300, width 0.108552
+iteration 494: H750, mass 750.901000, tanb 0.628300, width 0.108530
+iteration 495: H750, mass 750.791306, tanb 0.628300, width 0.108508
+iteration 496: H750, mass 750.681613, tanb 0.628300, width 0.108486
+iteration 497: H750, mass 750.571923, tanb 0.628300, width 0.108464
+iteration 498: H750, mass 750.462234, tanb 0.628300, width 0.108442
+iteration 499: H750, mass 750.352547, tanb 0.628300, width 0.108420
+iteration 500: H750, mass 750.242862, tanb 0.628300, width 0.108398
+iteration 501: H750, mass 750.133179, tanb 0.628300, width 0.108377
+iteration 502: H750, mass 750.023498, tanb 0.628300, width 0.108355
+iteration 503: H750, mass 747.396100, tanb 0.673509, width 0.094083
+iteration 504: H750, mass 747.503490, tanb 0.673509, width 0.094102
+iteration 505: H750, mass 747.610881, tanb 0.673509, width 0.094121
+iteration 506: H750, mass 747.718274, tanb 0.673509, width 0.094139
+iteration 507: H750, mass 747.825668, tanb 0.673509, width 0.094158
+iteration 508: H750, mass 747.933065, tanb 0.673509, width 0.094177
+iteration 509: H750, mass 748.040462, tanb 0.673509, width 0.094195
+iteration 510: H750, mass 748.147862, tanb 0.673509, width 0.094214
+iteration 511: H750, mass 748.255263, tanb 0.673509, width 0.094233
+iteration 512: H750, mass 748.362665, tanb 0.673509, width 0.094251
+iteration 513: H750, mass 748.470070, tanb 0.673509, width 0.094270
+iteration 514: H750, mass 748.577476, tanb 0.673509, width 0.094289
+iteration 515: H750, mass 748.684883, tanb 0.673509, width 0.094307
+iteration 516: H750, mass 748.792292, tanb 0.673509, width 0.094326
+iteration 517: H750, mass 748.899703, tanb 0.673509, width 0.094345
+iteration 518: H750, mass 749.007116, tanb 0.673509, width 0.094363
+iteration 519: H750, mass 749.114530, tanb 0.673509, width 0.094382
+iteration 520: H750, mass 749.221945, tanb 0.673509, width 0.094401
+iteration 521: H750, mass 749.329363, tanb 0.673509, width 0.094419
+iteration 522: H750, mass 749.436782, tanb 0.673509, width 0.094438
+iteration 523: H750, mass 749.544202, tanb 0.673509, width 0.094457
+iteration 524: H750, mass 749.651625, tanb 0.673509, width 0.094475
+iteration 525: H750, mass 749.759048, tanb 0.673509, width 0.094494
+iteration 526: H750, mass 749.866474, tanb 0.673509, width 0.094512
+iteration 527: H750, mass 749.973901, tanb 0.673509, width 0.094531
+iteration 528: H750, mass 752.711015, tanb 0.626258, width 0.109589
+iteration 529: H750, mass 752.606731, tanb 0.626258, width 0.109568
+iteration 530: H750, mass 752.502448, tanb 0.626258, width 0.109547
+iteration 531: H750, mass 752.398167, tanb 0.626258, width 0.109526
+iteration 532: H750, mass 752.293888, tanb 0.626258, width 0.109505
+iteration 533: H750, mass 752.189611, tanb 0.626258, width 0.109484
+iteration 534: H750, mass 752.085335, tanb 0.626258, width 0.109463
+iteration 535: H750, mass 751.981061, tanb 0.626258, width 0.109442
+iteration 536: H750, mass 751.876789, tanb 0.626258, width 0.109422
+iteration 537: H750, mass 751.772518, tanb 0.626258, width 0.109401
+iteration 538: H750, mass 751.668249, tanb 0.626258, width 0.109380
+iteration 539: H750, mass 751.563982, tanb 0.626258, width 0.109359
+iteration 540: H750, mass 751.459717, tanb 0.626258, width 0.109338
+iteration 541: H750, mass 751.355453, tanb 0.626258, width 0.109317
+iteration 542: H750, mass 751.251191, tanb 0.626258, width 0.109296
+iteration 543: H750, mass 751.146931, tanb 0.626258, width 0.109275
+iteration 544: H750, mass 751.042673, tanb 0.626258, width 0.109254
+iteration 545: H750, mass 750.938416, tanb 0.626258, width 0.109233
+iteration 546: H750, mass 750.834161, tanb 0.626258, width 0.109212
+iteration 547: H750, mass 750.729907, tanb 0.626258, width 0.109191
+iteration 548: H750, mass 750.625656, tanb 0.626258, width 0.109171
+iteration 549: H750, mass 750.521406, tanb 0.626258, width 0.109150
+iteration 550: H750, mass 750.417158, tanb 0.626258, width 0.109129
+iteration 551: H750, mass 750.312911, tanb 0.626258, width 0.109108
+iteration 552: H750, mass 750.208667, tanb 0.626258, width 0.109087
+iteration 553: H750, mass 750.104424, tanb 0.626258, width 0.109066
+iteration 554: H750, mass 750.000183, tanb 0.626258, width 0.109045
+iteration 555: H750, mass 747.482371, tanb 0.669096, width 0.095320
+iteration 556: H750, mass 747.584417, tanb 0.669096, width 0.095338
+iteration 557: H750, mass 747.686465, tanb 0.669096, width 0.095356
+iteration 558: H750, mass 747.788514, tanb 0.669096, width 0.095374
+iteration 559: H750, mass 747.890565, tanb 0.669096, width 0.095392
+iteration 560: H750, mass 747.992617, tanb 0.669096, width 0.095409
+iteration 561: H750, mass 748.094671, tanb 0.669096, width 0.095427
+iteration 562: H750, mass 748.196726, tanb 0.669096, width 0.095445
+iteration 563: H750, mass 748.298783, tanb 0.669096, width 0.095463
+iteration 564: H750, mass 748.400841, tanb 0.669096, width 0.095481
+iteration 565: H750, mass 748.502901, tanb 0.669096, width 0.095499
+iteration 566: H750, mass 748.604962, tanb 0.669096, width 0.095517
+iteration 567: H750, mass 748.707025, tanb 0.669096, width 0.095535
+iteration 568: H750, mass 748.809090, tanb 0.669096, width 0.095553
+iteration 569: H750, mass 748.911155, tanb 0.669096, width 0.095571
+iteration 570: H750, mass 749.013223, tanb 0.669096, width 0.095589
+iteration 571: H750, mass 749.115291, tanb 0.669096, width 0.095607
+iteration 572: H750, mass 749.217361, tanb 0.669096, width 0.095625
+iteration 573: H750, mass 749.319433, tanb 0.669096, width 0.095643
+iteration 574: H750, mass 749.421506, tanb 0.669096, width 0.095661
+iteration 575: H750, mass 749.523581, tanb 0.669096, width 0.095679
+iteration 576: H750, mass 749.625657, tanb 0.669096, width 0.095697
+iteration 577: H750, mass 749.727735, tanb 0.669096, width 0.095715
+iteration 578: H750, mass 749.829814, tanb 0.669096, width 0.095733
+iteration 579: H750, mass 749.931895, tanb 0.669096, width 0.095751
+iteration 580: H750, mass 750.033977, tanb 0.669096, width 0.095769
+iteration 581: H750, mass 752.647568, tanb 0.624472, width 0.110193
+iteration 582: H750, mass 752.548453, tanb 0.624472, width 0.110173
+iteration 583: H750, mass 752.449341, tanb 0.624472, width 0.110153
+iteration 584: H750, mass 752.350229, tanb 0.624472, width 0.110133
+iteration 585: H750, mass 752.251119, tanb 0.624472, width 0.110113
+iteration 586: H750, mass 752.152011, tanb 0.624472, width 0.110093
+iteration 587: H750, mass 752.052905, tanb 0.624472, width 0.110073
+iteration 588: H750, mass 751.953800, tanb 0.624472, width 0.110053
+iteration 589: H750, mass 751.854696, tanb 0.624472, width 0.110033
+iteration 590: H750, mass 751.755594, tanb 0.624472, width 0.110013
+iteration 591: H750, mass 751.656494, tanb 0.624472, width 0.109993
+iteration 592: H750, mass 751.557395, tanb 0.624472, width 0.109973
+iteration 593: H750, mass 751.458298, tanb 0.624472, width 0.109953
+iteration 594: H750, mass 751.359202, tanb 0.624472, width 0.109933
+iteration 595: H750, mass 751.260108, tanb 0.624472, width 0.109913
+iteration 596: H750, mass 751.161015, tanb 0.624472, width 0.109893
+iteration 597: H750, mass 751.061924, tanb 0.624472, width 0.109873
+iteration 598: H750, mass 750.962836, tanb 0.624472, width 0.109853
+iteration 599: H750, mass 750.863748, tanb 0.624472, width 0.109833
+iteration 600: H750, mass 750.764662, tanb 0.624472, width 0.109813
+iteration 601: H750, mass 750.665577, tanb 0.624472, width 0.109793
+iteration 602: H750, mass 750.566494, tanb 0.624472, width 0.109773
+iteration 603: H750, mass 750.467412, tanb 0.624472, width 0.109753
+iteration 604: H750, mass 750.368332, tanb 0.624472, width 0.109733
+iteration 605: H750, mass 750.269254, tanb 0.624472, width 0.109713
+iteration 606: H750, mass 750.170177, tanb 0.624472, width 0.109693
+iteration 607: H750, mass 750.071101, tanb 0.624472, width 0.109673
+iteration 608: H750, mass 749.972028, tanb 0.624472, width 0.109653
+iteration 609: H750, mass 747.560822, tanb 0.665078, width 0.096466
+iteration 610: H750, mass 747.657794, tanb 0.665078, width 0.096484
+iteration 611: H750, mass 747.754767, tanb 0.665078, width 0.096501
+iteration 612: H750, mass 747.851742, tanb 0.665078, width 0.096518
+iteration 613: H750, mass 747.948717, tanb 0.665078, width 0.096535
+iteration 614: H750, mass 748.045695, tanb 0.665078, width 0.096553
+iteration 615: H750, mass 748.142673, tanb 0.665078, width 0.096570
+iteration 616: H750, mass 748.239653, tanb 0.665078, width 0.096587
+iteration 617: H750, mass 748.336635, tanb 0.665078, width 0.096605
+iteration 618: H750, mass 748.433617, tanb 0.665078, width 0.096622
+iteration 619: H750, mass 748.530602, tanb 0.665078, width 0.096639
+iteration 620: H750, mass 748.627587, tanb 0.665078, width 0.096656
+iteration 621: H750, mass 748.724574, tanb 0.665078, width 0.096674
+iteration 622: H750, mass 748.821562, tanb 0.665078, width 0.096691
+iteration 623: H750, mass 748.918551, tanb 0.665078, width 0.096708
+iteration 624: H750, mass 749.015542, tanb 0.665078, width 0.096726
+iteration 625: H750, mass 749.112535, tanb 0.665078, width 0.096743
+iteration 626: H750, mass 749.209528, tanb 0.665078, width 0.096760
+iteration 627: H750, mass 749.306523, tanb 0.665078, width 0.096777
+iteration 628: H750, mass 749.403520, tanb 0.665078, width 0.096795
+iteration 629: H750, mass 749.500517, tanb 0.665078, width 0.096812
+iteration 630: H750, mass 749.597516, tanb 0.665078, width 0.096829
+iteration 631: H750, mass 749.694517, tanb 0.665078, width 0.096846
+iteration 632: H750, mass 749.791518, tanb 0.665078, width 0.096864
+iteration 633: H750, mass 749.888521, tanb 0.665078, width 0.096881
+iteration 634: H750, mass 749.985526, tanb 0.665078, width 0.096898
+iteration 635: H750, mass 752.480399, tanb 0.622913, width 0.110701
+iteration 636: H750, mass 752.386198, tanb 0.622913, width 0.110682
+iteration 637: H750, mass 752.291998, tanb 0.622913, width 0.110663
+iteration 638: H750, mass 752.197799, tanb 0.622913, width 0.110644
+iteration 639: H750, mass 752.103601, tanb 0.622913, width 0.110625
+iteration 640: H750, mass 752.009406, tanb 0.622913, width 0.110606
+iteration 641: H750, mass 751.915211, tanb 0.622913, width 0.110587
+iteration 642: H750, mass 751.821018, tanb 0.622913, width 0.110568
+iteration 643: H750, mass 751.726826, tanb 0.622913, width 0.110549
+iteration 644: H750, mass 751.632636, tanb 0.622913, width 0.110530
+iteration 645: H750, mass 751.538447, tanb 0.622913, width 0.110510
+iteration 646: H750, mass 751.444260, tanb 0.622913, width 0.110491
+iteration 647: H750, mass 751.350074, tanb 0.622913, width 0.110472
+iteration 648: H750, mass 751.255889, tanb 0.622913, width 0.110453
+iteration 649: H750, mass 751.161706, tanb 0.622913, width 0.110434
+iteration 650: H750, mass 751.067525, tanb 0.622913, width 0.110415
+iteration 651: H750, mass 750.973344, tanb 0.622913, width 0.110396
+iteration 652: H750, mass 750.879165, tanb 0.622913, width 0.110377
+iteration 653: H750, mass 750.784988, tanb 0.622913, width 0.110358
+iteration 654: H750, mass 750.690812, tanb 0.622913, width 0.110339
+iteration 655: H750, mass 750.596637, tanb 0.622913, width 0.110319
+iteration 656: H750, mass 750.502464, tanb 0.622913, width 0.110300
+iteration 657: H750, mass 750.408293, tanb 0.622913, width 0.110281
+iteration 658: H750, mass 750.314122, tanb 0.622913, width 0.110262
+iteration 659: H750, mass 750.219953, tanb 0.622913, width 0.110243
+iteration 660: H750, mass 750.125786, tanb 0.622913, width 0.110224
+iteration 661: H750, mass 750.031620, tanb 0.622913, width 0.110205
+iteration 662: H750, mass 747.724246, tanb 0.661418, width 0.097546
+iteration 663: H750, mass 747.816400, tanb 0.661418, width 0.097563
+iteration 664: H750, mass 747.908554, tanb 0.661418, width 0.097579
+iteration 665: H750, mass 748.000710, tanb 0.661418, width 0.097596
+iteration 666: H750, mass 748.092867, tanb 0.661418, width 0.097612
+iteration 667: H750, mass 748.185026, tanb 0.661418, width 0.097629
+iteration 668: H750, mass 748.277185, tanb 0.661418, width 0.097646
+iteration 669: H750, mass 748.369346, tanb 0.661418, width 0.097662
+iteration 670: H750, mass 748.461508, tanb 0.661418, width 0.097679
+iteration 671: H750, mass 748.553672, tanb 0.661418, width 0.097695
+iteration 672: H750, mass 748.645836, tanb 0.661418, width 0.097712
+iteration 673: H750, mass 748.738002, tanb 0.661418, width 0.097729
+iteration 674: H750, mass 748.830169, tanb 0.661418, width 0.097745
+iteration 675: H750, mass 748.922337, tanb 0.661418, width 0.097762
+iteration 676: H750, mass 749.014507, tanb 0.661418, width 0.097778
+iteration 677: H750, mass 749.106678, tanb 0.661418, width 0.097795
+iteration 678: H750, mass 749.198850, tanb 0.661418, width 0.097812
+iteration 679: H750, mass 749.291023, tanb 0.661418, width 0.097828
+iteration 680: H750, mass 749.383198, tanb 0.661418, width 0.097845
+iteration 681: H750, mass 749.475373, tanb 0.661418, width 0.097861
+iteration 682: H750, mass 749.567550, tanb 0.661418, width 0.097878
+iteration 683: H750, mass 749.659728, tanb 0.661418, width 0.097895
+iteration 684: H750, mass 749.751908, tanb 0.661418, width 0.097911
+iteration 685: H750, mass 749.844089, tanb 0.661418, width 0.097928
+iteration 686: H750, mass 749.936271, tanb 0.661418, width 0.097944
+iteration 687: H750, mass 750.028454, tanb 0.661418, width 0.097961
+iteration 688: H750, mass 752.408614, tanb 0.621555, width 0.111163
+iteration 689: H750, mass 752.319078, tanb 0.621555, width 0.111144
+iteration 690: H750, mass 752.229544, tanb 0.621555, width 0.111126
+iteration 691: H750, mass 752.140011, tanb 0.621555, width 0.111108
+iteration 692: H750, mass 752.050479, tanb 0.621555, width 0.111090
+iteration 693: H750, mass 751.960949, tanb 0.621555, width 0.111071
+iteration 694: H750, mass 751.871420, tanb 0.621555, width 0.111053
+iteration 695: H750, mass 751.781892, tanb 0.621555, width 0.111035
+iteration 696: H750, mass 751.692366, tanb 0.621555, width 0.111017
+iteration 697: H750, mass 751.602840, tanb 0.621555, width 0.110999
+iteration 698: H750, mass 751.513317, tanb 0.621555, width 0.110980
+iteration 699: H750, mass 751.423794, tanb 0.621555, width 0.110962
+iteration 700: H750, mass 751.334273, tanb 0.621555, width 0.110944
+iteration 701: H750, mass 751.244753, tanb 0.621555, width 0.110926
+iteration 702: H750, mass 751.155234, tanb 0.621555, width 0.110907
+iteration 703: H750, mass 751.065716, tanb 0.621555, width 0.110889
+iteration 704: H750, mass 750.976200, tanb 0.621555, width 0.110871
+iteration 705: H750, mass 750.886685, tanb 0.621555, width 0.110853
+iteration 706: H750, mass 750.797172, tanb 0.621555, width 0.110834
+iteration 707: H750, mass 750.707659, tanb 0.621555, width 0.110816
+iteration 708: H750, mass 750.618148, tanb 0.621555, width 0.110798
+iteration 709: H750, mass 750.528639, tanb 0.621555, width 0.110780
+iteration 710: H750, mass 750.439130, tanb 0.621555, width 0.110761
+iteration 711: H750, mass 750.349623, tanb 0.621555, width 0.110743
+iteration 712: H750, mass 750.260117, tanb 0.621555, width 0.110725
+iteration 713: H750, mass 750.170613, tanb 0.621555, width 0.110707
+iteration 714: H750, mass 750.081109, tanb 0.621555, width 0.110688
+iteration 715: H750, mass 749.991607, tanb 0.621555, width 0.110670
+iteration 716: H750, mass 747.784479, tanb 0.658079, width 0.098530
+iteration 717: H750, mass 747.872055, tanb 0.658079, width 0.098546
+iteration 718: H750, mass 747.959631, tanb 0.658079, width 0.098562
+iteration 719: H750, mass 748.047209, tanb 0.658079, width 0.098578
+iteration 720: H750, mass 748.134788, tanb 0.658079, width 0.098594
+iteration 721: H750, mass 748.222368, tanb 0.658079, width 0.098610
+iteration 722: H750, mass 748.309949, tanb 0.658079, width 0.098626
+iteration 723: H750, mass 748.397531, tanb 0.658079, width 0.098642
+iteration 724: H750, mass 748.485114, tanb 0.658079, width 0.098658
+iteration 725: H750, mass 748.572699, tanb 0.658079, width 0.098674
+iteration 726: H750, mass 748.660284, tanb 0.658079, width 0.098690
+iteration 727: H750, mass 748.747871, tanb 0.658079, width 0.098706
+iteration 728: H750, mass 748.835459, tanb 0.658079, width 0.098722
+iteration 729: H750, mass 748.923048, tanb 0.658079, width 0.098738
+iteration 730: H750, mass 749.010638, tanb 0.658079, width 0.098754
+iteration 731: H750, mass 749.098229, tanb 0.658079, width 0.098769
+iteration 732: H750, mass 749.185822, tanb 0.658079, width 0.098785
+iteration 733: H750, mass 749.273415, tanb 0.658079, width 0.098801
+iteration 734: H750, mass 749.361010, tanb 0.658079, width 0.098817
+iteration 735: H750, mass 749.448606, tanb 0.658079, width 0.098833
+iteration 736: H750, mass 749.536203, tanb 0.658079, width 0.098849
+iteration 737: H750, mass 749.623801, tanb 0.658079, width 0.098865
+iteration 738: H750, mass 749.711400, tanb 0.658079, width 0.098881
+iteration 739: H750, mass 749.799000, tanb 0.658079, width 0.098897
+iteration 740: H750, mass 749.886601, tanb 0.658079, width 0.098913
+iteration 741: H750, mass 749.974204, tanb 0.658079, width 0.098929
+iteration 742: H750, mass 752.244380, tanb 0.620375, width 0.111545
+iteration 743: H750, mass 752.159279, tanb 0.620375, width 0.111527
+iteration 744: H750, mass 752.074180, tanb 0.620375, width 0.111510
+iteration 745: H750, mass 751.989081, tanb 0.620375, width 0.111493
+iteration 746: H750, mass 751.903983, tanb 0.620375, width 0.111475
+iteration 747: H750, mass 751.818887, tanb 0.620375, width 0.111458
+iteration 748: H750, mass 751.733792, tanb 0.620375, width 0.111440
+iteration 749: H750, mass 751.648698, tanb 0.620375, width 0.111423
+iteration 750: H750, mass 751.563605, tanb 0.620375, width 0.111406
+iteration 751: H750, mass 751.478514, tanb 0.620375, width 0.111388
+iteration 752: H750, mass 751.393423, tanb 0.620375, width 0.111371
+iteration 753: H750, mass 751.308334, tanb 0.620375, width 0.111353
+iteration 754: H750, mass 751.223246, tanb 0.620375, width 0.111336
+iteration 755: H750, mass 751.138159, tanb 0.620375, width 0.111319
+iteration 756: H750, mass 751.053073, tanb 0.620375, width 0.111301
+iteration 757: H750, mass 750.967989, tanb 0.620375, width 0.111284
+iteration 758: H750, mass 750.882905, tanb 0.620375, width 0.111266
+iteration 759: H750, mass 750.797823, tanb 0.620375, width 0.111249
+iteration 760: H750, mass 750.712742, tanb 0.620375, width 0.111232
+iteration 761: H750, mass 750.627662, tanb 0.620375, width 0.111214
+iteration 762: H750, mass 750.542583, tanb 0.620375, width 0.111197
+iteration 763: H750, mass 750.457506, tanb 0.620375, width 0.111179
+iteration 764: H750, mass 750.372429, tanb 0.620375, width 0.111162
+iteration 765: H750, mass 750.287354, tanb 0.620375, width 0.111145
+iteration 766: H750, mass 750.202280, tanb 0.620375, width 0.111127
+iteration 767: H750, mass 750.117207, tanb 0.620375, width 0.111110
+iteration 768: H750, mass 750.032135, tanb 0.620375, width 0.111092
+iteration 769: H750, mass 747.922256, tanb 0.655030, width 0.099458
+iteration 770: H750, mass 748.005484, tanb 0.655030, width 0.099473
+iteration 771: H750, mass 748.088713, tanb 0.655030, width 0.099488
+iteration 772: H750, mass 748.171943, tanb 0.655030, width 0.099503
+iteration 773: H750, mass 748.255173, tanb 0.655030, width 0.099519
+iteration 774: H750, mass 748.338405, tanb 0.655030, width 0.099534
+iteration 775: H750, mass 748.421638, tanb 0.655030, width 0.099549
+iteration 776: H750, mass 748.504872, tanb 0.655030, width 0.099565
+iteration 777: H750, mass 748.588108, tanb 0.655030, width 0.099580
+iteration 778: H750, mass 748.671344, tanb 0.655030, width 0.099595
+iteration 779: H750, mass 748.754581, tanb 0.655030, width 0.099611
+iteration 780: H750, mass 748.837819, tanb 0.655030, width 0.099626
+iteration 781: H750, mass 748.921058, tanb 0.655030, width 0.099641
+iteration 782: H750, mass 749.004298, tanb 0.655030, width 0.099656
+iteration 783: H750, mass 749.087540, tanb 0.655030, width 0.099672
+iteration 784: H750, mass 749.170782, tanb 0.655030, width 0.099687
+iteration 785: H750, mass 749.254025, tanb 0.655030, width 0.099702
+iteration 786: H750, mass 749.337269, tanb 0.655030, width 0.099718
+iteration 787: H750, mass 749.420515, tanb 0.655030, width 0.099733
+iteration 788: H750, mass 749.503761, tanb 0.655030, width 0.099748
+iteration 789: H750, mass 749.587009, tanb 0.655030, width 0.099763
+iteration 790: H750, mass 749.670257, tanb 0.655030, width 0.099779
+iteration 791: H750, mass 749.753506, tanb 0.655030, width 0.099794
+iteration 792: H750, mass 749.836757, tanb 0.655030, width 0.099809
+iteration 793: H750, mass 749.920008, tanb 0.655030, width 0.099824
+iteration 794: H750, mass 750.003261, tanb 0.655030, width 0.099840
+
+Checking 2HDM model constaints:
+Stability, unitarity and perturbativity constraints are all satisfied!
+
+Printing model parameters:
+
+2HDM parameters in physical mass basis:
+      m_h:    124.99999
+      m_H:    750.00326
+      m_A:    720.95886
+     m_H+:    725.43015
+ sin(b-a):     -0.99934
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 238248.62670
+tan(beta):      0.65503
+
+2HDM parameters in generic basis:
+ lambda_1:      0.13716
+ lambda_2:      2.88597
+ lambda_3:      0.07619
+ lambda_4:     -0.21336
+ lambda_5:      0.00000
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 238248.62670
+tan(beta):      0.65503
+
+2HDM parameters in Hybrid basis:
+      m_h:    124.99999
+      m_H:    750.00326
+ cos(b-a):     -0.03639
+       Z4:      0.47943
+       Z5:      0.69278
+       Z7:      0.93190
+tan(beta):      0.65503
+
+Printing decays of all Higgses in this model
+
+Decay table for h 
+Total width:   4.356e-03 GeV      BR
+h  -> s  s     1.041e-06      2.389e-04
+h  -> c  c     1.101e-04      2.527e-02
+h  -> b  b     2.759e-03      6.334e-01
+h  -> e  e     2.243e-11      5.149e-09
+h  -> mu mu    9.588e-07      2.201e-04
+h  -> ta ta    2.709e-04      6.219e-02
+h  -> ga ga    9.683e-06      2.223e-03
+h  -> Z  Z     1.021e-04      2.345e-02
+h  -> W+ W-    8.200e-04      1.882e-01
+h  -> Z  ga    6.279e-06      1.441e-03
+h  -> g  g     2.758e-04      6.331e-02
+---------------------------------------
+h mass: 124.999994 relative width 0.000035
+
+Decay table for A 
+Total width:   8.261e+01 GeV      BR
+A  -> s  s     1.920e-06      2.324e-08
+A  -> c  c     1.222e-03      1.479e-05
+A  -> b  b     4.923e-03      5.958e-05
+A  -> t  t     8.227e+01      9.959e-01
+A  -> mu mu    2.267e-06      2.743e-08
+A  -> ta ta    6.411e-04      7.760e-06
+A  -> ga ga    5.820e-04      7.045e-06
+A  -> Z  ga    1.856e-04      2.246e-06
+A  -> g  g     1.917e-01      2.321e-03
+A  -> Z  h     1.409e-01      1.706e-03
+---------------------------------------
+A mass: 720.958865 relative width 0.114590
+
+Decay table for H 
+Total width:   7.488e+01 GeV      BR
+H  -> s  s     1.492e-06      1.992e-08
+H  -> c  c     1.311e-03      1.751e-05
+H  -> b  b     4.269e-03      5.702e-05
+H  -> t  t     7.391e+01      9.870e-01
+H  -> mu mu    2.100e-06      2.805e-08
+H  -> ta ta    5.940e-04      7.933e-06
+H  -> ga ga    4.009e-04      5.355e-06
+H  -> Z  Z     8.224e-02      1.098e-03
+H  -> W+ W-    1.680e-01      2.243e-03
+H  -> Z  ga    1.198e-04      1.599e-06
+H  -> g  g     1.407e-01      1.879e-03
+H  -> h  h     5.760e-01      7.693e-03
+H  -> Z  A     1.114e-05      1.487e-07
+H  -> W+ H-    1.184e-05      1.581e-07
+H  -> H+ W-    1.184e-05      1.581e-07
+---------------------------------------
+H mass: 750.003261 relative width 0.099839
+
+Decay table for H+
+Total width:   7.583e+01 GeV      BR
+H+ -> u  s     8.731e-08      1.151e-09
+H+ -> u  b     5.772e-08      7.612e-10
+H+ -> c  d     5.964e-05      7.866e-07
+H+ -> c  s     1.116e-03      1.472e-05
+H+ -> c  b     9.949e-06      1.312e-07
+H+ -> t  d     5.651e-03      7.452e-05
+H+ -> t  s     1.227e-01      1.618e-03
+H+ -> t  b     7.555e+01      9.964e-01
+H+ -> mu vm    2.281e-06      3.008e-08
+H+ -> ta vt    6.451e-04      8.507e-06
+H+ -> W+ h     1.455e-01      1.919e-03
+H+ -> W+ A     2.333e-09      3.077e-11
+---------------------------------------
+H+ mass: 725.430149 relative width 0.104529

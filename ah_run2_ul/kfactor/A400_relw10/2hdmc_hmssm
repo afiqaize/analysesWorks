@@ -1,0 +1,184 @@
+****************************************************
+*                                                  *
+*    2HDMC - Two-Higgs-Doublet Model Calculator    *
+*             http://2hdmc.hepforge.org            *
+*                  Version 1.7.0                   *
+*             Compiled on Sep 16 2020              *
+*                                                  *
+****************************************************
+iteration 0: A400, mass 400.000000, tanb 1.000000, width 0.037830
+iteration 1: A400, mass 400.000000, tanb 0.900000, width 0.046648
+iteration 2: A400, mass 400.000000, tanb 0.810000, width 0.057531
+iteration 3: A400, mass 400.000000, tanb 0.729000, width 0.070962
+iteration 4: A400, mass 400.000000, tanb 0.656100, width 0.087541
+iteration 5: A400, mass 400.000000, tanb 0.590490, width 0.108007
+iteration 6: A400, mass 400.000000, tanb 0.648063, width 0.089719
+iteration 7: A400, mass 400.000000, tanb 0.586456, width 0.109493
+iteration 8: A400, mass 400.000000, tanb 0.640813, width 0.091754
+iteration 9: A400, mass 400.000000, tanb 0.582903, width 0.110829
+iteration 10: A400, mass 400.000000, tanb 0.634262, width 0.093653
+iteration 11: A400, mass 400.000000, tanb 0.579775, width 0.112025
+iteration 12: A400, mass 400.000000, tanb 0.628336, width 0.095422
+iteration 13: A400, mass 400.000000, tanb 0.577023, width 0.113093
+iteration 14: A400, mass 400.000000, tanb 0.622968, width 0.097069
+iteration 15: A400, mass 400.000000, tanb 0.574605, width 0.114044
+iteration 16: A400, mass 400.000000, tanb 0.618098, width 0.098600
+iteration 17: A400, mass 400.000000, tanb 0.572483, width 0.114889
+iteration 18: A400, mass 400.000000, tanb 0.613675, width 0.100022
+iteration 19: A400, mass 400.000000, tanb 0.657832, width 0.087082
+iteration 20: A400, mass 400.000000, tanb 0.611682, width 0.100673
+iteration 21: A400, mass 400.000000, tanb 0.653522, width 0.088231
+iteration 22: A400, mass 400.000000, tanb 0.609937, width 0.101248
+iteration 23: A400, mass 400.000000, tanb 0.649598, width 0.089297
+iteration 24: A400, mass 400.000000, tanb 0.608414, width 0.101754
+iteration 25: A400, mass 400.000000, tanb 0.646023, width 0.090285
+iteration 26: A400, mass 400.000000, tanb 0.607088, width 0.102198
+iteration 27: A400, mass 400.000000, tanb 0.642761, width 0.091200
+iteration 28: A400, mass 400.000000, tanb 0.605936, width 0.102586
+iteration 29: A400, mass 400.000000, tanb 0.639784, width 0.092048
+iteration 30: A400, mass 400.000000, tanb 0.604938, width 0.102923
+iteration 31: A400, mass 400.000000, tanb 0.637062, width 0.092834
+iteration 32: A400, mass 400.000000, tanb 0.604078, width 0.103216
+iteration 33: A400, mass 400.000000, tanb 0.634573, width 0.093562
+iteration 34: A400, mass 400.000000, tanb 0.603340, width 0.103468
+iteration 35: A400, mass 400.000000, tanb 0.632293, width 0.094235
+iteration 36: A400, mass 400.000000, tanb 0.602709, width 0.103684
+iteration 37: A400, mass 400.000000, tanb 0.630204, width 0.094859
+iteration 38: A400, mass 400.000000, tanb 0.602173, width 0.103868
+iteration 39: A400, mass 400.000000, tanb 0.628287, width 0.095437
+iteration 40: A400, mass 400.000000, tanb 0.601722, width 0.104023
+iteration 41: A400, mass 400.000000, tanb 0.626528, width 0.095972
+iteration 42: A400, mass 400.000000, tanb 0.601345, width 0.104153
+iteration 43: A400, mass 400.000000, tanb 0.624912, width 0.096468
+iteration 44: A400, mass 400.000000, tanb 0.601034, width 0.104261
+iteration 45: A400, mass 400.000000, tanb 0.623425, width 0.096927
+iteration 46: A400, mass 400.000000, tanb 0.600780, width 0.104349
+iteration 47: A400, mass 400.000000, tanb 0.622057, width 0.097352
+iteration 48: A400, mass 400.000000, tanb 0.600578, width 0.104419
+iteration 49: A400, mass 400.000000, tanb 0.620797, width 0.097747
+iteration 50: A400, mass 400.000000, tanb 0.600419, width 0.104474
+iteration 51: A400, mass 400.000000, tanb 0.619635, width 0.098112
+iteration 52: A400, mass 400.000000, tanb 0.600300, width 0.104515
+iteration 53: A400, mass 400.000000, tanb 0.618564, width 0.098452
+iteration 54: A400, mass 400.000000, tanb 0.600215, width 0.104545
+iteration 55: A400, mass 400.000000, tanb 0.617574, width 0.098766
+iteration 56: A400, mass 400.000000, tanb 0.600159, width 0.104564
+iteration 57: A400, mass 400.000000, tanb 0.616660, width 0.099059
+iteration 58: A400, mass 400.000000, tanb 0.600130, width 0.104574
+iteration 59: A400, mass 400.000000, tanb 0.615815, width 0.099330
+iteration 60: A400, mass 400.000000, tanb 0.600122, width 0.104577
+iteration 61: A400, mass 400.000000, tanb 0.615033, width 0.099582
+iteration 62: A400, mass 400.000000, tanb 0.600134, width 0.104573
+iteration 63: A400, mass 400.000000, tanb 0.614308, width 0.099816
+iteration 64: A400, mass 400.000000, tanb 0.600162, width 0.104563
+iteration 65: A400, mass 400.000000, tanb 0.613637, width 0.100034
+iteration 66: A400, mass 400.000000, tanb 0.627415, width 0.095702
+iteration 67: A400, mass 400.000000, tanb 0.613680, width 0.100020
+iteration 68: A400, mass 400.000000, tanb 0.626778, width 0.095896
+iteration 69: A400, mass 400.000000, tanb 0.613735, width 0.100002
+
+Checking 2HDM model constaints:
+Stability, unitarity and perturbativity constraints are all satisfied!
+
+Printing model parameters:
+
+2HDM parameters in physical mass basis:
+      m_h:    124.99999
+      m_H:    463.12854
+      m_A:    400.00000
+     m_H+:    408.00394
+ sin(b-a):     -0.99246
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2:  71329.74936
+tan(beta):      0.61373
+
+2HDM parameters in generic basis:
+ lambda_1:      0.13716
+ lambda_2:      3.86280
+ lambda_3:      0.07619
+ lambda_4:     -0.21336
+ lambda_5:      0.00000
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2:  71329.74936
+tan(beta):      0.61373
+
+2HDM parameters in Hybrid basis:
+      m_h:    124.99999
+      m_H:    463.12854
+ cos(b-a):     -0.12258
+       Z4:      0.63615
+       Z5:      0.84950
+       Z7:      1.26186
+tan(beta):      0.61373
+
+Printing decays of all Higgses in this model
+
+Decay table for h 
+Total width:   4.490e-03 GeV      BR
+h  -> s  s     1.127e-06      2.511e-04
+h  -> c  c     7.766e-05      1.730e-02
+h  -> b  b     3.000e-03      6.681e-01
+h  -> e  e     2.442e-11      5.439e-09
+h  -> mu mu    1.044e-06      2.325e-04
+h  -> ta ta    2.950e-04      6.570e-02
+h  -> ga ga    1.020e-05      2.272e-03
+h  -> Z  Z     1.007e-04      2.244e-02
+h  -> W+ W-    8.087e-04      1.801e-01
+h  -> Z  ga    6.277e-06      1.398e-03
+h  -> g  g     1.892e-04      4.214e-02
+---------------------------------------
+h mass: 124.999993 relative width 0.000036
+
+Decay table for A 
+Total width:   4.000e+01 GeV      BR
+A  -> s  s     1.046e-06      2.615e-08
+A  -> c  c     8.518e-04      2.129e-05
+A  -> b  b     2.654e-03      6.634e-05
+A  -> t  t     3.962e+01      9.905e-01
+A  -> mu mu    1.104e-06      2.760e-08
+A  -> ta ta    3.122e-04      7.806e-06
+A  -> ga ga    5.538e-04      1.385e-05
+A  -> Z  ga    1.450e-04      3.625e-06
+A  -> g  g     1.909e-01      4.772e-03
+A  -> Z  h     1.860e-01      4.649e-03
+---------------------------------------
+A mass: 400.000000 relative width 0.100002
+
+Decay table for H 
+Total width:   3.076e+01 GeV      BR
+H  -> s  s     5.974e-07      1.942e-08
+H  -> c  c     1.087e-03      3.533e-05
+H  -> b  b     1.751e-03      5.692e-05
+H  -> t  t     2.949e+01      9.585e-01
+H  -> mu mu    8.032e-07      2.611e-08
+H  -> ta ta    2.272e-04      7.385e-06
+H  -> ga ga    2.636e-04      8.569e-06
+H  -> Z  Z     1.900e-01      6.175e-03
+H  -> W+ W-    4.006e-01      1.302e-02
+H  -> Z  ga    6.184e-05      2.010e-06
+H  -> g  g     1.044e-01      3.393e-03
+H  -> h  h     5.752e-01      1.870e-02
+H  -> Z  A     6.052e-04      1.967e-05
+H  -> W+ H-    7.652e-04      2.488e-05
+H  -> H+ W-    7.652e-04      2.488e-05
+---------------------------------------
+H mass: 463.128543 relative width 0.066421
+
+Decay table for H+
+Total width:   4.127e+01 GeV      BR
+H+ -> u  s     4.732e-08      1.147e-09
+H+ -> u  b     3.128e-08      7.579e-10
+H+ -> c  d     4.194e-05      1.016e-06
+H+ -> c  s     7.844e-04      1.901e-05
+H+ -> c  b     5.712e-06      1.384e-07
+H+ -> t  d     3.011e-03      7.296e-05
+H+ -> t  s     6.538e-02      1.584e-03
+H+ -> t  b     4.099e+01      9.932e-01
+H+ -> mu vm    1.126e-06      2.729e-08
+H+ -> ta vt    3.185e-04      7.718e-06
+H+ -> W+ h     2.122e-01      5.141e-03
+H+ -> W+ A     4.219e-08      1.022e-09
+---------------------------------------
+H+ mass: 408.003941 relative width 0.101147

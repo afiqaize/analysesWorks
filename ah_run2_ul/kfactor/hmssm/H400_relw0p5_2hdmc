@@ -1,0 +1,602 @@
+****************************************************
+*                                                  *
+*    2HDMC - Two-Higgs-Doublet Model Calculator    *
+*             http://2hdmc.hepforge.org            *
+*                  Version 1.7.0                   *
+*             Compiled on Sep 16 2020              *
+*                                                  *
+****************************************************
+iteration 0: H400, mass 348.167973, tanb 1.000000, width 0.002855
+iteration 1: H400, mass 352.039363, tanb 1.000000, width 0.003572
+iteration 2: H400, mass 355.968995, tanb 1.000000, width 0.004386
+iteration 3: H400, mass 359.952162, tanb 1.000000, width 0.005275
+iteration 4: H400, mass 363.984666, tanb 1.000000, width 0.006222
+iteration 5: H400, mass 349.694057, tanb 1.000000, width 0.001201
+iteration 6: H400, mass 354.324948, tanb 1.000000, width 0.001975
+iteration 7: H400, mass 376.342558, tanb 1.000000, width 0.009290
+iteration 8: H400, mass 380.538503, tanb 1.000000, width 0.010363
+iteration 9: H400, mass 368.280149, tanb 1.000000, width 0.004786
+iteration 10: H400, mass 389.030053, tanb 1.000000, width 0.012553
+iteration 11: H400, mass 393.321361, tanb 1.000000, width 0.013663
+iteration 12: H400, mass 397.640474, tanb 1.000000, width 0.014778
+iteration 13: H400, mass 401.985682, tanb 1.000000, width 0.015896
+iteration 14: H400, mass 397.748793, tanb 1.000000, width 0.014806
+iteration 15: H400, mass 401.879469, tanb 1.000000, width 0.015869
+iteration 16: H400, mass 397.851779, tanb 1.000000, width 0.014832
+iteration 17: H400, mass 401.778515, tanb 1.000000, width 0.015843
+iteration 18: H400, mass 397.949693, tanb 1.000000, width 0.014858
+iteration 19: H400, mass 401.682557, tanb 1.000000, width 0.015819
+iteration 20: H400, mass 398.042786, tanb 1.000000, width 0.014882
+iteration 21: H400, mass 401.591349, tanb 1.000000, width 0.015795
+iteration 22: H400, mass 398.131293, tanb 1.000000, width 0.014904
+iteration 23: H400, mass 401.504654, tanb 1.000000, width 0.015773
+iteration 24: H400, mass 398.215440, tanb 1.000000, width 0.014926
+iteration 25: H400, mass 401.422248, tanb 1.000000, width 0.015752
+iteration 26: H400, mass 398.295441, tanb 1.000000, width 0.014947
+iteration 27: H400, mass 401.343920, tanb 1.000000, width 0.015731
+iteration 28: H400, mass 398.371500, tanb 1.000000, width 0.014966
+iteration 29: H400, mass 401.269466, tanb 1.000000, width 0.015712
+iteration 30: H400, mass 398.443811, tanb 1.000000, width 0.014985
+iteration 31: H400, mass 401.198695, tanb 1.000000, width 0.015694
+iteration 32: H400, mass 398.512559, tanb 1.000000, width 0.015003
+iteration 33: H400, mass 401.131425, tanb 1.000000, width 0.015677
+iteration 34: H400, mass 398.577918, tanb 1.000000, width 0.015020
+iteration 35: H400, mass 401.067482, tanb 1.000000, width 0.015660
+iteration 36: H400, mass 398.640055, tanb 1.000000, width 0.015036
+iteration 37: H400, mass 401.006700, tanb 1.000000, width 0.015645
+iteration 38: H400, mass 398.699129, tanb 1.000000, width 0.015051
+iteration 39: H400, mass 400.948925, tanb 1.000000, width 0.015630
+iteration 40: H400, mass 398.755291, tanb 1.000000, width 0.015065
+iteration 41: H400, mass 400.894006, tanb 1.000000, width 0.015616
+iteration 42: H400, mass 398.808684, tanb 1.000000, width 0.015079
+iteration 43: H400, mass 400.841802, tanb 1.000000, width 0.015602
+iteration 44: H400, mass 398.859444, tanb 1.000000, width 0.015092
+iteration 45: H400, mass 400.792179, tanb 1.000000, width 0.015590
+iteration 46: H400, mass 398.907701, tanb 1.000000, width 0.015105
+iteration 47: H400, mass 400.745010, tanb 1.000000, width 0.015577
+iteration 48: H400, mass 398.953579, tanb 1.000000, width 0.015116
+iteration 49: H400, mass 400.700172, tanb 1.000000, width 0.015566
+iteration 50: H400, mass 398.997194, tanb 1.000000, width 0.015128
+iteration 51: H400, mass 400.657550, tanb 1.000000, width 0.015555
+iteration 52: H400, mass 399.038657, tanb 1.000000, width 0.015138
+iteration 53: H400, mass 400.617035, tanb 1.000000, width 0.015545
+iteration 54: H400, mass 399.078076, tanb 1.000000, width 0.015148
+iteration 55: H400, mass 400.578523, tanb 1.000000, width 0.015535
+iteration 56: H400, mass 399.115550, tanb 1.000000, width 0.015158
+iteration 57: H400, mass 400.541914, tanb 1.000000, width 0.015525
+iteration 58: H400, mass 399.151176, tanb 1.000000, width 0.015167
+iteration 59: H400, mass 400.507114, tanb 1.000000, width 0.015516
+iteration 60: H400, mass 399.185045, tanb 1.000000, width 0.015176
+iteration 61: H400, mass 400.474034, tanb 1.000000, width 0.015508
+iteration 62: H400, mass 399.217242, tanb 1.000000, width 0.015184
+iteration 63: H400, mass 400.442588, tanb 1.000000, width 0.015500
+iteration 64: H400, mass 399.247851, tanb 1.000000, width 0.015192
+iteration 65: H400, mass 400.412697, tanb 1.000000, width 0.015492
+iteration 66: H400, mass 399.276950, tanb 1.000000, width 0.015200
+iteration 67: H400, mass 400.384282, tanb 1.000000, width 0.015485
+iteration 68: H400, mass 399.304613, tanb 1.000000, width 0.015207
+iteration 69: H400, mass 400.357271, tanb 1.000000, width 0.015478
+iteration 70: H400, mass 399.330912, tanb 1.000000, width 0.015214
+iteration 71: H400, mass 400.331595, tanb 1.000000, width 0.015471
+iteration 72: H400, mass 399.355912, tanb 1.000000, width 0.015220
+iteration 73: H400, mass 400.307188, tanb 1.000000, width 0.015465
+iteration 74: H400, mass 399.379680, tanb 1.000000, width 0.015226
+iteration 75: H400, mass 400.283986, tanb 1.000000, width 0.015459
+iteration 76: H400, mass 399.402274, tanb 1.000000, width 0.015232
+iteration 77: H400, mass 400.261930, tanb 1.000000, width 0.015453
+iteration 78: H400, mass 399.423753, tanb 1.000000, width 0.015237
+iteration 79: H400, mass 400.240965, tanb 1.000000, width 0.015448
+iteration 80: H400, mass 399.444173, tanb 1.000000, width 0.015243
+iteration 81: H400, mass 400.221034, tanb 1.000000, width 0.015443
+iteration 82: H400, mass 399.463584, tanb 1.000000, width 0.015248
+iteration 83: H400, mass 400.202089, tanb 1.000000, width 0.015438
+iteration 84: H400, mass 399.482038, tanb 1.000000, width 0.015252
+iteration 85: H400, mass 400.184079, tanb 1.000000, width 0.015433
+iteration 86: H400, mass 399.499581, tanb 1.000000, width 0.015257
+iteration 87: H400, mass 400.166959, tanb 1.000000, width 0.015429
+iteration 88: H400, mass 399.516258, tanb 1.000000, width 0.015261
+iteration 89: H400, mass 400.150685, tanb 1.000000, width 0.015425
+iteration 90: H400, mass 399.532112, tanb 1.000000, width 0.015265
+iteration 91: H400, mass 400.135214, tanb 1.000000, width 0.015421
+iteration 92: H400, mass 399.547184, tanb 1.000000, width 0.015269
+iteration 93: H400, mass 400.120508, tanb 1.000000, width 0.015417
+iteration 94: H400, mass 399.561511, tanb 1.000000, width 0.015273
+iteration 95: H400, mass 400.106528, tanb 1.000000, width 0.015413
+iteration 96: H400, mass 399.575132, tanb 1.000000, width 0.015276
+iteration 97: H400, mass 400.093238, tanb 1.000000, width 0.015410
+iteration 98: H400, mass 399.588080, tanb 1.000000, width 0.015280
+iteration 99: H400, mass 400.080605, tanb 1.000000, width 0.015407
+iteration 100: H400, mass 399.600389, tanb 1.000000, width 0.015283
+iteration 101: H400, mass 400.068596, tanb 1.000000, width 0.015403
+iteration 102: H400, mass 399.612091, tanb 1.000000, width 0.015286
+iteration 103: H400, mass 400.057180, tanb 1.000000, width 0.015401
+iteration 104: H400, mass 399.623215, tanb 1.000000, width 0.015289
+iteration 105: H400, mass 400.046328, tanb 1.000000, width 0.015398
+iteration 106: H400, mass 383.089460, tanb 1.500000, width 0.005710
+iteration 107: H400, mass 383.541640, tanb 1.500000, width 0.005763
+iteration 108: H400, mass 383.993946, tanb 1.500000, width 0.005816
+iteration 109: H400, mass 384.446376, tanb 1.500000, width 0.005869
+iteration 110: H400, mass 384.898930, tanb 1.500000, width 0.005922
+iteration 111: H400, mass 385.351608, tanb 1.500000, width 0.005975
+iteration 112: H400, mass 385.804408, tanb 1.500000, width 0.006028
+iteration 113: H400, mass 386.257329, tanb 1.500000, width 0.006082
+iteration 114: H400, mass 386.710372, tanb 1.500000, width 0.006135
+iteration 115: H400, mass 387.163535, tanb 1.500000, width 0.006188
+iteration 116: H400, mass 387.616818, tanb 1.500000, width 0.006241
+iteration 117: H400, mass 388.070220, tanb 1.500000, width 0.006294
+iteration 118: H400, mass 388.523741, tanb 1.500000, width 0.006347
+iteration 119: H400, mass 388.977379, tanb 1.500000, width 0.006401
+iteration 120: H400, mass 389.431134, tanb 1.500000, width 0.006454
+iteration 121: H400, mass 389.885006, tanb 1.500000, width 0.006507
+iteration 122: H400, mass 390.338993, tanb 1.500000, width 0.006560
+iteration 123: H400, mass 390.793096, tanb 1.500000, width 0.006613
+iteration 124: H400, mass 391.247313, tanb 1.500000, width 0.006667
+iteration 125: H400, mass 391.701644, tanb 1.500000, width 0.006720
+iteration 126: H400, mass 392.156088, tanb 1.500000, width 0.006773
+iteration 127: H400, mass 392.610644, tanb 1.500000, width 0.006826
+iteration 128: H400, mass 393.065313, tanb 1.500000, width 0.006880
+iteration 129: H400, mass 393.520093, tanb 1.500000, width 0.006933
+iteration 130: H400, mass 393.974984, tanb 1.500000, width 0.006986
+iteration 131: H400, mass 394.429985, tanb 1.500000, width 0.007039
+iteration 132: H400, mass 394.885095, tanb 1.500000, width 0.007093
+iteration 133: H400, mass 395.340315, tanb 1.500000, width 0.007146
+iteration 134: H400, mass 395.795643, tanb 1.500000, width 0.007199
+iteration 135: H400, mass 396.251078, tanb 1.500000, width 0.007252
+iteration 136: H400, mass 396.706621, tanb 1.500000, width 0.007306
+iteration 137: H400, mass 397.162270, tanb 1.500000, width 0.007359
+iteration 138: H400, mass 397.618026, tanb 1.500000, width 0.007412
+iteration 139: H400, mass 398.073887, tanb 1.500000, width 0.007465
+iteration 140: H400, mass 398.529853, tanb 1.500000, width 0.007518
+iteration 141: H400, mass 398.985923, tanb 1.500000, width 0.007572
+iteration 142: H400, mass 399.442097, tanb 1.500000, width 0.007625
+iteration 143: H400, mass 399.898374, tanb 1.500000, width 0.007678
+iteration 144: H400, mass 400.354754, tanb 1.500000, width 0.007731
+iteration 145: H400, mass 399.909782, tanb 1.500000, width 0.007679
+iteration 146: H400, mass 400.343628, tanb 1.500000, width 0.007730
+iteration 147: H400, mass 399.920627, tanb 1.500000, width 0.007680
+iteration 148: H400, mass 400.333052, tanb 1.500000, width 0.007728
+iteration 149: H400, mass 399.930937, tanb 1.500000, width 0.007682
+iteration 150: H400, mass 400.322998, tanb 1.500000, width 0.007727
+iteration 151: H400, mass 399.940737, tanb 1.500000, width 0.007683
+iteration 152: H400, mass 400.313441, tanb 1.500000, width 0.007726
+iteration 153: H400, mass 399.950054, tanb 1.500000, width 0.007684
+iteration 154: H400, mass 390.050436, tanb 2.250000, width 0.003309
+iteration 155: H400, mass 390.416221, tanb 2.250000, width 0.003328
+iteration 156: H400, mass 390.782038, tanb 2.250000, width 0.003347
+iteration 157: H400, mass 391.147886, tanb 2.250000, width 0.003366
+iteration 158: H400, mass 391.513766, tanb 2.250000, width 0.003386
+iteration 159: H400, mass 391.879677, tanb 2.250000, width 0.003405
+iteration 160: H400, mass 392.245619, tanb 2.250000, width 0.003424
+iteration 161: H400, mass 392.611591, tanb 2.250000, width 0.003443
+iteration 162: H400, mass 392.977595, tanb 2.250000, width 0.003463
+iteration 163: H400, mass 393.343629, tanb 2.250000, width 0.003482
+iteration 164: H400, mass 393.709694, tanb 2.250000, width 0.003501
+iteration 165: H400, mass 394.075790, tanb 2.250000, width 0.003520
+iteration 166: H400, mass 394.441916, tanb 2.250000, width 0.003540
+iteration 167: H400, mass 394.808072, tanb 2.250000, width 0.003559
+iteration 168: H400, mass 395.174258, tanb 2.250000, width 0.003578
+iteration 169: H400, mass 395.540474, tanb 2.250000, width 0.003597
+iteration 170: H400, mass 395.906720, tanb 2.250000, width 0.003616
+iteration 171: H400, mass 396.272995, tanb 2.250000, width 0.003636
+iteration 172: H400, mass 396.639301, tanb 2.250000, width 0.003655
+iteration 173: H400, mass 397.005635, tanb 2.250000, width 0.003674
+iteration 174: H400, mass 397.372000, tanb 2.250000, width 0.003693
+iteration 175: H400, mass 397.738393, tanb 2.250000, width 0.003712
+iteration 176: H400, mass 398.104815, tanb 2.250000, width 0.003731
+iteration 177: H400, mass 398.471267, tanb 2.250000, width 0.003751
+iteration 178: H400, mass 398.837748, tanb 2.250000, width 0.003770
+iteration 179: H400, mass 399.204257, tanb 2.250000, width 0.003789
+iteration 180: H400, mass 399.570795, tanb 2.250000, width 0.003808
+iteration 181: H400, mass 399.937361, tanb 2.250000, width 0.003827
+iteration 182: H400, mass 400.303956, tanb 2.250000, width 0.003846
+iteration 183: H400, mass 399.946526, tanb 2.250000, width 0.003828
+iteration 184: H400, mass 400.295020, tanb 2.250000, width 0.003846
+iteration 185: H400, mass 399.955238, tanb 2.250000, width 0.003828
+iteration 186: H400, mass 418.480904, tanb 1.153125, width 0.015606
+iteration 187: H400, mass 418.161062, tanb 1.153125, width 0.015545
+iteration 188: H400, mass 417.841291, tanb 1.153125, width 0.015484
+iteration 189: H400, mass 417.521592, tanb 1.153125, width 0.015424
+iteration 190: H400, mass 417.201966, tanb 1.153125, width 0.015363
+iteration 191: H400, mass 416.882413, tanb 1.153125, width 0.015302
+iteration 192: H400, mass 416.562933, tanb 1.153125, width 0.015241
+iteration 193: H400, mass 416.243526, tanb 1.153125, width 0.015180
+iteration 194: H400, mass 415.924193, tanb 1.153125, width 0.015120
+iteration 195: H400, mass 415.604934, tanb 1.153125, width 0.015059
+iteration 196: H400, mass 415.285749, tanb 1.153125, width 0.014998
+iteration 197: H400, mass 414.966639, tanb 1.153125, width 0.014937
+iteration 198: H400, mass 414.647603, tanb 1.153125, width 0.014876
+iteration 199: H400, mass 414.328643, tanb 1.153125, width 0.014815
+iteration 200: H400, mass 414.009758, tanb 1.153125, width 0.014754
+iteration 201: H400, mass 413.690948, tanb 1.153125, width 0.014693
+iteration 202: H400, mass 413.372215, tanb 1.153125, width 0.014632
+iteration 203: H400, mass 413.053557, tanb 1.153125, width 0.014571
+iteration 204: H400, mass 412.734977, tanb 1.153125, width 0.014510
+iteration 205: H400, mass 412.416473, tanb 1.153125, width 0.014449
+iteration 206: H400, mass 412.098046, tanb 1.153125, width 0.014388
+iteration 207: H400, mass 411.779697, tanb 1.153125, width 0.014327
+iteration 208: H400, mass 411.461425, tanb 1.153125, width 0.014266
+iteration 209: H400, mass 411.143232, tanb 1.153125, width 0.014205
+iteration 210: H400, mass 410.825116, tanb 1.153125, width 0.014143
+iteration 211: H400, mass 410.507080, tanb 1.153125, width 0.014082
+iteration 212: H400, mass 410.189122, tanb 1.153125, width 0.014021
+iteration 213: H400, mass 409.871243, tanb 1.153125, width 0.013960
+iteration 214: H400, mass 409.553445, tanb 1.153125, width 0.013899
+iteration 215: H400, mass 409.235726, tanb 1.153125, width 0.013838
+iteration 216: H400, mass 408.918087, tanb 1.153125, width 0.013776
+iteration 217: H400, mass 408.600528, tanb 1.153125, width 0.013715
+iteration 218: H400, mass 408.283051, tanb 1.153125, width 0.013654
+iteration 219: H400, mass 407.965654, tanb 1.153125, width 0.013593
+iteration 220: H400, mass 407.648339, tanb 1.153125, width 0.013531
+iteration 221: H400, mass 407.331106, tanb 1.153125, width 0.013470
+iteration 222: H400, mass 407.013955, tanb 1.153125, width 0.013409
+iteration 223: H400, mass 406.696886, tanb 1.153125, width 0.013347
+iteration 224: H400, mass 406.379900, tanb 1.153125, width 0.013286
+iteration 225: H400, mass 406.062997, tanb 1.153125, width 0.013225
+iteration 226: H400, mass 405.746178, tanb 1.153125, width 0.013163
+iteration 227: H400, mass 405.429442, tanb 1.153125, width 0.013102
+iteration 228: H400, mass 405.112790, tanb 1.153125, width 0.013041
+iteration 229: H400, mass 404.796223, tanb 1.153125, width 0.012979
+iteration 230: H400, mass 404.479740, tanb 1.153125, width 0.012918
+iteration 231: H400, mass 404.163343, tanb 1.153125, width 0.012856
+iteration 232: H400, mass 403.847031, tanb 1.153125, width 0.012795
+iteration 233: H400, mass 403.530804, tanb 1.153125, width 0.012734
+iteration 234: H400, mass 403.214664, tanb 1.153125, width 0.012672
+iteration 235: H400, mass 402.898610, tanb 1.153125, width 0.012611
+iteration 236: H400, mass 402.582643, tanb 1.153125, width 0.012549
+iteration 237: H400, mass 402.266764, tanb 1.153125, width 0.012488
+iteration 238: H400, mass 401.950971, tanb 1.153125, width 0.012426
+iteration 239: H400, mass 401.635267, tanb 1.153125, width 0.012365
+iteration 240: H400, mass 401.319651, tanb 1.153125, width 0.012303
+iteration 241: H400, mass 401.004123, tanb 1.153125, width 0.012242
+iteration 242: H400, mass 400.688684, tanb 1.153125, width 0.012181
+iteration 243: H400, mass 400.373335, tanb 1.153125, width 0.012119
+iteration 244: H400, mass 400.058076, tanb 1.153125, width 0.012058
+iteration 245: H400, mass 399.742907, tanb 1.153125, width 0.011996
+iteration 246: H400, mass 400.050196, tanb 1.153125, width 0.012056
+iteration 247: H400, mass 399.750588, tanb 1.153125, width 0.011998
+iteration 248: H400, mass 400.042705, tanb 1.153125, width 0.012055
+iteration 249: H400, mass 386.515017, tanb 1.701220, width 0.004967
+iteration 250: H400, mass 386.821784, tanb 1.701220, width 0.004995
+iteration 251: H400, mass 387.128593, tanb 1.701220, width 0.005023
+iteration 252: H400, mass 387.435443, tanb 1.701220, width 0.005051
+iteration 253: H400, mass 387.742335, tanb 1.701220, width 0.005079
+iteration 254: H400, mass 388.049268, tanb 1.701220, width 0.005107
+iteration 255: H400, mass 388.356242, tanb 1.701220, width 0.005135
+iteration 256: H400, mass 388.663257, tanb 1.701220, width 0.005163
+iteration 257: H400, mass 388.970313, tanb 1.701220, width 0.005191
+iteration 258: H400, mass 389.277410, tanb 1.701220, width 0.005219
+iteration 259: H400, mass 389.584547, tanb 1.701220, width 0.005248
+iteration 260: H400, mass 389.891725, tanb 1.701220, width 0.005276
+iteration 261: H400, mass 390.198943, tanb 1.701220, width 0.005304
+iteration 262: H400, mass 390.506200, tanb 1.701220, width 0.005332
+iteration 263: H400, mass 390.813498, tanb 1.701220, width 0.005360
+iteration 264: H400, mass 391.120836, tanb 1.701220, width 0.005388
+iteration 265: H400, mass 391.428213, tanb 1.701220, width 0.005416
+iteration 266: H400, mass 391.735630, tanb 1.701220, width 0.005444
+iteration 267: H400, mass 392.043086, tanb 1.701220, width 0.005472
+iteration 268: H400, mass 392.350582, tanb 1.701220, width 0.005501
+iteration 269: H400, mass 392.658116, tanb 1.701220, width 0.005529
+iteration 270: H400, mass 392.965690, tanb 1.701220, width 0.005557
+iteration 271: H400, mass 393.273302, tanb 1.701220, width 0.005585
+iteration 272: H400, mass 393.580953, tanb 1.701220, width 0.005613
+iteration 273: H400, mass 393.888643, tanb 1.701220, width 0.005641
+iteration 274: H400, mass 394.196370, tanb 1.701220, width 0.005669
+iteration 275: H400, mass 394.504137, tanb 1.701220, width 0.005697
+iteration 276: H400, mass 394.811941, tanb 1.701220, width 0.005725
+iteration 277: H400, mass 395.119783, tanb 1.701220, width 0.005753
+iteration 278: H400, mass 395.427663, tanb 1.701220, width 0.005782
+iteration 279: H400, mass 395.735581, tanb 1.701220, width 0.005810
+iteration 280: H400, mass 396.043536, tanb 1.701220, width 0.005838
+iteration 281: H400, mass 396.351529, tanb 1.701220, width 0.005866
+iteration 282: H400, mass 396.659559, tanb 1.701220, width 0.005894
+iteration 283: H400, mass 396.967627, tanb 1.701220, width 0.005922
+iteration 284: H400, mass 397.275731, tanb 1.701220, width 0.005950
+iteration 285: H400, mass 397.583873, tanb 1.701220, width 0.005978
+iteration 286: H400, mass 397.892051, tanb 1.701220, width 0.006006
+iteration 287: H400, mass 398.200265, tanb 1.701220, width 0.006034
+iteration 288: H400, mass 398.508517, tanb 1.701220, width 0.006062
+iteration 289: H400, mass 398.816805, tanb 1.701220, width 0.006090
+iteration 290: H400, mass 399.125129, tanb 1.701220, width 0.006118
+iteration 291: H400, mass 399.433488, tanb 1.701220, width 0.006146
+iteration 292: H400, mass 399.741885, tanb 1.701220, width 0.006174
+iteration 293: H400, mass 400.050317, tanb 1.701220, width 0.006202
+iteration 294: H400, mass 399.749595, tanb 1.701220, width 0.006175
+iteration 295: H400, mass 400.042798, tanb 1.701220, width 0.006202
+iteration 296: H400, mass 392.069879, tanb 2.509831, width 0.002844
+iteration 297: H400, mass 392.370544, tanb 2.509831, width 0.002857
+iteration 298: H400, mass 392.671226, tanb 2.509831, width 0.002870
+iteration 299: H400, mass 392.971924, tanb 2.509831, width 0.002882
+iteration 300: H400, mass 393.272638, tanb 2.509831, width 0.002895
+iteration 301: H400, mass 393.573369, tanb 2.509831, width 0.002908
+iteration 302: H400, mass 393.874117, tanb 2.509831, width 0.002921
+iteration 303: H400, mass 394.174881, tanb 2.509831, width 0.002933
+iteration 304: H400, mass 394.475662, tanb 2.509831, width 0.002946
+iteration 305: H400, mass 394.776459, tanb 2.509831, width 0.002959
+iteration 306: H400, mass 395.077272, tanb 2.509831, width 0.002971
+iteration 307: H400, mass 395.378101, tanb 2.509831, width 0.002984
+iteration 308: H400, mass 395.678946, tanb 2.509831, width 0.002997
+iteration 309: H400, mass 395.979808, tanb 2.509831, width 0.003010
+iteration 310: H400, mass 396.280686, tanb 2.509831, width 0.003022
+iteration 311: H400, mass 396.581579, tanb 2.509831, width 0.003035
+iteration 312: H400, mass 396.882489, tanb 2.509831, width 0.003048
+iteration 313: H400, mass 397.183414, tanb 2.509831, width 0.003060
+iteration 314: H400, mass 397.484356, tanb 2.509831, width 0.003073
+iteration 315: H400, mass 397.785313, tanb 2.509831, width 0.003086
+iteration 316: H400, mass 398.086286, tanb 2.509831, width 0.003098
+iteration 317: H400, mass 398.387274, tanb 2.509831, width 0.003111
+iteration 318: H400, mass 398.688279, tanb 2.509831, width 0.003124
+iteration 319: H400, mass 398.989299, tanb 2.509831, width 0.003136
+iteration 320: H400, mass 399.290334, tanb 2.509831, width 0.003149
+iteration 321: H400, mass 399.591385, tanb 2.509831, width 0.003162
+iteration 322: H400, mass 399.892451, tanb 2.509831, width 0.003174
+iteration 323: H400, mass 400.193533, tanb 2.509831, width 0.003187
+iteration 324: H400, mass 399.899978, tanb 2.509831, width 0.003175
+iteration 325: H400, mass 400.186194, tanb 2.509831, width 0.003187
+iteration 326: H400, mass 399.907133, tanb 2.509831, width 0.003175
+iteration 327: H400, mass 400.179217, tanb 2.509831, width 0.003186
+iteration 328: H400, mass 399.913935, tanb 2.509831, width 0.003175
+iteration 329: H400, mass 400.172585, tanb 2.509831, width 0.003186
+iteration 330: H400, mass 399.920401, tanb 2.509831, width 0.003176
+iteration 331: H400, mass 400.166280, tanb 2.509831, width 0.003186
+iteration 332: H400, mass 399.926548, tanb 2.509831, width 0.003176
+iteration 333: H400, mass 400.160287, tanb 2.509831, width 0.003186
+iteration 334: H400, mass 399.932392, tanb 2.509831, width 0.003176
+iteration 335: H400, mass 400.154589, tanb 2.509831, width 0.003185
+iteration 336: H400, mass 399.937946, tanb 2.509831, width 0.003176
+iteration 337: H400, mass 400.149173, tanb 2.509831, width 0.003185
+iteration 338: H400, mass 399.943227, tanb 2.509831, width 0.003177
+iteration 339: H400, mass 400.144025, tanb 2.509831, width 0.003185
+iteration 340: H400, mass 399.948247, tanb 2.509831, width 0.003177
+iteration 341: H400, mass 400.139130, tanb 2.509831, width 0.003185
+iteration 342: H400, mass 399.953019, tanb 2.509831, width 0.003177
+iteration 343: H400, mass 414.354242, tanb 1.346701, width 0.011289
+iteration 344: H400, mass 414.176482, tanb 1.346701, width 0.011264
+iteration 345: H400, mass 413.998739, tanb 1.346701, width 0.011239
+iteration 346: H400, mass 413.821012, tanb 1.346701, width 0.011214
+iteration 347: H400, mass 413.643302, tanb 1.346701, width 0.011189
+iteration 348: H400, mass 413.465608, tanb 1.346701, width 0.011164
+iteration 349: H400, mass 413.287931, tanb 1.346701, width 0.011139
+iteration 350: H400, mass 413.110270, tanb 1.346701, width 0.011114
+iteration 351: H400, mass 412.932627, tanb 1.346701, width 0.011089
+iteration 352: H400, mass 412.755000, tanb 1.346701, width 0.011063
+iteration 353: H400, mass 412.577389, tanb 1.346701, width 0.011038
+iteration 354: H400, mass 412.399796, tanb 1.346701, width 0.011013
+iteration 355: H400, mass 412.222219, tanb 1.346701, width 0.010988
+iteration 356: H400, mass 412.044659, tanb 1.346701, width 0.010963
+iteration 357: H400, mass 411.867116, tanb 1.346701, width 0.010938
+iteration 358: H400, mass 411.689590, tanb 1.346701, width 0.010913
+iteration 359: H400, mass 411.512081, tanb 1.346701, width 0.010888
+iteration 360: H400, mass 411.334589, tanb 1.346701, width 0.010863
+iteration 361: H400, mass 411.157114, tanb 1.346701, width 0.010837
+iteration 362: H400, mass 410.979656, tanb 1.346701, width 0.010812
+iteration 363: H400, mass 410.802215, tanb 1.346701, width 0.010787
+iteration 364: H400, mass 410.624792, tanb 1.346701, width 0.010762
+iteration 365: H400, mass 410.447385, tanb 1.346701, width 0.010737
+iteration 366: H400, mass 410.269996, tanb 1.346701, width 0.010712
+iteration 367: H400, mass 410.092624, tanb 1.346701, width 0.010687
+iteration 368: H400, mass 409.915269, tanb 1.346701, width 0.010661
+iteration 369: H400, mass 409.737931, tanb 1.346701, width 0.010636
+iteration 370: H400, mass 409.560611, tanb 1.346701, width 0.010611
+iteration 371: H400, mass 409.383308, tanb 1.346701, width 0.010586
+iteration 372: H400, mass 409.206023, tanb 1.346701, width 0.010561
+iteration 373: H400, mass 409.028755, tanb 1.346701, width 0.010535
+iteration 374: H400, mass 408.851505, tanb 1.346701, width 0.010510
+iteration 375: H400, mass 408.674272, tanb 1.346701, width 0.010485
+iteration 376: H400, mass 408.497056, tanb 1.346701, width 0.010460
+iteration 377: H400, mass 408.319859, tanb 1.346701, width 0.010435
+iteration 378: H400, mass 408.142679, tanb 1.346701, width 0.010409
+iteration 379: H400, mass 407.965516, tanb 1.346701, width 0.010384
+iteration 380: H400, mass 407.788371, tanb 1.346701, width 0.010359
+iteration 381: H400, mass 407.611244, tanb 1.346701, width 0.010334
+iteration 382: H400, mass 407.434135, tanb 1.346701, width 0.010309
+iteration 383: H400, mass 407.257044, tanb 1.346701, width 0.010283
+iteration 384: H400, mass 407.079970, tanb 1.346701, width 0.010258
+iteration 385: H400, mass 406.902915, tanb 1.346701, width 0.010233
+iteration 386: H400, mass 406.725877, tanb 1.346701, width 0.010208
+iteration 387: H400, mass 406.548857, tanb 1.346701, width 0.010182
+iteration 388: H400, mass 406.371855, tanb 1.346701, width 0.010157
+iteration 389: H400, mass 406.194872, tanb 1.346701, width 0.010132
+iteration 390: H400, mass 406.017906, tanb 1.346701, width 0.010106
+iteration 391: H400, mass 405.840958, tanb 1.346701, width 0.010081
+iteration 392: H400, mass 405.664029, tanb 1.346701, width 0.010056
+iteration 393: H400, mass 405.487118, tanb 1.346701, width 0.010031
+iteration 394: H400, mass 405.310225, tanb 1.346701, width 0.010005
+iteration 395: H400, mass 405.133350, tanb 1.346701, width 0.009980
+iteration 396: H400, mass 404.956494, tanb 1.346701, width 0.009955
+iteration 397: H400, mass 404.779656, tanb 1.346701, width 0.009930
+iteration 398: H400, mass 404.602836, tanb 1.346701, width 0.009904
+iteration 399: H400, mass 404.426035, tanb 1.346701, width 0.009879
+iteration 400: H400, mass 404.249252, tanb 1.346701, width 0.009854
+iteration 401: H400, mass 404.072487, tanb 1.346701, width 0.009828
+iteration 402: H400, mass 403.895742, tanb 1.346701, width 0.009803
+iteration 403: H400, mass 403.719014, tanb 1.346701, width 0.009778
+iteration 404: H400, mass 403.542306, tanb 1.346701, width 0.009752
+iteration 405: H400, mass 403.365616, tanb 1.346701, width 0.009727
+iteration 406: H400, mass 403.188945, tanb 1.346701, width 0.009702
+iteration 407: H400, mass 403.012292, tanb 1.346701, width 0.009676
+iteration 408: H400, mass 402.835658, tanb 1.346701, width 0.009651
+iteration 409: H400, mass 402.659043, tanb 1.346701, width 0.009626
+iteration 410: H400, mass 402.482447, tanb 1.346701, width 0.009600
+iteration 411: H400, mass 402.305870, tanb 1.346701, width 0.009575
+iteration 412: H400, mass 402.129312, tanb 1.346701, width 0.009550
+iteration 413: H400, mass 401.952772, tanb 1.346701, width 0.009524
+iteration 414: H400, mass 401.776252, tanb 1.346701, width 0.009499
+iteration 415: H400, mass 401.599751, tanb 1.346701, width 0.009474
+iteration 416: H400, mass 401.423268, tanb 1.346701, width 0.009448
+iteration 417: H400, mass 401.246805, tanb 1.346701, width 0.009423
+iteration 418: H400, mass 401.070361, tanb 1.346701, width 0.009398
+iteration 419: H400, mass 400.893937, tanb 1.346701, width 0.009372
+iteration 420: H400, mass 400.717531, tanb 1.346701, width 0.009347
+iteration 421: H400, mass 400.541145, tanb 1.346701, width 0.009321
+iteration 422: H400, mass 400.364778, tanb 1.346701, width 0.009296
+iteration 423: H400, mass 400.188431, tanb 1.346701, width 0.009271
+iteration 424: H400, mass 400.012103, tanb 1.346701, width 0.009245
+iteration 425: H400, mass 389.439998, tanb 1.955199, width 0.004146
+iteration 426: H400, mass 389.618222, tanb 1.955199, width 0.004159
+iteration 427: H400, mass 389.796457, tanb 1.955199, width 0.004171
+iteration 428: H400, mass 389.974701, tanb 1.955199, width 0.004184
+iteration 429: H400, mass 390.152956, tanb 1.955199, width 0.004196
+iteration 430: H400, mass 390.331221, tanb 1.955199, width 0.004208
+iteration 431: H400, mass 390.509496, tanb 1.955199, width 0.004221
+iteration 432: H400, mass 390.687781, tanb 1.955199, width 0.004233
+iteration 433: H400, mass 390.866076, tanb 1.955199, width 0.004245
+iteration 434: H400, mass 391.044381, tanb 1.955199, width 0.004258
+iteration 435: H400, mass 391.222696, tanb 1.955199, width 0.004270
+iteration 436: H400, mass 391.401020, tanb 1.955199, width 0.004283
+iteration 437: H400, mass 391.579355, tanb 1.955199, width 0.004295
+iteration 438: H400, mass 391.757700, tanb 1.955199, width 0.004307
+iteration 439: H400, mass 391.936054, tanb 1.955199, width 0.004320
+iteration 440: H400, mass 392.114419, tanb 1.955199, width 0.004332
+iteration 441: H400, mass 392.292793, tanb 1.955199, width 0.004345
+iteration 442: H400, mass 392.471177, tanb 1.955199, width 0.004357
+iteration 443: H400, mass 392.649571, tanb 1.955199, width 0.004369
+iteration 444: H400, mass 392.827974, tanb 1.955199, width 0.004382
+iteration 445: H400, mass 393.006388, tanb 1.955199, width 0.004394
+iteration 446: H400, mass 393.184811, tanb 1.955199, width 0.004406
+iteration 447: H400, mass 393.363244, tanb 1.955199, width 0.004419
+iteration 448: H400, mass 393.541686, tanb 1.955199, width 0.004431
+iteration 449: H400, mass 393.720139, tanb 1.955199, width 0.004444
+iteration 450: H400, mass 393.898600, tanb 1.955199, width 0.004456
+iteration 451: H400, mass 394.077072, tanb 1.955199, width 0.004468
+iteration 452: H400, mass 394.255553, tanb 1.955199, width 0.004481
+iteration 453: H400, mass 394.434044, tanb 1.955199, width 0.004493
+iteration 454: H400, mass 394.612544, tanb 1.955199, width 0.004505
+iteration 455: H400, mass 394.791054, tanb 1.955199, width 0.004518
+iteration 456: H400, mass 394.969573, tanb 1.955199, width 0.004530
+iteration 457: H400, mass 395.148102, tanb 1.955199, width 0.004543
+iteration 458: H400, mass 395.326641, tanb 1.955199, width 0.004555
+iteration 459: H400, mass 395.505189, tanb 1.955199, width 0.004567
+iteration 460: H400, mass 395.683746, tanb 1.955199, width 0.004580
+iteration 461: H400, mass 395.862313, tanb 1.955199, width 0.004592
+iteration 462: H400, mass 396.040889, tanb 1.955199, width 0.004604
+iteration 463: H400, mass 396.219475, tanb 1.955199, width 0.004617
+iteration 464: H400, mass 396.398070, tanb 1.955199, width 0.004629
+iteration 465: H400, mass 396.576675, tanb 1.955199, width 0.004641
+iteration 466: H400, mass 396.755289, tanb 1.955199, width 0.004654
+iteration 467: H400, mass 396.933912, tanb 1.955199, width 0.004666
+iteration 468: H400, mass 397.112544, tanb 1.955199, width 0.004679
+iteration 469: H400, mass 397.291186, tanb 1.955199, width 0.004691
+iteration 470: H400, mass 397.469837, tanb 1.955199, width 0.004703
+iteration 471: H400, mass 397.648498, tanb 1.955199, width 0.004716
+iteration 472: H400, mass 397.827167, tanb 1.955199, width 0.004728
+iteration 473: H400, mass 398.005846, tanb 1.955199, width 0.004740
+iteration 474: H400, mass 398.184534, tanb 1.955199, width 0.004753
+iteration 475: H400, mass 398.363231, tanb 1.955199, width 0.004765
+iteration 476: H400, mass 398.541938, tanb 1.955199, width 0.004777
+iteration 477: H400, mass 398.720653, tanb 1.955199, width 0.004790
+iteration 478: H400, mass 398.899378, tanb 1.955199, width 0.004802
+iteration 479: H400, mass 399.078112, tanb 1.955199, width 0.004814
+iteration 480: H400, mass 399.256855, tanb 1.955199, width 0.004827
+iteration 481: H400, mass 399.435607, tanb 1.955199, width 0.004839
+iteration 482: H400, mass 399.614368, tanb 1.955199, width 0.004851
+iteration 483: H400, mass 399.793138, tanb 1.955199, width 0.004864
+iteration 484: H400, mass 399.971917, tanb 1.955199, width 0.004876
+
+Checking 2HDM model constaints:
+Stability, unitarity and perturbativity constraints are all satisfied!
+
+Printing model parameters:
+
+2HDM parameters in physical mass basis:
+      m_h:    125.00000
+      m_H:    399.97192
+      m_A:    387.45783
+     m_H+:    395.71554
+ sin(b-a):     -0.99713
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2:  60861.16963
+tan(beta):      1.95520
+
+2HDM parameters in generic basis:
+ lambda_1:      0.13716
+ lambda_2:      0.49434
+ lambda_3:      0.07619
+ lambda_4:     -0.21336
+ lambda_5:      0.00000
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2:  60861.16963
+tan(beta):      1.95520
+
+2HDM parameters in Hybrid basis:
+      m_h:    125.00000
+      m_H:    399.97192
+ cos(b-a):     -0.07576
+       Z4:     -0.06448
+       Z5:      0.14888
+       Z7:     -0.03507
+tan(beta):      1.95520
+
+Printing decays of all Higgses in this model
+
+Decay table for h 
+Total width:   5.125e-03 GeV      BR
+h  -> s  s     1.300e-06      2.538e-04
+h  -> c  c     1.135e-04      2.215e-02
+h  -> b  b     3.454e-03      6.741e-01
+h  -> e  e     2.810e-11      5.483e-09
+h  -> mu mu    1.201e-06      2.344e-04
+h  -> ta ta    3.394e-04      6.623e-02
+h  -> ga ga    9.569e-06      1.867e-03
+h  -> Z  Z     1.017e-04      1.984e-02
+h  -> W+ W-    8.164e-04      1.593e-01
+h  -> Z  ga    6.241e-06      1.218e-03
+h  -> g  g     2.810e-04      5.484e-02
+---------------------------------------
+h mass:	124.999998 relative width 0.000041
+
+Decay table for A 
+Total width:   3.661e+00 GeV      BR
+A  -> s  s     9.370e-06      2.559e-06
+A  -> c  c     8.175e-05      2.233e-05
+A  -> b  b     2.534e-02      6.920e-03
+A  -> t  t     3.552e+00      9.703e-01
+A  -> e  e     2.538e-10      6.933e-11
+A  -> mu mu    1.085e-05      2.964e-06
+A  -> ta ta    3.070e-03      8.384e-04
+A  -> ga ga    5.368e-05      1.466e-05
+A  -> Z  ga    1.378e-05      3.763e-06
+A  -> g  g     1.843e-02      5.033e-03
+A  -> Z  h     6.190e-02      1.691e-02
+---------------------------------------
+A mass:	387.457832 relative width 0.009449
+
+Decay table for H 
+Total width:   1.950e+00 GeV      BR
+H  -> s  s     8.657e-06      4.439e-06
+H  -> c  c     1.091e-04      5.595e-05
+H  -> b  b     2.372e-02      1.216e-02
+H  -> t  t     1.432e+00      7.343e-01
+H  -> e  e     2.407e-10      1.234e-10
+H  -> mu mu    1.029e-05      5.276e-06
+H  -> ta ta    2.910e-03      1.492e-03
+H  -> ga ga    1.758e-05      9.016e-06
+H  -> Z  Z     4.319e-02      2.215e-02
+H  -> W+ W-    9.265e-02      4.750e-02
+H  -> Z  ga    5.475e-06      2.807e-06
+H  -> g  g     8.495e-03      4.355e-03
+H  -> h  h     3.471e-01      1.779e-01
+H  -> Z  A     1.585e-07      8.126e-08
+H  -> W+ H-    1.801e-09      9.234e-10
+H  -> H+ W-    1.801e-09      9.234e-10
+---------------------------------------
+H mass:	399.971917 relative width 0.004876
+
+Decay table for H+
+Total width:   3.931e+00 GeV      BR
+H+ -> u  s     4.681e-07      1.191e-07
+H+ -> u  b     3.095e-07      7.872e-08
+H+ -> c  d     4.029e-06      1.025e-06
+H+ -> c  s     8.400e-05      2.137e-05
+H+ -> c  b     4.277e-05      1.088e-05
+H+ -> t  d     2.813e-04      7.156e-05
+H+ -> t  s     6.109e-03      1.554e-03
+H+ -> t  b     3.850e+00      9.794e-01
+H+ -> e  ve    2.593e-10      6.595e-11
+H+ -> mu vm    1.108e-05      2.819e-06
+H+ -> ta vt    3.135e-03      7.975e-04
+H+ -> W+ h     7.149e-02      1.818e-02
+H+ -> W+ A     4.924e-08      1.253e-08
+---------------------------------------
+H+ mass:	395.715538 relative width 0.009934

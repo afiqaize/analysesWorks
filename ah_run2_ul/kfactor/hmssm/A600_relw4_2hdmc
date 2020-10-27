@@ -1,0 +1,235 @@
+****************************************************
+*                                                  *
+*    2HDMC - Two-Higgs-Doublet Model Calculator    *
+*             http://2hdmc.hepforge.org            *
+*                  Version 1.7.0                   *
+*             Compiled on Sep 16 2020              *
+*                                                  *
+****************************************************
+iteration 0: A600, mass 600.000000, tanb 1.000000, width 0.048399
+iteration 1: A600, mass 600.000000, tanb 1.100000, width 0.040023
+iteration 2: A600, mass 600.000000, tanb 1.210000, width 0.033100
+iteration 3: A600, mass 600.000000, tanb 1.092025, width 0.040608
+iteration 4: A600, mass 600.000000, tanb 1.195836, width 0.033886
+iteration 5: A600, mass 600.000000, tanb 1.084998, width 0.041134
+iteration 6: A600, mass 600.000000, tanb 1.183048, width 0.034619
+iteration 7: A600, mass 600.000000, tanb 1.078811, width 0.041606
+iteration 8: A600, mass 600.000000, tanb 1.171488, width 0.035303
+iteration 9: A600, mass 600.000000, tanb 1.073365, width 0.042027
+iteration 10: A600, mass 600.000000, tanb 1.161021, width 0.035940
+iteration 11: A600, mass 600.000000, tanb 1.068577, width 0.042404
+iteration 12: A600, mass 600.000000, tanb 1.151534, width 0.036533
+iteration 13: A600, mass 600.000000, tanb 1.064372, width 0.042738
+iteration 14: A600, mass 600.000000, tanb 1.142922, width 0.037083
+iteration 15: A600, mass 600.000000, tanb 1.060683, width 0.043035
+iteration 16: A600, mass 600.000000, tanb 1.135097, width 0.037595
+iteration 17: A600, mass 600.000000, tanb 1.057454, width 0.043298
+iteration 18: A600, mass 600.000000, tanb 1.127977, width 0.038069
+iteration 19: A600, mass 600.000000, tanb 1.054631, width 0.043529
+iteration 20: A600, mass 600.000000, tanb 1.121494, width 0.038509
+iteration 21: A600, mass 600.000000, tanb 1.052169, width 0.043732
+iteration 22: A600, mass 600.000000, tanb 1.115582, width 0.038917
+iteration 23: A600, mass 600.000000, tanb 1.050028, width 0.043910
+iteration 24: A600, mass 600.000000, tanb 1.110188, width 0.039294
+iteration 25: A600, mass 600.000000, tanb 1.048172, width 0.044065
+iteration 26: A600, mass 600.000000, tanb 1.105260, width 0.039644
+iteration 27: A600, mass 600.000000, tanb 1.046568, width 0.044200
+iteration 28: A600, mass 600.000000, tanb 1.100754, width 0.039969
+iteration 29: A600, mass 600.000000, tanb 1.045187, width 0.044317
+iteration 30: A600, mass 600.000000, tanb 1.096630, width 0.040269
+iteration 31: A600, mass 600.000000, tanb 1.150604, width 0.036592
+iteration 32: A600, mass 600.000000, tanb 1.095389, width 0.040360
+iteration 33: A600, mass 600.000000, tanb 1.146640, width 0.036844
+iteration 34: A600, mass 600.000000, tanb 1.094332, width 0.040437
+iteration 35: A600, mass 600.000000, tanb 1.143006, width 0.037078
+iteration 36: A600, mass 600.000000, tanb 1.093438, width 0.040503
+iteration 37: A600, mass 600.000000, tanb 1.139671, width 0.037294
+iteration 38: A600, mass 600.000000, tanb 1.092688, width 0.040559
+iteration 39: A600, mass 600.000000, tanb 1.136608, width 0.037495
+iteration 40: A600, mass 600.000000, tanb 1.092065, width 0.040605
+iteration 41: A600, mass 600.000000, tanb 1.133792, width 0.037681
+iteration 42: A600, mass 600.000000, tanb 1.091553, width 0.040643
+iteration 43: A600, mass 600.000000, tanb 1.131202, width 0.037853
+iteration 44: A600, mass 600.000000, tanb 1.091140, width 0.040674
+iteration 45: A600, mass 600.000000, tanb 1.128817, width 0.038013
+iteration 46: A600, mass 600.000000, tanb 1.090814, width 0.040698
+iteration 47: A600, mass 600.000000, tanb 1.126620, width 0.038160
+iteration 48: A600, mass 600.000000, tanb 1.090563, width 0.040717
+iteration 49: A600, mass 600.000000, tanb 1.124593, width 0.038298
+iteration 50: A600, mass 600.000000, tanb 1.090378, width 0.040730
+iteration 51: A600, mass 600.000000, tanb 1.122723, width 0.038425
+iteration 52: A600, mass 600.000000, tanb 1.090252, width 0.040740
+iteration 53: A600, mass 600.000000, tanb 1.120995, width 0.038543
+iteration 54: A600, mass 600.000000, tanb 1.090175, width 0.040745
+iteration 55: A600, mass 600.000000, tanb 1.119399, width 0.038653
+iteration 56: A600, mass 600.000000, tanb 1.090142, width 0.040748
+iteration 57: A600, mass 600.000000, tanb 1.117922, width 0.038754
+iteration 58: A600, mass 600.000000, tanb 1.090146, width 0.040748
+iteration 59: A600, mass 600.000000, tanb 1.116555, width 0.038849
+iteration 60: A600, mass 600.000000, tanb 1.090183, width 0.040745
+iteration 61: A600, mass 600.000000, tanb 1.115288, width 0.038937
+iteration 62: A600, mass 600.000000, tanb 1.090246, width 0.040740
+iteration 63: A600, mass 600.000000, tanb 1.114114, width 0.039019
+iteration 64: A600, mass 600.000000, tanb 1.090334, width 0.040734
+iteration 65: A600, mass 600.000000, tanb 1.113024, width 0.039095
+iteration 66: A600, mass 600.000000, tanb 1.090441, width 0.040726
+iteration 67: A600, mass 600.000000, tanb 1.112013, width 0.039166
+iteration 68: A600, mass 600.000000, tanb 1.090564, width 0.040716
+iteration 69: A600, mass 600.000000, tanb 1.111073, width 0.039232
+iteration 70: A600, mass 600.000000, tanb 1.090700, width 0.040706
+iteration 71: A600, mass 600.000000, tanb 1.110200, width 0.039294
+iteration 72: A600, mass 600.000000, tanb 1.090848, width 0.040695
+iteration 73: A600, mass 600.000000, tanb 1.109387, width 0.039351
+iteration 74: A600, mass 600.000000, tanb 1.091004, width 0.040684
+iteration 75: A600, mass 600.000000, tanb 1.108631, width 0.039405
+iteration 76: A600, mass 600.000000, tanb 1.091167, width 0.040672
+iteration 77: A600, mass 600.000000, tanb 1.107926, width 0.039455
+iteration 78: A600, mass 600.000000, tanb 1.091335, width 0.040659
+iteration 79: A600, mass 600.000000, tanb 1.107269, width 0.039501
+iteration 80: A600, mass 600.000000, tanb 1.091507, width 0.040646
+iteration 81: A600, mass 600.000000, tanb 1.106656, width 0.039545
+iteration 82: A600, mass 600.000000, tanb 1.091681, width 0.040633
+iteration 83: A600, mass 600.000000, tanb 1.106084, width 0.039586
+iteration 84: A600, mass 600.000000, tanb 1.091855, width 0.040621
+iteration 85: A600, mass 600.000000, tanb 1.105550, width 0.039624
+iteration 86: A600, mass 600.000000, tanb 1.092030, width 0.040608
+iteration 87: A600, mass 600.000000, tanb 1.105051, width 0.039659
+iteration 88: A600, mass 600.000000, tanb 1.092204, width 0.040595
+iteration 89: A600, mass 600.000000, tanb 1.104584, width 0.039693
+iteration 90: A600, mass 600.000000, tanb 1.092377, width 0.040582
+iteration 91: A600, mass 600.000000, tanb 1.104147, width 0.039724
+iteration 92: A600, mass 600.000000, tanb 1.092548, width 0.040569
+iteration 93: A600, mass 600.000000, tanb 1.103738, width 0.039753
+iteration 94: A600, mass 600.000000, tanb 1.092716, width 0.040557
+iteration 95: A600, mass 600.000000, tanb 1.103355, width 0.039781
+iteration 96: A600, mass 600.000000, tanb 1.092881, width 0.040545
+iteration 97: A600, mass 600.000000, tanb 1.102997, width 0.039807
+iteration 98: A600, mass 600.000000, tanb 1.093042, width 0.040533
+iteration 99: A600, mass 600.000000, tanb 1.102660, width 0.039831
+iteration 100: A600, mass 600.000000, tanb 1.093200, width 0.040521
+iteration 101: A600, mass 600.000000, tanb 1.102345, width 0.039854
+iteration 102: A600, mass 600.000000, tanb 1.093354, width 0.040510
+iteration 103: A600, mass 600.000000, tanb 1.102048, width 0.039875
+iteration 104: A600, mass 600.000000, tanb 1.093504, width 0.040499
+iteration 105: A600, mass 600.000000, tanb 1.101770, width 0.039895
+iteration 106: A600, mass 600.000000, tanb 1.093650, width 0.040488
+iteration 107: A600, mass 600.000000, tanb 1.101509, width 0.039914
+iteration 108: A600, mass 600.000000, tanb 1.093791, width 0.040477
+iteration 109: A600, mass 600.000000, tanb 1.101263, width 0.039932
+iteration 110: A600, mass 600.000000, tanb 1.093928, width 0.040467
+iteration 111: A600, mass 600.000000, tanb 1.101032, width 0.039948
+iteration 112: A600, mass 600.000000, tanb 1.094061, width 0.040457
+iteration 113: A600, mass 600.000000, tanb 1.100815, width 0.039964
+iteration 114: A600, mass 600.000000, tanb 1.094189, width 0.040448
+iteration 115: A600, mass 600.000000, tanb 1.100610, width 0.039979
+iteration 116: A600, mass 600.000000, tanb 1.094313, width 0.040439
+iteration 117: A600, mass 600.000000, tanb 1.100418, width 0.039993
+
+Checking 2HDM model constaints:
+Stability, unitarity and perturbativity constraints are all satisfied!
+
+Printing model parameters:
+
+2HDM parameters in physical mass basis:
+      m_h:    125.00000
+      m_H:    618.28940
+      m_A:    600.00000
+     m_H+:    605.36536
+ sin(b-a):     -0.99910
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 179179.04261
+tan(beta):      1.10042
+
+2HDM parameters in generic basis:
+ lambda_1:      0.13716
+ lambda_2:      1.02838
+ lambda_3:      0.07619
+ lambda_4:     -0.21336
+ lambda_5:      0.00000
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 179179.04261
+tan(beta):      1.10042
+
+2HDM parameters in Hybrid basis:
+      m_h:    125.00000
+      m_H:    618.28940
+ cos(b-a):     -0.04236
+       Z4:      0.14333
+       Z5:      0.35669
+       Z7:      0.18760
+tan(beta):      1.10042
+
+Printing decays of all Higgses in this model
+
+Decay table for h 
+Total width:   4.504e-03 GeV      BR
+h  -> s  s     1.087e-06      2.413e-04
+h  -> c  c     1.140e-04      2.532e-02
+h  -> b  b     2.882e-03      6.398e-01
+h  -> e  e     2.343e-11      5.201e-09
+h  -> mu mu    1.002e-06      2.224e-04
+h  -> ta ta    2.829e-04      6.282e-02
+h  -> ga ga    9.602e-06      2.132e-03
+h  -> Z  Z     1.021e-04      2.266e-02
+h  -> W+ W-    8.196e-04      1.820e-01
+h  -> Z  ga    6.265e-06      1.391e-03
+h  -> g  g     2.855e-04      6.340e-02
+---------------------------------------
+h mass: 124.999997 relative width 0.000036
+
+Decay table for A 
+Total width:   2.400e+01 GeV      BR
+A  -> s  s     4.371e-06      1.821e-07
+A  -> c  c     3.712e-04      1.547e-05
+A  -> b  b     1.164e-02      4.852e-04
+A  -> t  t     2.381e+01      9.924e-01
+A  -> e  e     1.245e-10      5.189e-12
+A  -> mu mu    5.323e-06      2.218e-07
+A  -> ta ta    1.506e-03      6.275e-05
+A  -> ga ga    1.971e-04      8.215e-06
+A  -> Z  ga    5.958e-05      2.483e-06
+A  -> g  g     6.587e-02      2.745e-03
+A  -> Z  h     1.028e-01      4.282e-03
+---------------------------------------
+A mass: 600.000000 relative width 0.039993
+
+Decay table for H 
+Total width:   2.035e+01 GeV      BR
+H  -> s  s     3.892e-06      1.912e-07
+H  -> c  c     4.127e-04      2.027e-05
+H  -> b  b     1.079e-02      5.299e-04
+H  -> t  t     1.965e+01      9.655e-01
+H  -> e  e     1.184e-10      5.817e-12
+H  -> mu mu    5.062e-06      2.487e-07
+H  -> ta ta    1.432e-03      7.034e-05
+H  -> ga ga    1.205e-04      5.922e-06
+H  -> Z  Z     5.983e-02      2.940e-03
+H  -> W+ W-    1.234e-01      6.061e-03
+H  -> Z  ga    3.054e-05      1.501e-06
+H  -> g  g     4.526e-02      2.224e-03
+H  -> h  h     4.616e-01      2.268e-02
+H  -> Z  A     1.077e-06      5.292e-08
+H  -> W+ H-    4.656e-07      2.288e-08
+H  -> H+ W-    4.656e-07      2.288e-08
+---------------------------------------
+H mass: 618.289401 relative width 0.032919
+
+Decay table for H+
+Total width:   2.202e+01 GeV      BR
+H+ -> u  s     2.116e-07      9.607e-09
+H+ -> u  b     1.399e-07      6.352e-09
+H+ -> c  d     1.815e-05      8.240e-07
+H+ -> c  s     3.429e-04      1.557e-05
+H+ -> c  b     1.988e-05      9.027e-07
+H+ -> t  d     1.630e-03      7.404e-05
+H+ -> t  s     3.540e-02      1.608e-03
+H+ -> t  b     2.187e+01      9.933e-01
+H+ -> e  ve    1.256e-10      5.705e-12
+H+ -> mu vm    5.371e-06      2.439e-07
+H+ -> ta vt    1.519e-03      6.899e-05
+H+ -> W+ h     1.079e-01      4.898e-03
+H+ -> W+ A     5.786e-09      2.628e-10
+---------------------------------------
+H+ mass: 605.365357 relative width 0.036376

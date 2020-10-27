@@ -1,0 +1,503 @@
+****************************************************
+*                                                  *
+*    2HDMC - Two-Higgs-Doublet Model Calculator    *
+*             http://2hdmc.hepforge.org            *
+*                  Version 1.7.0                   *
+*             Compiled on Sep 16 2020              *
+*                                                  *
+****************************************************
+iteration 0: H600, mass 478.706059, tanb 1.000000, width 0.022856
+iteration 1: H600, mass 483.340099, tanb 1.000000, width 0.023533
+iteration 2: H600, mass 487.983946, tanb 1.000000, width 0.024205
+iteration 3: H600, mass 492.637194, tanb 1.000000, width 0.024872
+iteration 4: H600, mass 497.299457, tanb 1.000000, width 0.025533
+iteration 5: H600, mass 501.970370, tanb 1.000000, width 0.026189
+iteration 6: H600, mass 506.649590, tanb 1.000000, width 0.026840
+iteration 7: H600, mass 511.336792, tanb 1.000000, width 0.027485
+iteration 8: H600, mass 516.031668, tanb 1.000000, width 0.028125
+iteration 9: H600, mass 520.733926, tanb 1.000000, width 0.028760
+iteration 10: H600, mass 525.443289, tanb 1.000000, width 0.029390
+iteration 11: H600, mass 530.159497, tanb 1.000000, width 0.030015
+iteration 12: H600, mass 534.882298, tanb 1.000000, width 0.030636
+iteration 13: H600, mass 539.611456, tanb 1.000000, width 0.031251
+iteration 14: H600, mass 544.346747, tanb 1.000000, width 0.031862
+iteration 15: H600, mass 549.087954, tanb 1.000000, width 0.032468
+iteration 16: H600, mass 553.834874, tanb 1.000000, width 0.033070
+iteration 17: H600, mass 558.587313, tanb 1.000000, width 0.033667
+iteration 18: H600, mass 563.345084, tanb 1.000000, width 0.034259
+iteration 19: H600, mass 568.108011, tanb 1.000000, width 0.034848
+iteration 20: H600, mass 572.875924, tanb 1.000000, width 0.035432
+iteration 21: H600, mass 577.648661, tanb 1.000000, width 0.036012
+iteration 22: H600, mass 582.426068, tanb 1.000000, width 0.036588
+iteration 23: H600, mass 587.207998, tanb 1.000000, width 0.037160
+iteration 24: H600, mass 591.994308, tanb 1.000000, width 0.037729
+iteration 25: H600, mass 596.784865, tanb 1.000000, width 0.038293
+iteration 26: H600, mass 601.579536, tanb 1.000000, width 0.038854
+iteration 27: H600, mass 596.904682, tanb 1.000000, width 0.038307
+iteration 28: H600, mass 601.462618, tanb 1.000000, width 0.038840
+iteration 29: H600, mass 597.018585, tanb 1.000000, width 0.038320
+iteration 30: H600, mass 601.351475, tanb 1.000000, width 0.038827
+iteration 31: H600, mass 597.126867, tanb 1.000000, width 0.038333
+iteration 32: H600, mass 601.245822, tanb 1.000000, width 0.038815
+iteration 33: H600, mass 597.229804, tanb 1.000000, width 0.038345
+iteration 34: H600, mass 601.145387, tanb 1.000000, width 0.038803
+iteration 35: H600, mass 597.327661, tanb 1.000000, width 0.038357
+iteration 36: H600, mass 601.049913, tanb 1.000000, width 0.038792
+iteration 37: H600, mass 597.420687, tanb 1.000000, width 0.038368
+iteration 38: H600, mass 600.959154, tanb 1.000000, width 0.038781
+iteration 39: H600, mass 597.509122, tanb 1.000000, width 0.038378
+iteration 40: H600, mass 600.872877, tanb 1.000000, width 0.038771
+iteration 41: H600, mass 597.593191, tanb 1.000000, width 0.038388
+iteration 42: H600, mass 600.790862, tanb 1.000000, width 0.038762
+iteration 43: H600, mass 597.673111, tanb 1.000000, width 0.038397
+iteration 44: H600, mass 600.712898, tanb 1.000000, width 0.038753
+iteration 45: H600, mass 597.749086, tanb 1.000000, width 0.038406
+iteration 46: H600, mass 600.638784, tanb 1.000000, width 0.038744
+iteration 47: H600, mass 597.821310, tanb 1.000000, width 0.038414
+iteration 48: H600, mass 600.568330, tanb 1.000000, width 0.038736
+iteration 49: H600, mass 597.889970, tanb 1.000000, width 0.038423
+iteration 50: H600, mass 600.501355, tanb 1.000000, width 0.038728
+iteration 51: H600, mass 597.955240, tanb 1.000000, width 0.038430
+iteration 52: H600, mass 600.437689, tanb 1.000000, width 0.038720
+iteration 53: H600, mass 598.017287, tanb 1.000000, width 0.038437
+iteration 54: H600, mass 600.377166, tanb 1.000000, width 0.038713
+iteration 55: H600, mass 598.076272, tanb 1.000000, width 0.038444
+iteration 56: H600, mass 600.319632, tanb 1.000000, width 0.038707
+iteration 57: H600, mass 598.132346, tanb 1.000000, width 0.038451
+iteration 58: H600, mass 600.264940, tanb 1.000000, width 0.038700
+iteration 59: H600, mass 598.185651, tanb 1.000000, width 0.038457
+iteration 60: H600, mass 600.212948, tanb 1.000000, width 0.038694
+iteration 61: H600, mass 598.236324, tanb 1.000000, width 0.038463
+iteration 62: H600, mass 600.163524, tanb 1.000000, width 0.038688
+iteration 63: H600, mass 598.284496, tanb 1.000000, width 0.038469
+iteration 64: H600, mass 600.116541, tanb 1.000000, width 0.038683
+iteration 65: H600, mass 598.330290, tanb 1.000000, width 0.038474
+iteration 66: H600, mass 600.071878, tanb 1.000000, width 0.038678
+iteration 67: H600, mass 598.373823, tanb 1.000000, width 0.038479
+iteration 68: H600, mass 600.029421, tanb 1.000000, width 0.038673
+iteration 69: H600, mass 595.763013, tanb 1.100000, width 0.031800
+iteration 70: H600, mass 597.427313, tanb 1.100000, width 0.031961
+iteration 71: H600, mass 599.092033, tanb 1.100000, width 0.032122
+iteration 72: H600, mass 600.757169, tanb 1.100000, width 0.032283
+iteration 73: H600, mass 599.133657, tanb 1.100000, width 0.032126
+iteration 74: H600, mass 600.716576, tanb 1.100000, width 0.032279
+iteration 75: H600, mass 599.173225, tanb 1.100000, width 0.032130
+iteration 76: H600, mass 600.677988, tanb 1.100000, width 0.032275
+iteration 77: H600, mass 599.210840, tanb 1.100000, width 0.032134
+iteration 78: H600, mass 600.641305, tanb 1.100000, width 0.032272
+iteration 79: H600, mass 599.246598, tanb 1.100000, width 0.032137
+iteration 80: H600, mass 600.606434, tanb 1.100000, width 0.032268
+iteration 81: H600, mass 599.280591, tanb 1.100000, width 0.032140
+iteration 82: H600, mass 600.573285, tanb 1.100000, width 0.032265
+iteration 83: H600, mass 599.312905, tanb 1.100000, width 0.032144
+iteration 84: H600, mass 600.541773, tanb 1.100000, width 0.032262
+iteration 85: H600, mass 599.343624, tanb 1.100000, width 0.032147
+iteration 86: H600, mass 600.511816, tanb 1.100000, width 0.032259
+iteration 87: H600, mass 599.372826, tanb 1.100000, width 0.032149
+iteration 88: H600, mass 600.483339, tanb 1.100000, width 0.032256
+iteration 89: H600, mass 599.400587, tanb 1.100000, width 0.032152
+iteration 90: H600, mass 600.456268, tanb 1.100000, width 0.032254
+iteration 91: H600, mass 599.426977, tanb 1.100000, width 0.032155
+iteration 92: H600, mass 600.430534, tanb 1.100000, width 0.032251
+iteration 93: H600, mass 599.452064, tanb 1.100000, width 0.032157
+iteration 94: H600, mass 600.406070, tanb 1.100000, width 0.032249
+iteration 95: H600, mass 599.475912, tanb 1.100000, width 0.032159
+iteration 96: H600, mass 600.382815, tanb 1.100000, width 0.032247
+iteration 97: H600, mass 599.498583, tanb 1.100000, width 0.032161
+iteration 98: H600, mass 600.360708, tanb 1.100000, width 0.032245
+iteration 99: H600, mass 599.520135, tanb 1.100000, width 0.032164
+iteration 100: H600, mass 600.339692, tanb 1.100000, width 0.032242
+iteration 101: H600, mass 599.540623, tanb 1.100000, width 0.032166
+iteration 102: H600, mass 600.319714, tanb 1.100000, width 0.032241
+iteration 103: H600, mass 599.560099, tanb 1.100000, width 0.032167
+iteration 104: H600, mass 600.300723, tanb 1.100000, width 0.032239
+iteration 105: H600, mass 599.578614, tanb 1.100000, width 0.032169
+iteration 106: H600, mass 600.282669, tanb 1.100000, width 0.032237
+iteration 107: H600, mass 599.596214, tanb 1.100000, width 0.032171
+iteration 108: H600, mass 600.265507, tanb 1.100000, width 0.032235
+iteration 109: H600, mass 599.612946, tanb 1.100000, width 0.032172
+iteration 110: H600, mass 600.249192, tanb 1.100000, width 0.032234
+iteration 111: H600, mass 599.628851, tanb 1.100000, width 0.032174
+iteration 112: H600, mass 600.233683, tanb 1.100000, width 0.032232
+iteration 113: H600, mass 599.643971, tanb 1.100000, width 0.032175
+iteration 114: H600, mass 600.218939, tanb 1.100000, width 0.032231
+iteration 115: H600, mass 599.658345, tanb 1.100000, width 0.032177
+iteration 116: H600, mass 600.204924, tanb 1.100000, width 0.032230
+iteration 117: H600, mass 599.672009, tanb 1.100000, width 0.032178
+iteration 118: H600, mass 600.191601, tanb 1.100000, width 0.032228
+iteration 119: H600, mass 599.684998, tanb 1.100000, width 0.032179
+iteration 120: H600, mass 600.178935, tanb 1.100000, width 0.032227
+iteration 121: H600, mass 599.697346, tanb 1.100000, width 0.032181
+iteration 122: H600, mass 600.166895, tanb 1.100000, width 0.032226
+iteration 123: H600, mass 599.709084, tanb 1.100000, width 0.032182
+iteration 124: H600, mass 600.155449, tanb 1.100000, width 0.032225
+iteration 125: H600, mass 599.720243, tanb 1.100000, width 0.032183
+iteration 126: H600, mass 600.144569, tanb 1.100000, width 0.032224
+iteration 127: H600, mass 599.730851, tanb 1.100000, width 0.032184
+iteration 128: H600, mass 600.134226, tanb 1.100000, width 0.032223
+iteration 129: H600, mass 599.740935, tanb 1.100000, width 0.032185
+iteration 130: H600, mass 600.124393, tanb 1.100000, width 0.032222
+iteration 131: H600, mass 599.750521, tanb 1.100000, width 0.032186
+iteration 132: H600, mass 600.115046, tanb 1.100000, width 0.032221
+iteration 133: H600, mass 599.759634, tanb 1.100000, width 0.032187
+iteration 134: H600, mass 600.106160, tanb 1.100000, width 0.032220
+iteration 135: H600, mass 599.768297, tanb 1.100000, width 0.032187
+iteration 136: H600, mass 600.097714, tanb 1.100000, width 0.032219
+iteration 137: H600, mass 599.776532, tanb 1.100000, width 0.032188
+iteration 138: H600, mass 600.089684, tanb 1.100000, width 0.032218
+iteration 139: H600, mass 599.784361, tanb 1.100000, width 0.032189
+iteration 140: H600, mass 600.082051, tanb 1.100000, width 0.032218
+iteration 141: H600, mass 599.791803, tanb 1.100000, width 0.032190
+iteration 142: H600, mass 600.074794, tanb 1.100000, width 0.032217
+iteration 143: H600, mass 599.798878, tanb 1.100000, width 0.032190
+iteration 144: H600, mass 600.067896, tanb 1.100000, width 0.032216
+iteration 145: H600, mass 599.805603, tanb 1.100000, width 0.032191
+iteration 146: H600, mass 600.061339, tanb 1.100000, width 0.032216
+iteration 147: H600, mass 599.811996, tanb 1.100000, width 0.032192
+iteration 148: H600, mass 600.055105, tanb 1.100000, width 0.032215
+iteration 149: H600, mass 599.818074, tanb 1.100000, width 0.032192
+iteration 150: H600, mass 600.049179, tanb 1.100000, width 0.032215
+iteration 151: H600, mass 597.465878, tanb 1.210000, width 0.026631
+iteration 152: H600, mass 597.698055, tanb 1.210000, width 0.026650
+iteration 153: H600, mass 597.930238, tanb 1.210000, width 0.026668
+iteration 154: H600, mass 598.162429, tanb 1.210000, width 0.026687
+iteration 155: H600, mass 598.394626, tanb 1.210000, width 0.026705
+iteration 156: H600, mass 598.626830, tanb 1.210000, width 0.026724
+iteration 157: H600, mass 598.859042, tanb 1.210000, width 0.026742
+iteration 158: H600, mass 599.091260, tanb 1.210000, width 0.026761
+iteration 159: H600, mass 599.323485, tanb 1.210000, width 0.026779
+iteration 160: H600, mass 599.555716, tanb 1.210000, width 0.026798
+iteration 161: H600, mass 599.787955, tanb 1.210000, width 0.026816
+iteration 162: H600, mass 600.020201, tanb 1.210000, width 0.026835
+iteration 163: H600, mass 597.666784, tanb 1.331000, width 0.022201
+iteration 164: H600, mass 597.899984, tanb 1.331000, width 0.022217
+iteration 165: H600, mass 598.133189, tanb 1.331000, width 0.022232
+iteration 166: H600, mass 598.366401, tanb 1.331000, width 0.022247
+iteration 167: H600, mass 598.599619, tanb 1.331000, width 0.022263
+iteration 168: H600, mass 598.832843, tanb 1.331000, width 0.022278
+iteration 169: H600, mass 599.066072, tanb 1.331000, width 0.022293
+iteration 170: H600, mass 599.299307, tanb 1.331000, width 0.022308
+iteration 171: H600, mass 599.532549, tanb 1.331000, width 0.022324
+iteration 172: H600, mass 599.765796, tanb 1.331000, width 0.022339
+iteration 173: H600, mass 599.999049, tanb 1.331000, width 0.022354
+iteration 174: H600, mass 597.861018, tanb 1.464100, width 0.018507
+iteration 175: H600, mass 598.095120, tanb 1.464100, width 0.018519
+iteration 176: H600, mass 598.329228, tanb 1.464100, width 0.018532
+iteration 177: H600, mass 598.563340, tanb 1.464100, width 0.018545
+iteration 178: H600, mass 598.797457, tanb 1.464100, width 0.018557
+iteration 179: H600, mass 599.031580, tanb 1.464100, width 0.018570
+iteration 180: H600, mass 599.265707, tanb 1.464100, width 0.018583
+iteration 181: H600, mass 599.499840, tanb 1.464100, width 0.018595
+iteration 182: H600, mass 599.733977, tanb 1.464100, width 0.018608
+iteration 183: H600, mass 599.968120, tanb 1.464100, width 0.018621
+iteration 184: H600, mass 598.033267, tanb 1.610510, width 0.015425
+iteration 185: H600, mass 598.268162, tanb 1.610510, width 0.015435
+iteration 186: H600, mass 598.503062, tanb 1.610510, width 0.015446
+iteration 187: H600, mass 598.737966, tanb 1.610510, width 0.015456
+iteration 188: H600, mass 598.972874, tanb 1.610510, width 0.015467
+iteration 189: H600, mass 599.207787, tanb 1.610510, width 0.015477
+iteration 190: H600, mass 599.442704, tanb 1.610510, width 0.015488
+iteration 191: H600, mass 599.677626, tanb 1.610510, width 0.015498
+iteration 192: H600, mass 599.912551, tanb 1.610510, width 0.015509
+iteration 193: H600, mass 600.147481, tanb 1.610510, width 0.015519
+iteration 194: H600, mass 599.918424, tanb 1.610510, width 0.015509
+iteration 195: H600, mass 600.141755, tanb 1.610510, width 0.015519
+iteration 196: H600, mass 599.924008, tanb 1.610510, width 0.015509
+iteration 197: H600, mass 600.136311, tanb 1.610510, width 0.015519
+iteration 198: H600, mass 599.929315, tanb 1.610510, width 0.015509
+iteration 199: H600, mass 600.131136, tanb 1.610510, width 0.015518
+iteration 200: H600, mass 599.934361, tanb 1.610510, width 0.015510
+iteration 201: H600, mass 600.126216, tanb 1.610510, width 0.015518
+iteration 202: H600, mass 599.939157, tanb 1.610510, width 0.015510
+iteration 203: H600, mass 600.121540, tanb 1.610510, width 0.015518
+iteration 204: H600, mass 599.943716, tanb 1.610510, width 0.015510
+iteration 205: H600, mass 600.117094, tanb 1.610510, width 0.015518
+iteration 206: H600, mass 599.948051, tanb 1.610510, width 0.015510
+iteration 207: H600, mass 600.112868, tanb 1.610510, width 0.015518
+iteration 208: H600, mass 599.952171, tanb 1.610510, width 0.015510
+iteration 209: H600, mass 598.283323, tanb 1.771561, width 0.012858
+iteration 210: H600, mass 598.440444, tanb 1.771561, width 0.012864
+iteration 211: H600, mass 598.597566, tanb 1.771561, width 0.012870
+iteration 212: H600, mass 598.754689, tanb 1.771561, width 0.012876
+iteration 213: H600, mass 598.911815, tanb 1.771561, width 0.012881
+iteration 214: H600, mass 599.068941, tanb 1.771561, width 0.012887
+iteration 215: H600, mass 599.226070, tanb 1.771561, width 0.012893
+iteration 216: H600, mass 599.383200, tanb 1.771561, width 0.012899
+iteration 217: H600, mass 599.540332, tanb 1.771561, width 0.012905
+iteration 218: H600, mass 599.697465, tanb 1.771561, width 0.012910
+iteration 219: H600, mass 599.854600, tanb 1.771561, width 0.012916
+iteration 220: H600, mass 600.011737, tanb 1.771561, width 0.012922
+iteration 221: H600, mass 598.526694, tanb 1.948717, width 0.010719
+iteration 222: H600, mass 598.684219, tanb 1.948717, width 0.010724
+iteration 223: H600, mass 598.841745, tanb 1.948717, width 0.010729
+iteration 224: H600, mass 598.999273, tanb 1.948717, width 0.010734
+iteration 225: H600, mass 599.156802, tanb 1.948717, width 0.010739
+iteration 226: H600, mass 599.314332, tanb 1.948717, width 0.010743
+iteration 227: H600, mass 599.471864, tanb 1.948717, width 0.010748
+iteration 228: H600, mass 599.629398, tanb 1.948717, width 0.010753
+iteration 229: H600, mass 599.786932, tanb 1.948717, width 0.010758
+iteration 230: H600, mass 599.944468, tanb 1.948717, width 0.010763
+iteration 231: H600, mass 600.102006, tanb 1.948717, width 0.010767
+iteration 232: H600, mass 599.948407, tanb 1.948717, width 0.010763
+iteration 233: H600, mass 600.098166, tanb 1.948717, width 0.010767
+iteration 234: H600, mass 599.952151, tanb 1.948717, width 0.010763
+iteration 235: H600, mass 598.645033, tanb 2.143589, width 0.008936
+iteration 236: H600, mass 598.787703, tanb 2.143589, width 0.008940
+iteration 237: H600, mass 598.930373, tanb 2.143589, width 0.008943
+iteration 238: H600, mass 599.073044, tanb 2.143589, width 0.008947
+iteration 239: H600, mass 599.215717, tanb 2.143589, width 0.008950
+iteration 240: H600, mass 599.358390, tanb 2.143589, width 0.008954
+iteration 241: H600, mass 599.501064, tanb 2.143589, width 0.008958
+iteration 242: H600, mass 599.643739, tanb 2.143589, width 0.008961
+iteration 243: H600, mass 599.786415, tanb 2.143589, width 0.008965
+iteration 244: H600, mass 599.929092, tanb 2.143589, width 0.008968
+iteration 245: H600, mass 600.071770, tanb 2.143589, width 0.008972
+iteration 246: H600, mass 599.932659, tanb 2.143589, width 0.008968
+iteration 247: H600, mass 600.068292, tanb 2.143589, width 0.008972
+iteration 248: H600, mass 599.936050, tanb 2.143589, width 0.008968
+iteration 249: H600, mass 600.064986, tanb 2.143589, width 0.008972
+iteration 250: H600, mass 599.939273, tanb 2.143589, width 0.008969
+iteration 251: H600, mass 600.061843, tanb 2.143589, width 0.008972
+iteration 252: H600, mass 599.942337, tanb 2.143589, width 0.008969
+iteration 253: H600, mass 600.058856, tanb 2.143589, width 0.008972
+iteration 254: H600, mass 599.945250, tanb 2.143589, width 0.008969
+iteration 255: H600, mass 600.056015, tanb 2.143589, width 0.008971
+iteration 256: H600, mass 599.948019, tanb 2.143589, width 0.008969
+iteration 257: H600, mass 600.053316, tanb 2.143589, width 0.008971
+iteration 258: H600, mass 599.950652, tanb 2.143589, width 0.008969
+iteration 259: H600, mass 598.839904, tanb 2.357948, width 0.007456
+iteration 260: H600, mass 598.940186, tanb 2.357948, width 0.007458
+iteration 261: H600, mass 599.040469, tanb 2.357948, width 0.007461
+iteration 262: H600, mass 599.140753, tanb 2.357948, width 0.007463
+iteration 263: H600, mass 599.241036, tanb 2.357948, width 0.007465
+iteration 264: H600, mass 599.341320, tanb 2.357948, width 0.007467
+iteration 265: H600, mass 599.441605, tanb 2.357948, width 0.007469
+iteration 266: H600, mass 599.541890, tanb 2.357948, width 0.007471
+iteration 267: H600, mass 599.642175, tanb 2.357948, width 0.007473
+iteration 268: H600, mass 599.742460, tanb 2.357948, width 0.007475
+iteration 269: H600, mass 599.842746, tanb 2.357948, width 0.007477
+iteration 270: H600, mass 599.943033, tanb 2.357948, width 0.007479
+iteration 271: H600, mass 600.043320, tanb 2.357948, width 0.007481
+iteration 272: H600, mass 599.073542, tanb 2.593742, width 0.006230
+iteration 273: H600, mass 599.173988, tanb 2.593742, width 0.006232
+iteration 274: H600, mass 599.274436, tanb 2.593742, width 0.006234
+iteration 275: H600, mass 599.374883, tanb 2.593742, width 0.006236
+iteration 276: H600, mass 599.475331, tanb 2.593742, width 0.006237
+iteration 277: H600, mass 599.575779, tanb 2.593742, width 0.006239
+iteration 278: H600, mass 599.676228, tanb 2.593742, width 0.006241
+iteration 279: H600, mass 599.776676, tanb 2.593742, width 0.006243
+iteration 280: H600, mass 599.877125, tanb 2.593742, width 0.006244
+iteration 281: H600, mass 599.977575, tanb 2.593742, width 0.006246
+iteration 282: H600, mass 599.131391, tanb 2.853117, width 0.005215
+iteration 283: H600, mass 599.231978, tanb 2.853117, width 0.005216
+iteration 284: H600, mass 599.332564, tanb 2.853117, width 0.005218
+iteration 285: H600, mass 599.433151, tanb 2.853117, width 0.005219
+iteration 286: H600, mass 599.533739, tanb 2.853117, width 0.005221
+iteration 287: H600, mass 599.634326, tanb 2.853117, width 0.005222
+iteration 288: H600, mass 599.734914, tanb 2.853117, width 0.005224
+iteration 289: H600, mass 599.835502, tanb 2.853117, width 0.005225
+iteration 290: H600, mass 599.936091, tanb 2.853117, width 0.005226
+iteration 291: H600, mass 600.036680, tanb 2.853117, width 0.005228
+iteration 292: H600, mass 599.300045, tanb 3.138428, width 0.004381
+iteration 293: H600, mass 599.400751, tanb 3.138428, width 0.004382
+iteration 294: H600, mass 599.501456, tanb 3.138428, width 0.004383
+iteration 295: H600, mass 599.602162, tanb 3.138428, width 0.004385
+iteration 296: H600, mass 599.702869, tanb 3.138428, width 0.004386
+iteration 297: H600, mass 599.803575, tanb 3.138428, width 0.004387
+iteration 298: H600, mass 599.904282, tanb 3.138428, width 0.004388
+iteration 299: H600, mass 600.004988, tanb 3.138428, width 0.004389
+iteration 300: H600, mass 600.793580, tanb 2.832432, width 0.005310
+iteration 301: H600, mass 600.695514, tanb 2.832432, width 0.005308
+iteration 302: H600, mass 600.597448, tanb 2.832432, width 0.005307
+iteration 303: H600, mass 600.499382, tanb 2.832432, width 0.005306
+iteration 304: H600, mass 600.401316, tanb 2.832432, width 0.005304
+iteration 305: H600, mass 600.303251, tanb 2.832432, width 0.005303
+iteration 306: H600, mass 600.205186, tanb 2.832432, width 0.005301
+iteration 307: H600, mass 600.107121, tanb 2.832432, width 0.005300
+iteration 308: H600, mass 600.009056, tanb 2.832432, width 0.005298
+iteration 309: H600, mass 599.295163, tanb 3.101690, width 0.004476
+iteration 310: H600, mass 599.390883, tanb 3.101690, width 0.004477
+iteration 311: H600, mass 599.486604, tanb 3.101690, width 0.004478
+iteration 312: H600, mass 599.582324, tanb 3.101690, width 0.004479
+iteration 313: H600, mass 599.678045, tanb 3.101690, width 0.004480
+iteration 314: H600, mass 599.773766, tanb 3.101690, width 0.004481
+iteration 315: H600, mass 599.869488, tanb 3.101690, width 0.004483
+iteration 316: H600, mass 599.965209, tanb 3.101690, width 0.004484
+iteration 317: H600, mass 600.723261, tanb 2.814207, width 0.005373
+iteration 318: H600, mass 600.630044, tanb 2.814207, width 0.005371
+iteration 319: H600, mass 600.536829, tanb 2.814207, width 0.005370
+iteration 320: H600, mass 600.443613, tanb 2.814207, width 0.005369
+iteration 321: H600, mass 600.350398, tanb 2.814207, width 0.005367
+iteration 322: H600, mass 600.257182, tanb 2.814207, width 0.005366
+iteration 323: H600, mass 600.163968, tanb 2.814207, width 0.005365
+iteration 324: H600, mass 600.070753, tanb 2.814207, width 0.005363
+iteration 325: H600, mass 599.977539, tanb 2.814207, width 0.005362
+iteration 326: H600, mass 599.289080, tanb 3.068523, width 0.004564
+iteration 327: H600, mass 599.380062, tanb 3.068523, width 0.004565
+iteration 328: H600, mass 599.471045, tanb 3.068523, width 0.004566
+iteration 329: H600, mass 599.562028, tanb 3.068523, width 0.004567
+iteration 330: H600, mass 599.653011, tanb 3.068523, width 0.004568
+iteration 331: H600, mass 599.743995, tanb 3.068523, width 0.004569
+iteration 332: H600, mass 599.834978, tanb 3.068523, width 0.004571
+iteration 333: H600, mass 599.925962, tanb 3.068523, width 0.004572
+iteration 334: H600, mass 600.016946, tanb 3.068523, width 0.004573
+iteration 335: H600, mass 600.744673, tanb 2.798157, width 0.005431
+iteration 336: H600, mass 600.656067, tanb 2.798157, width 0.005429
+iteration 337: H600, mass 600.567460, tanb 2.798157, width 0.005428
+iteration 338: H600, mass 600.478854, tanb 2.798157, width 0.005427
+iteration 339: H600, mass 600.390248, tanb 2.798157, width 0.005425
+iteration 340: H600, mass 600.301642, tanb 2.798157, width 0.005424
+iteration 341: H600, mass 600.213037, tanb 2.798157, width 0.005423
+iteration 342: H600, mass 600.124431, tanb 2.798157, width 0.005421
+iteration 343: H600, mass 600.035826, tanb 2.798157, width 0.005420
+iteration 344: H600, mass 599.372847, tanb 3.038538, width 0.004647
+iteration 345: H600, mass 599.459328, tanb 3.038538, width 0.004648
+iteration 346: H600, mass 599.545808, tanb 3.038538, width 0.004650
+iteration 347: H600, mass 599.632289, tanb 3.038538, width 0.004651
+iteration 348: H600, mass 599.718770, tanb 3.038538, width 0.004652
+iteration 349: H600, mass 599.805251, tanb 3.038538, width 0.004653
+iteration 350: H600, mass 599.891732, tanb 3.038538, width 0.004654
+iteration 351: H600, mass 599.978214, tanb 3.038538, width 0.004655
+iteration 352: H600, mass 600.676190, tanb 2.784032, width 0.005481
+iteration 353: H600, mass 600.591965, tanb 2.784032, width 0.005480
+iteration 354: H600, mass 600.507739, tanb 2.784032, width 0.005478
+iteration 355: H600, mass 600.423514, tanb 2.784032, width 0.005477
+iteration 356: H600, mass 600.339289, tanb 2.784032, width 0.005476
+iteration 357: H600, mass 600.255064, tanb 2.784032, width 0.005475
+iteration 358: H600, mass 600.170839, tanb 2.784032, width 0.005473
+iteration 359: H600, mass 600.086615, tanb 2.784032, width 0.005472
+iteration 360: H600, mass 600.002391, tanb 2.784032, width 0.005471
+iteration 361: H600, mass 599.364604, tanb 3.011391, width 0.004724
+iteration 362: H600, mass 599.446805, tanb 3.011391, width 0.004725
+iteration 363: H600, mass 599.529007, tanb 3.011391, width 0.004726
+iteration 364: H600, mass 599.611208, tanb 3.011391, width 0.004727
+iteration 365: H600, mass 599.693410, tanb 3.011391, width 0.004728
+iteration 366: H600, mass 599.775612, tanb 3.011391, width 0.004729
+iteration 367: H600, mass 599.857815, tanb 3.011391, width 0.004730
+iteration 368: H600, mass 599.940017, tanb 3.011391, width 0.004732
+iteration 369: H600, mass 600.022220, tanb 3.011391, width 0.004733
+iteration 370: H600, mass 600.690937, tanb 2.771613, width 0.005527
+iteration 371: H600, mass 600.610875, tanb 2.771613, width 0.005526
+iteration 372: H600, mass 600.530813, tanb 2.771613, width 0.005525
+iteration 373: H600, mass 600.450752, tanb 2.771613, width 0.005523
+iteration 374: H600, mass 600.370690, tanb 2.771613, width 0.005522
+iteration 375: H600, mass 600.290629, tanb 2.771613, width 0.005521
+iteration 376: H600, mass 600.210568, tanb 2.771613, width 0.005520
+iteration 377: H600, mass 600.130507, tanb 2.771613, width 0.005519
+iteration 378: H600, mass 600.050446, tanb 2.771613, width 0.005517
+iteration 379: H600, mass 599.970385, tanb 2.771613, width 0.005516
+iteration 380: H600, mass 599.357486, tanb 2.986782, width 0.004796
+iteration 381: H600, mass 599.435621, tanb 2.986782, width 0.004797
+iteration 382: H600, mass 599.513756, tanb 2.986782, width 0.004798
+iteration 383: H600, mass 599.591891, tanb 2.986782, width 0.004799
+iteration 384: H600, mass 599.670026, tanb 2.986782, width 0.004800
+iteration 385: H600, mass 599.748162, tanb 2.986782, width 0.004801
+iteration 386: H600, mass 599.826297, tanb 2.986782, width 0.004802
+iteration 387: H600, mass 599.904433, tanb 2.986782, width 0.004803
+iteration 388: H600, mass 599.982569, tanb 2.986782, width 0.004804
+
+Checking 2HDM model constaints:
+Stability, unitarity and perturbativity constraints are all satisfied!
+
+Printing model parameters:
+
+2HDM parameters in physical mass basis:
+      m_h:    125.00000
+      m_H:    599.98257
+      m_A:    596.34291
+     m_H+:    601.74088
+ sin(b-a):     -0.99976
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 107064.64294
+tan(beta):      2.98678
+
+2HDM parameters in generic basis:
+ lambda_1:      0.13716
+ lambda_2:      0.35113
+ lambda_3:      0.07619
+ lambda_4:     -0.21336
+ lambda_5:      0.00000
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 107064.64294
+tan(beta):      2.98678
+
+2HDM parameters in Hybrid basis:
+      m_h:    125.00000
+      m_H:    599.98257
+ cos(b-a):     -0.02181
+       Z4:     -0.14424
+       Z5:      0.06912
+       Z7:     -0.05945
+tan(beta):      2.98678
+
+Printing decays of all Higgses in this model
+
+Decay table for h 
+Total width:   4.650e-03 GeV      BR
+h  -> s  s     1.127e-06      2.425e-04
+h  -> c  c     1.217e-04      2.618e-02
+h  -> b  b     2.989e-03      6.428e-01
+h  -> e  e     2.429e-11      5.224e-09
+h  -> mu mu    1.039e-06      2.233e-04
+h  -> ta ta    2.934e-04      6.310e-02
+h  -> ga ga    9.482e-06      2.039e-03
+h  -> Z  Z     1.022e-04      2.198e-02
+h  -> W+ W-    8.207e-04      1.765e-01
+h  -> Z  ga    6.256e-06      1.345e-03
+h  -> g  g     3.053e-04      6.565e-02
+---------------------------------------
+h mass: 125.000000 relative width 0.000037
+
+Decay table for A 
+Total width:   3.341e+00 GeV      BR
+A  -> s  s     3.108e-05      9.303e-06
+A  -> c  c     5.013e-05      1.501e-05
+A  -> b  b     8.442e-02      2.527e-02
+A  -> t  t     3.209e+00      9.607e-01
+A  -> e  e     9.117e-10      2.729e-10
+A  -> mu mu    3.898e-05      1.167e-05
+A  -> ta ta    1.103e-02      3.300e-03
+A  -> ga ga    2.688e-05      8.047e-06
+A  -> Z  ga    8.093e-06      2.423e-06
+A  -> g  g     9.166e-03      2.744e-03
+A  -> Z  h     2.667e-02      7.984e-03
+---------------------------------------
+A mass: 596.342912 relative width 0.005602
+
+Decay table for H 
+Total width:   2.882e+00 GeV      BR
+H  -> s  s     3.051e-05      1.059e-05
+H  -> c  c     5.665e-05      1.965e-05
+H  -> b  b     8.332e-02      2.891e-02
+H  -> t  t     2.602e+00      9.029e-01
+H  -> e  e     9.035e-10      3.135e-10
+H  -> mu mu    3.863e-05      1.340e-05
+H  -> ta ta    1.093e-02      3.791e-03
+H  -> ga ga    1.569e-05      5.442e-06
+H  -> Z  Z     1.438e-02      4.988e-03
+H  -> W+ W-    2.970e-02      1.030e-02
+H  -> Z  ga    3.662e-06      1.271e-06
+H  -> g  g     6.205e-03      2.153e-03
+H  -> h  h     1.353e-01      4.695e-02
+---------------------------------------
+H mass: 599.982569 relative width 0.004804
+
+Decay table for H+
+Total width:   3.061e+00 GeV      BR
+H+ -> u  s     1.551e-06      5.066e-07
+H+ -> u  b     1.025e-06      3.349e-07
+H+ -> c  d     2.451e-06      8.006e-07
+H+ -> c  s     7.471e-05      2.441e-05
+H+ -> c  b     1.413e-04      4.617e-05
+H+ -> t  d     2.197e-04      7.178e-05
+H+ -> t  s     4.771e-03      1.559e-03
+H+ -> t  b     3.017e+00      9.855e-01
+H+ -> e  ve    9.200e-10      3.005e-10
+H+ -> mu vm    3.933e-05      1.285e-05
+H+ -> ta vt    1.113e-02      3.634e-03
+H+ -> W+ h     2.801e-02      9.152e-03
+H+ -> W+ A     5.963e-09      1.948e-09
+---------------------------------------
+H+ mass: 601.740878 relative width 0.005087

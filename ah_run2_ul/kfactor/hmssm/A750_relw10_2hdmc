@@ -1,0 +1,227 @@
+****************************************************
+*                                                  *
+*    2HDMC - Two-Higgs-Doublet Model Calculator    *
+*             http://2hdmc.hepforge.org            *
+*                  Version 1.7.0                   *
+*             Compiled on Sep 16 2020              *
+*                                                  *
+****************************************************
+iteration 0: A750, mass 750.000000, tanb 1.000000, width 0.049286
+iteration 1: A750, mass 750.000000, tanb 0.900000, width 0.060822
+iteration 2: A750, mass 750.000000, tanb 0.810000, width 0.075063
+iteration 3: A750, mass 750.000000, tanb 0.729000, width 0.092643
+iteration 4: A750, mass 750.000000, tanb 0.656100, width 0.114346
+iteration 5: A750, mass 750.000000, tanb 0.720070, width 0.094952
+iteration 6: A750, mass 750.000000, tanb 0.651618, width 0.115922
+iteration 7: A750, mass 750.000000, tanb 0.712014, width 0.097110
+iteration 8: A750, mass 750.000000, tanb 0.647670, width 0.117338
+iteration 9: A750, mass 750.000000, tanb 0.704736, width 0.099124
+iteration 10: A750, mass 750.000000, tanb 0.644194, width 0.118607
+iteration 11: A750, mass 750.000000, tanb 0.698152, width 0.101000
+iteration 12: A750, mass 750.000000, tanb 0.756628, width 0.086009
+iteration 13: A750, mass 750.000000, tanb 0.694838, width 0.101964
+iteration 14: A750, mass 750.000000, tanb 0.750163, width 0.087496
+iteration 15: A750, mass 750.000000, tanb 0.691926, width 0.102823
+iteration 16: A750, mass 750.000000, tanb 0.744299, width 0.088878
+iteration 17: A750, mass 750.000000, tanb 0.689370, width 0.103586
+iteration 18: A750, mass 750.000000, tanb 0.738974, width 0.090162
+iteration 19: A750, mass 750.000000, tanb 0.687130, width 0.104262
+iteration 20: A750, mass 750.000000, tanb 0.734131, width 0.091354
+iteration 21: A750, mass 750.000000, tanb 0.685171, width 0.104859
+iteration 22: A750, mass 750.000000, tanb 0.729724, width 0.092459
+iteration 23: A750, mass 750.000000, tanb 0.683460, width 0.105384
+iteration 24: A750, mass 750.000000, tanb 0.725707, width 0.093484
+iteration 25: A750, mass 750.000000, tanb 0.681970, width 0.105844
+iteration 26: A750, mass 750.000000, tanb 0.722044, width 0.094434
+iteration 27: A750, mass 750.000000, tanb 0.680676, width 0.106246
+iteration 28: A750, mass 750.000000, tanb 0.718699, width 0.095314
+iteration 29: A750, mass 750.000000, tanb 0.679556, width 0.106597
+iteration 30: A750, mass 750.000000, tanb 0.715642, width 0.096129
+iteration 31: A750, mass 750.000000, tanb 0.678589, width 0.106900
+iteration 32: A750, mass 750.000000, tanb 0.712845, width 0.096884
+iteration 33: A750, mass 750.000000, tanb 0.677760, width 0.107162
+iteration 34: A750, mass 750.000000, tanb 0.710284, width 0.097583
+iteration 35: A750, mass 750.000000, tanb 0.677051, width 0.107386
+iteration 36: A750, mass 750.000000, tanb 0.707937, width 0.098230
+iteration 37: A750, mass 750.000000, tanb 0.676449, width 0.107577
+iteration 38: A750, mass 750.000000, tanb 0.705785, width 0.098830
+iteration 39: A750, mass 750.000000, tanb 0.675942, width 0.107738
+iteration 40: A750, mass 750.000000, tanb 0.703808, width 0.099385
+iteration 41: A750, mass 750.000000, tanb 0.675519, width 0.107873
+iteration 42: A750, mass 750.000000, tanb 0.701992, width 0.099899
+iteration 43: A750, mass 750.000000, tanb 0.675169, width 0.107985
+iteration 44: A750, mass 750.000000, tanb 0.700323, width 0.100375
+iteration 45: A750, mass 750.000000, tanb 0.726413, width 0.093303
+iteration 46: A750, mass 750.000000, tanb 0.700027, width 0.100460
+iteration 47: A750, mass 750.000000, tanb 0.724819, width 0.093713
+iteration 48: A750, mass 750.000000, tanb 0.699791, width 0.100528
+iteration 49: A750, mass 750.000000, tanb 0.723350, width 0.094094
+iteration 50: A750, mass 750.000000, tanb 0.699607, width 0.100581
+iteration 51: A750, mass 750.000000, tanb 0.721997, width 0.094446
+iteration 52: A750, mass 750.000000, tanb 0.699468, width 0.100621
+iteration 53: A750, mass 750.000000, tanb 0.720748, width 0.094773
+iteration 54: A750, mass 750.000000, tanb 0.699368, width 0.100649
+iteration 55: A750, mass 750.000000, tanb 0.719595, width 0.095077
+iteration 56: A750, mass 750.000000, tanb 0.699304, width 0.100668
+iteration 57: A750, mass 750.000000, tanb 0.718530, width 0.095359
+iteration 58: A750, mass 750.000000, tanb 0.699269, width 0.100678
+iteration 59: A750, mass 750.000000, tanb 0.717545, width 0.095620
+iteration 60: A750, mass 750.000000, tanb 0.699260, width 0.100680
+iteration 61: A750, mass 750.000000, tanb 0.716634, width 0.095863
+iteration 62: A750, mass 750.000000, tanb 0.699274, width 0.100676
+iteration 63: A750, mass 750.000000, tanb 0.715790, width 0.096089
+iteration 64: A750, mass 750.000000, tanb 0.699306, width 0.100667
+iteration 65: A750, mass 750.000000, tanb 0.715008, width 0.096300
+iteration 66: A750, mass 750.000000, tanb 0.699355, width 0.100653
+iteration 67: A750, mass 750.000000, tanb 0.714282, width 0.096495
+iteration 68: A750, mass 750.000000, tanb 0.699417, width 0.100635
+iteration 69: A750, mass 750.000000, tanb 0.713609, width 0.096677
+iteration 70: A750, mass 750.000000, tanb 0.699491, width 0.100614
+iteration 71: A750, mass 750.000000, tanb 0.712984, width 0.096846
+iteration 72: A750, mass 750.000000, tanb 0.699575, width 0.100590
+iteration 73: A750, mass 750.000000, tanb 0.712403, width 0.097004
+iteration 74: A750, mass 750.000000, tanb 0.699666, width 0.100564
+iteration 75: A750, mass 750.000000, tanb 0.711862, width 0.097151
+iteration 76: A750, mass 750.000000, tanb 0.699764, width 0.100536
+iteration 77: A750, mass 750.000000, tanb 0.711359, width 0.097289
+iteration 78: A750, mass 750.000000, tanb 0.699867, width 0.100506
+iteration 79: A750, mass 750.000000, tanb 0.710891, width 0.097417
+iteration 80: A750, mass 750.000000, tanb 0.699973, width 0.100476
+iteration 81: A750, mass 750.000000, tanb 0.710454, width 0.097536
+iteration 82: A750, mass 750.000000, tanb 0.700082, width 0.100444
+iteration 83: A750, mass 750.000000, tanb 0.710048, width 0.097648
+iteration 84: A750, mass 750.000000, tanb 0.700193, width 0.100413
+iteration 85: A750, mass 750.000000, tanb 0.709668, width 0.097752
+iteration 86: A750, mass 750.000000, tanb 0.700305, width 0.100381
+iteration 87: A750, mass 750.000000, tanb 0.709313, width 0.097850
+iteration 88: A750, mass 750.000000, tanb 0.700417, width 0.100348
+iteration 89: A750, mass 750.000000, tanb 0.708982, width 0.097941
+iteration 90: A750, mass 750.000000, tanb 0.700529, width 0.100316
+iteration 91: A750, mass 750.000000, tanb 0.708672, width 0.098027
+iteration 92: A750, mass 750.000000, tanb 0.700640, width 0.100285
+iteration 93: A750, mass 750.000000, tanb 0.708383, width 0.098107
+iteration 94: A750, mass 750.000000, tanb 0.700750, width 0.100253
+iteration 95: A750, mass 750.000000, tanb 0.708112, width 0.098182
+iteration 96: A750, mass 750.000000, tanb 0.700859, width 0.100222
+iteration 97: A750, mass 750.000000, tanb 0.707858, width 0.098252
+iteration 98: A750, mass 750.000000, tanb 0.700966, width 0.100192
+iteration 99: A750, mass 750.000000, tanb 0.707620, width 0.098318
+iteration 100: A750, mass 750.000000, tanb 0.701070, width 0.100162
+iteration 101: A750, mass 750.000000, tanb 0.707398, width 0.098380
+iteration 102: A750, mass 750.000000, tanb 0.701173, width 0.100132
+iteration 103: A750, mass 750.000000, tanb 0.707189, width 0.098438
+iteration 104: A750, mass 750.000000, tanb 0.701273, width 0.100104
+iteration 105: A750, mass 750.000000, tanb 0.706992, width 0.098493
+iteration 106: A750, mass 750.000000, tanb 0.701371, width 0.100076
+iteration 107: A750, mass 750.000000, tanb 0.706808, width 0.098544
+iteration 108: A750, mass 750.000000, tanb 0.701465, width 0.100049
+iteration 109: A750, mass 750.000000, tanb 0.706635, width 0.098592
+iteration 110: A750, mass 750.000000, tanb 0.701558, width 0.100023
+iteration 111: A750, mass 750.000000, tanb 0.706473, width 0.098637
+iteration 112: A750, mass 750.000000, tanb 0.701647, width 0.099997
+
+Checking 2HDM model constaints:
+Stability, unitarity and perturbativity constraints are all satisfied!
+
+Printing model parameters:
+
+2HDM parameters in physical mass basis:
+      m_h:    124.99999
+      m_H:    775.58442
+      m_A:    750.00000
+     m_H+:    754.29916
+ sin(b-a):     -0.99947
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 264473.73159
+tan(beta):      0.70165
+
+2HDM parameters in generic basis:
+ lambda_1:      0.13716
+ lambda_2:      2.45426
+ lambda_3:      0.07619
+ lambda_4:     -0.21336
+ lambda_5:      0.00000
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 264473.73159
+tan(beta):      0.70165
+
+2HDM parameters in Hybrid basis:
+      m_h:    124.99999
+      m_H:    775.58442
+ cos(b-a):     -0.03266
+       Z4:      0.42016
+       Z5:      0.63352
+       Z7:      0.77392
+tan(beta):      0.70165
+
+Printing decays of all Higgses in this model
+
+Decay table for h 
+Total width:   4.360e-03 GeV      BR
+h  -> s  s     1.039e-06      2.384e-04
+h  -> c  c     1.122e-04      2.574e-02
+h  -> b  b     2.755e-03      6.320e-01
+h  -> e  e     2.239e-11      5.136e-09
+h  -> mu mu    9.573e-07      2.196e-04
+h  -> ta ta    2.705e-04      6.204e-02
+h  -> ga ga    9.645e-06      2.213e-03
+h  -> Z  Z     1.022e-04      2.343e-02
+h  -> W+ W-    8.202e-04      1.881e-01
+h  -> Z  ga    6.275e-06      1.439e-03
+h  -> g  g     2.815e-04      6.456e-02
+---------------------------------------
+h mass: 124.999994 relative width 0.000035
+
+Decay table for A 
+Total width:   7.500e+01 GeV      BR
+A  -> s  s     2.250e-06      3.000e-08
+A  -> c  c     1.101e-03      1.468e-05
+A  -> b  b     5.813e-03      7.751e-05
+A  -> t  t     7.469e+01      9.959e-01
+A  -> mu mu    2.705e-06      3.607e-08
+A  -> ta ta    7.652e-04      1.020e-05
+A  -> ga ga    5.117e-04      6.823e-06
+A  -> Z  ga    1.649e-04      2.199e-06
+A  -> g  g     1.682e-01      2.243e-03
+A  -> Z  h     1.293e-01      1.724e-03
+---------------------------------------
+A mass: 750.000000 relative width 0.099997
+
+Decay table for H 
+Total width:   6.846e+01 GeV      BR
+H  -> s  s     1.814e-06      2.649e-08
+H  -> c  c     1.174e-03      1.714e-05
+H  -> b  b     5.154e-03      7.528e-05
+H  -> t  t     6.757e+01      9.869e-01
+H  -> mu mu    2.540e-06      3.711e-08
+H  -> ta ta    7.185e-04      1.050e-05
+H  -> ga ga    3.567e-04      5.211e-06
+H  -> Z  Z     7.371e-02      1.077e-03
+H  -> W+ W-    1.504e-01      2.196e-03
+H  -> Z  ga    1.079e-04      1.576e-06
+H  -> g  g     1.247e-01      1.822e-03
+H  -> h  h     5.402e-01      7.891e-03
+H  -> Z  A     5.878e-06      8.585e-08
+H  -> W+ H-    5.739e-06      8.382e-08
+H  -> H+ W-    5.739e-06      8.382e-08
+---------------------------------------
+H mass: 775.584417 relative width 0.088274
+
+Decay table for H+
+Total width:   6.889e+01 GeV      BR
+H+ -> u  s     1.035e-07      1.503e-09
+H+ -> u  b     6.845e-08      9.937e-10
+H+ -> c  d     5.372e-05      7.799e-07
+H+ -> c  s     1.006e-03      1.460e-05
+H+ -> c  b     1.123e-05      1.630e-07
+H+ -> t  d     5.136e-03      7.456e-05
+H+ -> t  s     1.115e-01      1.619e-03
+H+ -> t  b     6.863e+01      9.963e-01
+H+ -> mu vm    2.721e-06      3.950e-08
+H+ -> ta vt    7.696e-04      1.117e-05
+H+ -> W+ h     1.332e-01      1.933e-03
+H+ -> W+ A     1.919e-09      2.785e-11
+---------------------------------------
+H+ mass: 754.299155 relative width 0.091323

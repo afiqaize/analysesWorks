@@ -1,0 +1,146 @@
+****************************************************
+*                                                  *
+*    2HDMC - Two-Higgs-Doublet Model Calculator    *
+*             http://2hdmc.hepforge.org            *
+*                  Version 1.7.0                   *
+*             Compiled on Sep 16 2020              *
+*                                                  *
+****************************************************
+iteration 0: A750, mass 750.000000, tanb 1.000000, width 0.049286
+iteration 1: A750, mass 750.000000, tanb 1.100000, width 0.040750
+iteration 2: A750, mass 750.000000, tanb 1.210000, width 0.033696
+iteration 3: A750, mass 750.000000, tanb 1.331000, width 0.027866
+iteration 4: A750, mass 750.000000, tanb 1.464100, width 0.023048
+iteration 5: A750, mass 750.000000, tanb 1.610510, width 0.019068
+iteration 6: A750, mass 750.000000, tanb 1.771561, width 0.015780
+iteration 7: A750, mass 750.000000, tanb 1.948717, width 0.013066
+iteration 8: A750, mass 750.000000, tanb 2.143589, width 0.010826
+iteration 9: A750, mass 750.000000, tanb 2.357948, width 0.008980
+iteration 10: A750, mass 750.000000, tanb 2.593742, width 0.007460
+iteration 11: A750, mass 750.000000, tanb 2.853117, width 0.006211
+iteration 12: A750, mass 750.000000, tanb 3.138428, width 0.005188
+iteration 13: A750, mass 750.000000, tanb 3.452271, width 0.004354
+iteration 14: A750, mass 750.000000, tanb 3.115675, width 0.005259
+iteration 15: A750, mass 750.000000, tanb 3.411859, width 0.004448
+iteration 16: A750, mass 750.000000, tanb 3.095627, width 0.005323
+iteration 17: A750, mass 750.000000, tanb 3.375375, width 0.004536
+iteration 18: A750, mass 750.000000, tanb 3.077973, width 0.005380
+iteration 19: A750, mass 750.000000, tanb 3.342391, width 0.004618
+iteration 20: A750, mass 750.000000, tanb 3.062435, width 0.005432
+iteration 21: A750, mass 750.000000, tanb 3.312530, width 0.004694
+iteration 22: A750, mass 750.000000, tanb 3.048774, width 0.005478
+iteration 23: A750, mass 750.000000, tanb 3.285460, width 0.004766
+iteration 24: A750, mass 750.000000, tanb 3.036776, width 0.005518
+iteration 25: A750, mass 750.000000, tanb 3.260890, width 0.004832
+iteration 26: A750, mass 750.000000, tanb 3.026253, width 0.005555
+iteration 27: A750, mass 750.000000, tanb 3.238563, width 0.004894
+iteration 28: A750, mass 750.000000, tanb 3.017038, width 0.005587
+iteration 29: A750, mass 750.000000, tanb 3.218251, width 0.004951
+iteration 30: A750, mass 750.000000, tanb 3.008985, width 0.005615
+iteration 31: A750, mass 750.000000, tanb 3.199752, width 0.005004
+
+Checking 2HDM model constaints:
+Stability, unitarity and perturbativity constraints are all satisfied!
+
+Printing model parameters:
+
+2HDM parameters in physical mass basis:
+      m_h:    125.00000
+      m_H:    752.51084
+      m_A:    750.00000
+     m_H+:    754.29916
+ sin(b-a):     -0.99992
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 160152.55536
+tan(beta):      3.19975
+
+2HDM parameters in generic basis:
+ lambda_1:      0.13716
+ lambda_2:      0.33782
+ lambda_3:      0.07619
+ lambda_4:     -0.21336
+ lambda_5:      0.00000
+ lambda_6:      0.00000
+ lambda_7:      0.00000
+    m12^2: 160152.55536
+tan(beta):      3.19975
+
+2HDM parameters in Hybrid basis:
+      m_h:    125.00000
+      m_H:    752.51084
+ cos(b-a):     -0.01280
+       Z4:     -0.15262
+       Z5:      0.06074
+       Z7:     -0.05912
+tan(beta):      3.19975
+
+Printing decays of all Higgses in this model
+
+Decay table for h 
+Total width:   4.508e-03 GeV      BR
+h  -> s  s     1.078e-06      2.391e-04
+h  -> c  c     1.226e-04      2.719e-02
+h  -> b  b     2.856e-03      6.335e-01
+h  -> e  e     2.321e-11      5.148e-09
+h  -> mu mu    9.923e-07      2.201e-04
+h  -> ta ta    2.803e-04      6.218e-02
+h  -> ga ga    9.470e-06      2.100e-03
+h  -> Z  Z     1.023e-04      2.268e-02
+h  -> W+ W-    8.209e-04      1.821e-01
+h  -> Z  ga    6.257e-06      1.388e-03
+h  -> g  g     3.084e-04      6.840e-02
+---------------------------------------
+h mass: 125.000000 relative width 0.000036
+
+Decay table for A 
+Total width:   3.753e+00 GeV      BR
+A  -> s  s     4.320e-05      1.151e-05
+A  -> c  c     5.295e-05      1.411e-05
+A  -> b  b     1.174e-01      3.128e-02
+A  -> t  t     3.592e+00      9.569e-01
+A  -> e  e     1.316e-09      3.506e-10
+A  -> mu mu    5.626e-05      1.499e-05
+A  -> ta ta    1.591e-02      4.240e-03
+A  -> ga ga    2.490e-05      6.634e-06
+A  -> Z  ga    8.052e-06      2.145e-06
+A  -> g  g     8.456e-03      2.253e-03
+A  -> Z  h     1.985e-02      5.290e-03
+---------------------------------------
+A mass: 750.000000 relative width 0.005004
+
+Decay table for H 
+Total width:   3.488e+00 GeV      BR
+H  -> s  s     4.267e-05      1.223e-05
+H  -> c  c     5.703e-05      1.635e-05
+H  -> b  b     1.165e-01      3.340e-02
+H  -> t  t     3.221e+00      9.237e-01
+H  -> e  e     1.310e-09      3.755e-10
+H  -> mu mu    5.599e-05      1.605e-05
+H  -> ta ta    1.584e-02      4.541e-03
+H  -> ga ga    1.655e-05      4.745e-06
+H  -> Z  Z     1.028e-02      2.948e-03
+H  -> W+ W-    2.100e-02      6.022e-03
+H  -> Z  ga    4.533e-06      1.300e-06
+H  -> g  g     5.976e-03      1.713e-03
+H  -> h  h     9.651e-02      2.767e-02
+---------------------------------------
+H mass: 752.510839 relative width 0.004635
+
+Decay table for H+
+Total width:   3.446e+00 GeV      BR
+H+ -> u  s     2.153e-06      6.249e-07
+H+ -> u  b     1.424e-06      4.131e-07
+H+ -> c  d     2.583e-06      7.497e-07
+H+ -> c  s     8.843e-05      2.566e-05
+H+ -> c  b     1.962e-04      5.695e-05
+H+ -> t  d     2.470e-04      7.167e-05
+H+ -> t  s     5.362e-03      1.556e-03
+H+ -> t  b     3.403e+00      9.877e-01
+H+ -> e  ve    1.324e-09      3.841e-10
+H+ -> mu vm    5.659e-05      1.642e-05
+H+ -> ta vt    1.601e-02      4.645e-03
+H+ -> W+ h     2.045e-02      5.934e-03
+H+ -> W+ A     1.919e-09      5.568e-10
+---------------------------------------
+H+ mass: 754.299155 relative width 0.004568
